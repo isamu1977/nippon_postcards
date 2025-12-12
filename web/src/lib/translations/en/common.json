@@ -1,0 +1,19 @@
+{
+  "siteTitle": "Nippon Postcards",
+  "heroTitle": "Send real postcards from Japan",
+  "heroSubtitle": "Choose a design, write your message, and we mail it for you.",
+  "ctaBuyNow": "Order a postcard",
+  "languageLabel": "Language",
+  "categoryMountFuji": "Mount Fuji",
+  "categoryCastles": "Japanese Castles",
+  "categoryWorldHeritage": "World Heritage Sites in Japan",
+  "formMessageLabel": "Your message",
+  "formRecipientNameLabel": "Recipient's Name",
+  "formStreetLabel": "Street Address",
+  "formCityLabel": "City",
+  "formStateLabel": "State/Prefecture",
+  "formPostalCodeLabel": "Postal Code",
+  "formCountryLabel": "Country",
+  "formBuyerEmailLabel": "Your Email",
+  "formSubmitButton": "Proceed to Checkout"
+}

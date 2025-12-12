@@ -1,0 +1,19 @@
+{
+  "siteTitle": "Postales Nippon",
+  "heroTitle": "Envía postales reales desde Japón",
+  "heroSubtitle": "Elige un diseño, escribe tu mensaje y nosotros lo enviamos por ti.",
+  "ctaBuyNow": "Pedir una postal",
+  "languageLabel": "Idioma",
+  "categoryMountFuji": "Monte Fuji",
+  "categoryCastles": "Castillos Japoneses",
+  "categoryWorldHeritage": "Sitios del Patrimonio Mundial en Japón",
+  "formMessageLabel": "Tu mensaje",
+  "formRecipientNameLabel": "Nombre del destinatario",
+  "formStreetLabel": "Dirección",
+  "formCityLabel": "Ciudad",
+  "formStateLabel": "Estado/Prefectura",
+  "formPostalCodeLabel": "Código Postal",
+  "formCountryLabel": "País",
+  "formBuyerEmailLabel": "Tu correo electrónico",
+  "formSubmitButton": "Proceder al pago"
+}
