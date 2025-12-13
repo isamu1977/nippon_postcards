@@ -109,6 +109,7 @@
 					<li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
 					<li><a href="/cookies" class="hover:text-white">Cookies Policy</a></li>
 					<li><a href="/terms" class="hover:text-white">Terms of Service</a></li>
+					<li><a href="/legal/tokushoho" class="hover:text-white">特定商取引法に基づく表記</a></li>
 				</ul>
 			</div>
 		</div>
