@@ -6,11 +6,11 @@
   ];
 </script>
 
-<section class="py-12 sm:py-16 bg-white">
+<section class="py-16 sm:py-20 bg-white">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
       <div>
-        <h2 class="text-2xl font-bold text-gray-900">Why physical postcards?</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">Why physical postcards?</h2>
         <p class="mt-4 text-gray-600">A short note on why a real postcard still makes an impact in a digital world.</p>
 
         <ul class="mt-6 space-y-3 text-gray-600">
@@ -24,7 +24,7 @@
       </div>
 
       <div>
-        <div class="w-full aspect-[4/3] bg-gray-100 rounded-xl flex items-center justify-center border border-gray-100">
+        <div class="w-full aspect-[4/3] bg-gray-100 rounded-2xl flex items-center justify-center border border-gray-100 shadow-sm">
           <span class="text-gray-400">Image placeholder</span>
         </div>
       </div>
