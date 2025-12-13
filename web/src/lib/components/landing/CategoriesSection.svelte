@@ -6,25 +6,23 @@
   ];
 </script>
 
-<div class="categories-section">
-  {#each categories as category}
-    <div class="category-card">
-      <h3>{category.title}</h3>
-      <p>{category.description}</p>
-      <button>View postcards in this category</button>
+<section class="py-12 sm:py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center mb-8">
+      <h2 class="text-2xl font-bold text-gray-900">Categories</h2>
+      <p class="text-gray-600 mt-2">Explore our postcard collections.</p>
     </div>
-  {/each}
-</div>
 
-<style>
-  .categories-section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  .category-card {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-</style>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {#each categories as category}
+        <div class="bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md hover:-translate-y-0.5 transition">
+          <h3 class="text-lg font-semibold text-gray-900">{category.title}</h3>
+          <p class="text-sm text-gray-600 mt-2">{category.description}</p>
+          <div class="mt-4">
+            <button class="text-sm text-red-600 border border-red-600 rounded px-3 py-2 hover:bg-red-50">View postcards in this category</button>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>

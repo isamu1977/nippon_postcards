@@ -7,25 +7,23 @@
   ];
 </script>
 
-<div class="how-it-works">
-  {#each steps as step}
-    <div class="step-card">
-      <h3>{step.title}</h3>
-      <p>{step.description}</p>
+<section id="how-it-works" class="py-12 sm:py-16 lg:py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center mb-8">
+      <h2 class="text-2xl font-bold text-gray-900">How it works</h2>
+      <p class="text-gray-600 mt-2">A simple flow: you choose, we prepare and mail from Japan.</p>
     </div>
-  {/each}
-</div>
 
-<style>
-  .how-it-works {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .step-card {
-    flex: 1 1 45%;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-</style>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {#each steps as step, i}
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+          <div class="flex items-center mb-3">
+            <div class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-50 text-red-600 font-semibold mr-3">{i + 1}</div>
+            <h3 class="text-lg font-semibold text-gray-900">{step.title}</h3>
+          </div>
+          <p class="text-sm text-gray-600">{step.description}</p>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>

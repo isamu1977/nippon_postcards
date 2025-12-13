@@ -9,20 +9,20 @@
   ];
 </script>
 
-<div class="faq-section">
-  {#each faqs as faq}
-    <div class="faq-item">
-      <h4>{faq.question}</h4>
-      <p>{faq.answer}</p>
+<section id="faq" class="py-12 sm:py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center mb-8">
+      <h2 class="text-2xl font-bold text-gray-900">Frequently asked questions</h2>
+      <p class="text-gray-600 mt-2">Answers to the most common questions.</p>
     </div>
-  {/each}
-</div>
 
-<style>
-  .faq-section {
-    margin: 20px 0;
-  }
-  .faq-item {
-    margin-bottom: 10px;
-  }
-</style>
+    <div class="max-w-3xl mx-auto">
+      {#each faqs as faq}
+        <div class="border-b border-gray-200 py-4">
+          <h4 class="text-sm font-semibold text-gray-900">{faq.question}</h4>
+          <p class="mt-2 text-sm text-gray-600">{faq.answer}</p>
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>
