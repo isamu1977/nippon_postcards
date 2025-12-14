@@ -41,6 +41,7 @@
 				<a href="/shop" class="hover:text-gray-900">Pricing</a>
 				<a href="/#faq" class="hover:text-gray-900">FAQ</a>
 				<a href="/contact" class="hover:text-gray-900">Contact</a>
+				<a href="/request-deletion" class="hover:text-gray-900">Request deletion</a>
 			</nav>
 
 			<div class="flex items-center space-x-3">
@@ -79,6 +80,7 @@
 						<a href="/shop" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Pricing</a>
 						<a href="/#faq" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">FAQ</a>
 						<a href="/contact" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Contact</a>
+						<a href="/request-deletion" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Request deletion</a>
 						<a href="/shop" on:click={closeNav} class="mt-2 inline-block w-full text-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">Choose a postcard</a>
 					</nav>
 				</div>
@@ -109,6 +111,7 @@
 					<li><a href="/#pricing" class="hover:text-white">Pricing</a></li>
 					<li><a href="/#faq" class="hover:text-white">FAQ</a></li>
 					<li><a href="/contact" class="hover:text-white">Contact</a></li>
+					<li><a href="/request-deletion" class="hover:text-white">Request deletion</a></li>
 				</ul>
 			</div>
 
