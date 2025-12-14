@@ -5,6 +5,7 @@
 	import "../app.css";
 
 	import { loadTranslations } from "$lib/translations/translations";
+	import { totalItems } from "$lib/stores/cart";
 
 	const defaultLanguage = "fr";
 
@@ -43,6 +44,14 @@
 			</nav>
 
 			<div class="flex items-center space-x-3">
+				<a href="/cart" class="hidden md:inline-flex items-center space-x-2 text-gray-700 hover:text-gray-900">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 7h12l-2-7M16 21a1 1 0 11-2 0 1 1 0 012 0zm-8 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
+					<span class="text-sm">Cart</span>
+					{#if $totalItems > 0}
+						<span class="ml-1 inline-flex items-center justify-center w-5 h-5 text-xs bg-red-600 text-white rounded-full">{$totalItems}</span>
+					{/if}
+				</a>
+
 				<a href="/#pricing" class="hidden md:inline-flex items-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
 					Choose a postcard
 				</a>
