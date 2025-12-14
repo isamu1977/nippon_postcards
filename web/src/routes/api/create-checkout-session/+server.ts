@@ -4,9 +4,14 @@ import { json } from "@sveltejs/kit";
 /**
  * Create a Stripe Checkout Session (or a mock session if STRIPE key is not provided).
  *
- * Expects a POST body: { items: Array<{ id, title, price, quantity, description? }> }
+ * Expects a POST body: { items: Array<{ id, title, price, quantity, recipientName?, recipientAddress?, message? }>, coupon?: string }
  * - price is expected to be in cents (e.g. 1500 = $15.00). If the price looks like dollars
  *   (non-integer or < 100), it will be converted to cents by multiplying by 100.
+ *
+ * Discount rules are recomputed server-side for safety:
+ * - 10% if totalItems >= 2
+ * - 10% if coupon is "NIPPON10"
+ * - capped at 20%
  *
  * Returns: { url: "<checkout url>" }
  */
@@ -17,6 +22,16 @@ export const POST: RequestHandler = async ({ request, url }) => {
 
     // Determine origin for success/cancel URLs
     const origin = url?.origin || request.headers.get("origin") || "";
+
+    // Evaluate coupon & compute discountRate server-side (defensive)
+    const coupon = String(body?.coupon ?? "").trim();
+    const couponIsValid = coupon.toUpperCase() === "NIPPON10";
+
+    const totalItemsCount = items.reduce((s: number, it: any) => s + (Number(it.quantity) || 0), 0);
+    let computedRate = 0;
+    if (totalItemsCount >= 2) computedRate += 0.1;
+    if (couponIsValid) computedRate += 0.1;
+    const discountRate = Math.min(computedRate, 0.2);
 
     // Prefer STRIPE_SECRET_KEY, fall back to common env names
     const STRIPE_SECRET =
@@ -43,13 +58,21 @@ export const POST: RequestHandler = async ({ request, url }) => {
             unit_amount = 100;
           }
 
+          // Apply computed discount rate (server-side) to unit_amount.
+          const discounted = Math.max(1, Math.round(unit_amount * (1 - discountRate)));
+
+          const productDescriptionParts: string[] = [];
+          if (item.recipientName) productDescriptionParts.push(`To: ${String(item.recipientName)}`);
+          if (item.recipientAddress) productDescriptionParts.push(String(item.recipientAddress));
+          if (item.message) productDescriptionParts.push(`Msg: ${String(item.message).slice(0, 200)}`);
+
           return {
             price_data: {
               currency: "usd",
-              unit_amount,
+              unit_amount: discounted,
               product_data: {
                 name: String(item.title ?? "Postcard"),
-                ...(item.description ? { description: String(item.description) } : {}),
+                ...(productDescriptionParts.length ? { description: productDescriptionParts.join(" — ") } : {}),
               },
             },
             quantity,
@@ -65,6 +88,8 @@ export const POST: RequestHandler = async ({ request, url }) => {
         cancel_url: `${origin}/cart`,
         metadata: {
           cart: JSON.stringify(items),
+          coupon: couponIsValid ? coupon : "",
+          discountRate: String(discountRate),
         },
       });
 

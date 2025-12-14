@@ -1,9 +1,42 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  import { cart, totalItems, totalPrice } from "$lib/stores/cart";
+  import { onMount, onDestroy } from "svelte";
+  import {
+    cart,
+    totalItems,
+    subtotal,
+    discountRate,
+    discountAmount,
+    totalPrice,
+    coupon,
+  } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
+
   let $cart: any[] = [];
-  const unsubscribe = cart.subscribe((v) => ($cart = v));
+  let $totalItems = 0;
+  let $subtotal = 0;
+  let $discountRate = 0;
+  let $discountAmount = 0;
+  let $totalPrice = 0;
+  let $coupon: string | null = null;
+
+  const unsubCart = cart.subscribe((v) => ($cart = v));
+  const unsubTotalItems = totalItems.subscribe((v) => ($totalItems = v));
+  const unsubSubtotal = subtotal.subscribe((v) => ($subtotal = v));
+  const unsubDiscountRate = discountRate.subscribe((v) => ($discountRate = v));
+  const unsubDiscountAmount = discountAmount.subscribe((v) => ($discountAmount = v));
+  const unsubTotalPrice = totalPrice.subscribe((v) => ($totalPrice = v));
+  const unsubCoupon = coupon.subscribe((v) => ($coupon = v));
+
+  onDestroy(() => {
+    unsubCart();
+    unsubTotalItems();
+    unsubSubtotal();
+    unsubDiscountRate();
+    unsubDiscountAmount();
+    unsubTotalPrice();
+    unsubCoupon();
+  });
+
   let loading = false;
   let error: string | null = null;
 
@@ -21,7 +54,10 @@
       const res = await fetch("/api/create-checkout-session", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ items: $cart }),
+        body: JSON.stringify({
+          items: $cart,
+          coupon: $coupon,
+        }),
       });
 
       const data = await res.json();
@@ -49,9 +85,6 @@
     }
     // Otherwise automatically attempt to create a checkout session and redirect.
     proceed();
-    return () => {
-      unsubscribe();
-    };
   });
 </script>
 
@@ -70,14 +103,19 @@
               <div class="flex items-center justify-between">
                 <div>
                   <div class="font-medium text-gray-900">{item.title} <span class="text-sm text-gray-600">x {item.quantity}</span></div>
+                  <div class="text-sm text-gray-600">{item.recipientName ?? ""} {item.recipientAddress ? `— ${item.recipientAddress}` : ""}</div>
                 </div>
                 <div class="font-semibold text-gray-900">US$ {(item.price * item.quantity).toFixed(2)}</div>
               </div>
             {/each}
           </div>
 
-          <div class="mt-6 text-right">
+          <div class="mt-6 text-right space-y-1">
             <div class="text-sm text-gray-600">Items: {$totalItems}</div>
+            <div class="text-sm text-gray-600">Subtotal: US$ {$subtotal.toFixed(2)}</div>
+            {#if $discountAmount > 0}
+              <div class="text-sm text-gray-600">Discount ({($discountRate * 100).toFixed(0)}%): -US$ {$discountAmount.toFixed(2)}</div>
+            {/if}
             <div class="text-2xl font-extrabold text-gray-900">Total: US$ {$totalPrice.toFixed(2)}</div>
           </div>
 
