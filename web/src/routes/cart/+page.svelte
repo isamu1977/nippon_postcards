@@ -5,6 +5,7 @@
     totalPrice,
     updateQuantity,
     removeFromCart,
+    updateItemDetails,
     clearCart,
   } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
@@ -28,14 +29,39 @@
         <div class="mt-6 space-y-4">
           {#each $cart as item}
             <div
-              class="flex items-center justify-between bg-white border border-gray-100 rounded-xl p-4 shadow-sm"
+              class="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white border border-gray-100 rounded-xl p-4 shadow-sm"
             >
-              <div>
+              <div class="flex-1 w-full sm:pr-6">
                 <div class="font-semibold text-gray-900">{item.title}</div>
                 <div class="text-sm text-gray-600">US$ {item.price} each</div>
+
+                <div class="mt-3">
+                  <label class="text-sm text-gray-600 block">Recipient address</label>
+                  <input
+                    type="text"
+                    value={item.recipientAddress ?? ""}
+                    on:change={(e) =>
+                      updateItemDetails(item.id, {
+                        recipientAddress: (e.target as HTMLInputElement).value,
+                      })}
+                    class="w-full mt-1 rounded-md border border-gray-200 px-2 py-1 text-sm"
+                  />
+                </div>
+
+                <div class="mt-3">
+                  <label class="text-sm text-gray-600 block">Message</label>
+                  <textarea
+                    rows="3"
+                    on:change={(e) =>
+                      updateItemDetails(item.id, {
+                        message: (e.target as HTMLTextAreaElement).value,
+                      })}
+                    class="w-full mt-1 rounded-md border border-gray-200 px-2 py-1 text-sm"
+                  >{item.message ?? ""}</textarea>
+                </div>
               </div>
 
-              <div class="flex items-center space-x-3">
+              <div class="mt-4 sm:mt-0 flex items-center space-x-3">
                 <input
                   type="number"
                   min="1"

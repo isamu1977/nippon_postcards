@@ -6,6 +6,8 @@ export type CartItem = {
   title: string;
   price: number;
   quantity: number;
+  recipientAddress?: string;
+  message?: string;
 };
 
 const STORAGE_KEY = "nipponpostcards_cart";
@@ -57,6 +59,26 @@ export function updateQuantity(id: string, quantity: number) {
 
 export function removeFromCart(id: string) {
   cart.update((items) => items.filter((it) => it.id !== id));
+}
+
+export function updateItemDetails(
+  postcardId: string,
+  details: { recipientAddress?: string; message?: string }
+) {
+  cart.update((items) =>
+    items.map((it) => {
+      if (it.id !== postcardId) return it;
+      return {
+        ...it,
+        recipientAddress:
+          details.recipientAddress !== undefined
+            ? details.recipientAddress
+            : it.recipientAddress,
+        message:
+          details.message !== undefined ? details.message : it.message,
+      };
+    })
+  );
 }
 
 export function clearCart() {
