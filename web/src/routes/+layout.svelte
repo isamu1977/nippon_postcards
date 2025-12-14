@@ -110,7 +110,6 @@
 					<li><a href="/#pricing" class="hover:text-white">Pricing</a></li>
 					<li><a href="/#faq" class="hover:text-white">FAQ</a></li>
 					<li><a href="/contact" class="hover:text-white">Contact</a></li>
-					<li><a href="/request-deletion" class="hover:text-white">Request deletion</a></li>
 				</ul>
 			</div>
 
