@@ -102,10 +102,10 @@
             {#each $cart as item}
               <div class="flex items-center justify-between">
                 <div>
-                  <div class="font-medium text-gray-900">{item.title} <span class="text-sm text-gray-600">x {item.quantity}</span></div>
+                  <div class="font-medium text-gray-900">{item.title}</div>
                   <div class="text-sm text-gray-600">{item.recipientName ?? ""} {item.recipientAddress ? `— ${item.recipientAddress}` : ""}</div>
                 </div>
-                <div class="font-semibold text-gray-900">US$ {(item.price * item.quantity).toFixed(2)}</div>
+                <div class="font-semibold text-gray-900">US$ {item.price.toFixed(2)}</div>
               </div>
             {/each}
           </div>
