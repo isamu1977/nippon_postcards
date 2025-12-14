@@ -41,7 +41,6 @@
 				<a href="/shop" class="hover:text-gray-900">Pricing</a>
 				<a href="/#faq" class="hover:text-gray-900">FAQ</a>
 				<a href="/contact" class="hover:text-gray-900">Contact</a>
-				<a href="/request-deletion" class="hover:text-gray-900">Request deletion</a>
 			</nav>
 
 			<div class="flex items-center space-x-3">
@@ -121,6 +120,7 @@
 					<li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
 					<li><a href="/cookies" class="hover:text-white">Cookies Policy</a></li>
 					<li><a href="/terms" class="hover:text-white">Terms of Service</a></li>
+					<li><a href="/request-deletion" class="hover:text-white">Request deletion</a></li>
 					<li><a href="/legal/tokushoho" class="hover:text-white">特定商取引法に基づく表記</a></li>
 				</ul>
 			</div>
