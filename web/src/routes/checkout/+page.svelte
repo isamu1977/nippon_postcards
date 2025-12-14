@@ -1,32 +1,58 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import { cart, totalItems, totalPrice } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
-  let $cart = [];
-  cart.subscribe(v => $cart = v);
+  let $cart: any[] = [];
+  const unsubscribe = cart.subscribe((v) => ($cart = v));
   let loading = false;
+  let error: string | null = null;
 
   async function proceed() {
-    if ($cart.length === 0) return;
+    if ($cart.length === 0) {
+      // If cart is empty, send user back to cart page.
+      goto("/cart");
+      return;
+    }
+
     loading = true;
+    error = null;
+
     try {
       const res = await fetch("/api/create-checkout-session", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ items: $cart })
+        body: JSON.stringify({ items: $cart }),
       });
+
       const data = await res.json();
       if (data?.url) {
+        // Redirect the browser to Stripe (or mock) URL.
         window.location.href = data.url;
       } else {
-        alert("Unable to create checkout session.");
+        error = "Unable to create checkout session.";
+        alert(error);
       }
     } catch (err) {
       console.error(err);
-      alert("Error creating checkout session.");
+      error = "Error creating checkout session.";
+      alert(error);
     } finally {
       loading = false;
     }
   }
+
+  onMount(() => {
+    // If the cart is empty on mount, redirect back to /cart immediately.
+    if ($cart.length === 0) {
+      goto("/cart");
+      return;
+    }
+    // Otherwise automatically attempt to create a checkout session and redirect.
+    proceed();
+    return () => {
+      unsubscribe();
+    };
+  });
 </script>
 
 <section class="py-12 sm:py-16 lg:py-20 bg-white">
@@ -60,6 +86,10 @@
               {#if loading}Processing...{:else}Proceed to Checkout{/if}
             </button>
           </div>
+
+          {#if error}
+            <div class="mt-4 text-sm text-red-600">{error}</div>
+          {/if}
         {/if}
       </div>
     </div>
