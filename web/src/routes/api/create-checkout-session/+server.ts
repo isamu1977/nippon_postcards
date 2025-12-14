@@ -27,7 +27,7 @@ export const POST: RequestHandler = async ({ request, url }) => {
     const coupon = String(body?.coupon ?? "").trim();
     const couponIsValid = coupon.toUpperCase() === "NIPPON10";
 
-    const totalItemsCount = items.reduce((s: number, it: any) => s + (Number(it.quantity) || 0), 0);
+    const totalItemsCount = Array.isArray(items) ? items.length : 0;
     let computedRate = 0;
     if (totalItemsCount >= 2) computedRate += 0.1;
     if (couponIsValid) computedRate += 0.1;
@@ -44,7 +44,7 @@ export const POST: RequestHandler = async ({ request, url }) => {
 
       const line_items = items
         .map((item: any) => {
-          const quantity = Math.max(1, Number(item.quantity) || 1);
+          const quantity = 1;
 
           // Determine unit_amount in cents.
           let unit_amount = Number(item.price) || 0;

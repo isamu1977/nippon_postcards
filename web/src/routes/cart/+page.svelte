@@ -6,7 +6,6 @@
     discountRate,
     discountAmount,
     totalPrice,
-    updateQuantity,
     removeFromCart,
     updateItemDetails,
     clearCart,
@@ -176,19 +175,8 @@
               </div>
 
               <div class="mt-4 sm:mt-0 flex items-center space-x-3">
-                <input
-                  type="number"
-                  min="1"
-                  value={item.quantity}
-                  on:change={(e) =>
-                    updateQuantity(
-                      item.id,
-                      +(e.target as HTMLInputElement).value,
-                    )}
-                  class="w-20 rounded-md border border-gray-200 px-2 py-1 text-sm"
-                />
                 <div class="font-medium text-gray-900">
-                  US$ {formatMoney(item.price, item.quantity)}
+                  US$ {formatMoney(item.price)}
                 </div>
                 <button
                   class="text-sm text-red-600"
