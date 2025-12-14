@@ -15,39 +15,17 @@
     clearCoupon,
   } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
-  import { onDestroy } from "svelte";
+  import { get } from "svelte/store";
 
-  // Local reactive copies via manual subscription (keeps parity with existing patterns)
-  let $cart: any[] = [];
-  let $totalItems = 0;
-  let $subtotal = 0;
-  let $discountRate = 0;
-  let $discountAmount = 0;
-  let $totalPrice = 0;
-  let $coupon: string | null = null;
-
-  const unsubCart = cart.subscribe((v) => ($cart = v));
-  const unsubTotalItems = totalItems.subscribe((v) => ($totalItems = v));
-  const unsubSubtotal = subtotal.subscribe((v) => ($subtotal = v));
-  const unsubDiscountRate = discountRate.subscribe((v) => ($discountRate = v));
-  const unsubDiscountAmount = discountAmount.subscribe((v) => ($discountAmount = v));
-  const unsubTotalPrice = totalPrice.subscribe((v) => ($totalPrice = v));
-  const unsubCoupon = coupon.subscribe((v) => ($coupon = v));
-
-  onDestroy(() => {
-    unsubCart();
-    unsubTotalItems();
-    unsubSubtotal();
-    unsubDiscountRate();
-    unsubDiscountAmount();
-    unsubTotalPrice();
-    unsubCoupon();
-  });
+  // Local UI state (do NOT name any variables starting with $)
+  let mirrorRecipient = false;
+  let couponInput = (get(coupon) ?? "") as string;
 
   // Detect whether prices are stored in cents by inspecting the cart.
   // Heuristic: if any item has an integer price >= 100, treat prices as cents.
   function pricesLookLikeCents(): boolean {
-    return $cart.some((i) => Number.isInteger(i.price) && i.price >= 100);
+    const items = get(cart);
+    return items.some((i) => Number.isInteger(i.price) && i.price >= 100);
   }
 
   // Format a price (optionally multiplied by qty) into a dollar string with 2 decimals.
@@ -62,23 +40,22 @@
     return formatMoney(price, 1);
   }
 
-  // Mirror recipient details from first item to all others when enabled
-  let mirrorRecipient = false;
-
-  $: if (mirrorRecipient && $cart.length > 0) {
-    const first = $cart[0];
-    // apply first's recipient info to the rest
-    $cart.slice(1).forEach((it) => {
+  // When mirrorRecipient is enabled, copy the first item's recipient info to others.
+  // This is triggered when the checkbox changes.
+  function onMirrorChange() {
+    if (!mirrorRecipient) return;
+    const items = get(cart);
+    if (!items || items.length <= 1) return;
+    const first = items[0];
+    items.slice(1).forEach((it) =>
       updateItemDetails(it.id, {
         recipientName: first.recipientName ?? first.recipientName,
         recipientAddress: first.recipientAddress ?? first.recipientAddress,
-      });
-    });
+      })
+    );
   }
 
-  // Coupon form
-  let couponInput = $coupon ?? "";
-
+  // Coupon handlers
   function applyCouponHandler() {
     const ok = applyCoupon(couponInput);
     if (!ok) {
@@ -94,11 +71,12 @@
   }
 
   function proceedToCheckout() {
-    if ($cart.length === 0) {
+    const items = get(cart);
+    if (!items || items.length === 0) {
       alert("Your cart is empty.");
       return;
     }
-    const missing = $cart.find(
+    const missing = items.find(
       (i) =>
         !i.recipientAddress ||
         String(i.recipientAddress).trim() === "" ||
@@ -131,7 +109,7 @@
         <div class="mt-6 space-y-4">
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-3">
-              <input id="mirror" type="checkbox" bind:checked={mirrorRecipient} class="rounded" />
+              <input id="mirror" type="checkbox" bind:checked={mirrorRecipient} class="rounded" on:change={onMirrorChange} />
               <label for="mirror" class="text-sm text-gray-600">Use same recipient for all cards</label>
             </div>
 
