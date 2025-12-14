@@ -133,7 +133,7 @@
                 <div class="font-semibold text-gray-900">{item.title}</div>
                 <div class="text-sm text-gray-600">US$ {formatUnitPrice(item.price)} each</div>
 
-                <div class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="mt-3 grid grid-cols-1 gap-3">
                   <div>
                     <label class="text-sm text-gray-600 block">Recipient name</label>
                     <input
