@@ -1,8 +1,6 @@
 <script lang="ts">
   import { cart, totalItems, totalPrice, updateQuantity, removeFromCart, clearCart } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
-  let $cart;
-  cart.subscribe(v => $cart = v);
 </script>
 
 <section class="py-12 sm:py-16 lg:py-20 bg-white">
