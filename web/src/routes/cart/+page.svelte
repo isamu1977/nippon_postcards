@@ -9,6 +9,37 @@
     clearCart,
   } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
+
+  // Detect whether prices are stored in cents by inspecting the cart.
+  // Heuristic: if any item has an integer price >= 100, treat prices as cents.
+  function pricesLookLikeCents(): boolean {
+    return $cart.some((i) => Number.isInteger(i.price) && i.price >= 100);
+  }
+
+  // Format a price (optionally multiplied by qty) into a dollar string with 2 decimals.
+  // If prices are in cents, divide by 100.
+  function formatMoney(price: number, qty = 1) {
+    const isCents = pricesLookLikeCents();
+    const value = isCents ? (price * qty) / 100 : price * qty;
+    return value.toFixed(2);
+  }
+
+  function formatUnitPrice(price: number) {
+    return formatMoney(price, 1);
+  }
+
+  function proceedToCheckout() {
+    if ($cart.length === 0) {
+      alert("Your cart is empty.");
+      return;
+    }
+    const missing = $cart.find((i) => !i.recipientAddress || i.recipientAddress.trim() === "");
+    if (missing) {
+      alert("Please provide a recipient address for all items before checkout.");
+      return;
+    }
+    goto("/checkout");
+  }
 </script>
 
 <section class="py-12 sm:py-16 lg:py-20 bg-white">
@@ -33,14 +64,14 @@
             >
               <div class="flex-1 w-full sm:pr-6">
                 <div class="font-semibold text-gray-900">{item.title}</div>
-                <div class="text-sm text-gray-600">US$ {item.price} each</div>
+                <div class="text-sm text-gray-600">US$ {formatUnitPrice(item.price)} each</div>
 
                 <div class="mt-3">
                   <label class="text-sm text-gray-600 block">Recipient address</label>
                   <input
                     type="text"
                     value={item.recipientAddress ?? ""}
-                    on:change={(e) =>
+                    on:input={(e) =>
                       updateItemDetails(item.id, {
                         recipientAddress: (e.target as HTMLInputElement).value,
                       })}
@@ -52,12 +83,13 @@
                   <label class="text-sm text-gray-600 block">Message</label>
                   <textarea
                     rows="3"
-                    on:change={(e) =>
+                    value={item.message ?? ""}
+                    on:input={(e) =>
                       updateItemDetails(item.id, {
                         message: (e.target as HTMLTextAreaElement).value,
                       })}
                     class="w-full mt-1 rounded-md border border-gray-200 px-2 py-1 text-sm"
-                  >{item.message ?? ""}</textarea>
+                  ></textarea>
                 </div>
               </div>
 
@@ -74,7 +106,7 @@
                   class="w-20 rounded-md border border-gray-200 px-2 py-1 text-sm"
                 />
                 <div class="font-medium text-gray-900">
-                  US$ {(item.price * item.quantity).toFixed(2)}
+                  US$ {formatMoney(item.price, item.quantity)}
                 </div>
                 <button
                   class="text-sm text-red-600"
@@ -87,14 +119,14 @@
           <div class="text-right mt-4">
             <div class="text-sm text-gray-600">Items: {$totalItems}</div>
             <div class="text-xl font-extrabold text-gray-900">
-              Total: US$ {$totalPrice.toFixed(2)}
+              Total: US$ {formatMoney($totalPrice, 1)}
             </div>
           </div>
 
           <div class="mt-6 flex items-center gap-3">
             <button
               class="px-4 py-2 bg-red-600 text-white rounded-lg"
-              on:click={() => goto("/checkout")}>Proceed to checkout</button
+              on:click={proceedToCheckout}>Proceed to checkout</button
             >
             <button
               class="px-4 py-2 border border-gray-200 rounded-lg text-sm"
