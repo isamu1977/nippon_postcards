@@ -31,7 +31,7 @@
         </div>
 
         <div class="mt-6">
-          <a href="/#hero" class="inline-flex items-center justify-center w-full px-4 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg">Choose a postcard</a>
+          <a href="/shop" class="inline-flex items-center justify-center w-full px-4 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg">Choose a postcard</a>
         </div>
 
         <div class="mt-4 text-red-600 font-medium">{pricingInfo.discount}</div>

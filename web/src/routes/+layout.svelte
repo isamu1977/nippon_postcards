@@ -38,7 +38,7 @@
 			<nav class="hidden md:flex items-center space-x-6 text-sm text-gray-700">
 				<a href="/" class="hover:text-gray-900">Home</a>
 				<a href="/#how-it-works" class="hover:text-gray-900">How it works</a>
-				<a href="/#pricing" class="hover:text-gray-900">Pricing</a>
+				<a href="/shop" class="hover:text-gray-900">Pricing</a>
 				<a href="/#faq" class="hover:text-gray-900">FAQ</a>
 				<a href="/contact" class="hover:text-gray-900">Contact</a>
 			</nav>
@@ -52,7 +52,7 @@
 					{/if}
 				</a>
 
-				<a href="/#pricing" class="hidden md:inline-flex items-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
+				<a href="/shop" class="hidden md:inline-flex items-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
 					Choose a postcard
 				</a>
 
@@ -76,10 +76,10 @@
 					<nav class="flex flex-col space-y-2 text-base">
 						<a href="/" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Home</a>
 						<a href="/#how-it-works" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">How it works</a>
-						<a href="/#pricing" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Pricing</a>
+						<a href="/shop" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Pricing</a>
 						<a href="/#faq" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">FAQ</a>
 						<a href="/contact" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Contact</a>
-						<a href="/#pricing" on:click={closeNav} class="mt-2 inline-block w-full text-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">Choose a postcard</a>
+						<a href="/shop" on:click={closeNav} class="mt-2 inline-block w-full text-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">Choose a postcard</a>
 					</nav>
 				</div>
 			</div>

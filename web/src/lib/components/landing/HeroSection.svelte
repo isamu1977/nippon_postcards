@@ -15,9 +15,9 @@
 			</p>
 
 			<div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
-				<Button variant="default" class="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg text-lg">
+				<a href="/shop" class="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg text-lg">
 					Choose a postcard
-				</Button>
+				</a>
 
 				<Button variant="outline" class="inline-flex items-center justify-center border border-red-600 text-red-600 hover:bg-red-50 px-6 py-3 rounded-lg text-lg">
 					See how it works
