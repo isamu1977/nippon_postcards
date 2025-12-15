@@ -15,5 +15,31 @@
   "formPostalCodeLabel": "Postleitzahl",
   "formCountryLabel": "Land",
   "formBuyerEmailLabel": "Ihre E-Mail",
-  "formSubmitButton": "Zur Kasse gehen"
+  "formSubmitButton": "Zur Kasse gehen",
+
+  "nav": {
+    "home": "Startseite",
+    "howItWorks": "Wie es funktioniert",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "cart": "Warenkorb",
+    "choosePostcard": "Postkarte wählen"
+  },
+
+  "legal": {
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "Nutzungsbedingungen",
+    "requests": "Anfragen",
+    "requestDeletion": "Löschanfrage",
+    "tokushoho": "特定商取引法に基づく表記"
+  },
+
+  "footer": {
+    "tagline": "Japanische Postkarten, verschickt aus Aichi in die Welt.",
+    "navigateTitle": "Navigation",
+    "legalTitle": "Rechtliches",
+    "rights": "Alle Rechte vorbehalten."
+  }
 }

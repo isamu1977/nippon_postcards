@@ -4,20 +4,28 @@
 	import favicon from "$lib/assets/favicon.svg";
 	import "../app.css";
 
-	import { loadTranslations } from "$lib/translations/translations";
+	import { loadTranslations, t, locale } from "$lib/translations/translations";
 	import { totalItems } from "$lib/stores/cart";
 
-	const defaultLanguage = "fr";
+	const defaultLanguage = "en";
 
 	let navOpen = false;
 	const currentYear = new Date().getFullYear();
 
 	onMount(async () => {
+		// Ensure default translations are loaded on first render.
 		await loadTranslations(defaultLanguage, "/");
 	});
 
 	function closeNav() {
 		navOpen = false;
+	}
+
+	function handleLocaleChange(e: Event) {
+		const v = (e.target as HTMLSelectElement).value;
+		locale.set(v);
+		// reload translations for selected locale (helps with some lazy loaders)
+		loadTranslations(v, "/");
 	}
 </script>
 
@@ -30,31 +38,41 @@
 		<div class="flex items-center justify-between h-16">
 			<!-- Logo -->
 			<a href="/" class="flex items-center space-x-3 text-gray-900">
-				<span class="text-lg font-semibold">Nippon Postcards</span>
+				<span class="text-lg font-semibold">{$t("siteTitle")}</span>
 				<span class="inline-flex items-center justify-center w-3 h-3 bg-red-600 rounded-full ring-1 ring-red-100"></span>
 			</a>
 
 			<!-- Desktop nav -->
 			<nav class="hidden md:flex items-center space-x-6 text-sm text-gray-700">
-				<a href="/" class="hover:text-gray-900">Home</a>
-				<a href="/#how-it-works" class="hover:text-gray-900">How it works</a>
-				<a href="/shop" class="hover:text-gray-900">Pricing</a>
-				<a href="/#faq" class="hover:text-gray-900">FAQ</a>
-				<a href="/contact" class="hover:text-gray-900">Contact</a>
+				<a href="/" class="hover:text-gray-900">{$t("nav.home")}</a>
+				<a href="/#how-it-works" class="hover:text-gray-900">{$t("nav.howItWorks")}</a>
+				<a href="/shop" class="hover:text-gray-900">{$t("nav.pricing")}</a>
+				<a href="/#faq" class="hover:text-gray-900">{$t("nav.faq")}</a>
+				<a href="/contact" class="hover:text-gray-900">{$t("nav.contact")}</a>
 			</nav>
 
 			<div class="flex items-center space-x-3">
 				<a href="/cart" class="hidden md:inline-flex items-center space-x-2 text-gray-700 hover:text-gray-900">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 7h12l-2-7M16 21a1 1 0 11-2 0 1 1 0 012 0zm-8 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
-					<span class="text-sm">Cart</span>
+					<span class="text-sm">{$t("nav.cart")}</span>
 					{#if $totalItems > 0}
 						<span class="ml-1 inline-flex items-center justify-center w-5 h-5 text-xs bg-red-600 text-white rounded-full">{$totalItems}</span>
 					{/if}
 				</a>
 
 				<a href="/shop" class="hidden md:inline-flex items-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-medium">
-					Choose a postcard
+					{$t("nav.choosePostcard")}
 				</a>
+
+				<!-- Locale selector -->
+				<select aria-label="Language" class="hidden md:inline-flex rounded border px-2 py-1 text-sm" on:change={handleLocaleChange}>
+					<option value="en">English</option>
+					<option value="fr">Français</option>
+					<option value="es">Español</option>
+					<option value="de">Deutsch</option>
+					<option value="it">Italiano</option>
+					<option value="pt">Português</option>
+				</select>
 
 				<!-- Mobile menu button -->
 				<button class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-100" aria-label="Open menu" on:click={() => (navOpen = !navOpen)}>
@@ -74,13 +92,13 @@
 			<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-4">
 				<div class="bg-white shadow-md rounded-lg mt-2 p-4">
 					<nav class="flex flex-col space-y-2 text-base">
-						<a href="/" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Home</a>
-						<a href="/#how-it-works" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">How it works</a>
-						<a href="/shop" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Pricing</a>
-						<a href="/#faq" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">FAQ</a>
-						<a href="/contact" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Contact</a>
-						<a href="/request-deletion" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">Request deletion</a>
-						<a href="/shop" on:click={closeNav} class="mt-2 inline-block w-full text-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">Choose a postcard</a>
+						<a href="/" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">{$t("nav.home")}</a>
+						<a href="/#how-it-works" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">{$t("nav.howItWorks")}</a>
+						<a href="/shop" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">{$t("nav.pricing")}</a>
+						<a href="/#faq" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">{$t("nav.faq")}</a>
+						<a href="/contact" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">{$t("nav.contact")}</a>
+						<a href="/request-deletion" on:click={closeNav} class="py-2 px-3 rounded hover:bg-gray-50">{$t("legal.requestDeletion")}</a>
+						<a href="/shop" on:click={closeNav} class="mt-2 inline-block w-full text-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">{$t("nav.choosePostcard")}</a>
 					</nav>
 				</div>
 			</div>
@@ -98,36 +116,36 @@
 	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 			<div>
-				<h3 class="text-white font-semibold">Nippon Postcards</h3>
-				<p class="mt-3 text-sm text-gray-400">Nippon Postcards – Japanese postcards mailed from Aichi to the world.</p>
+				<h3 class="text-white font-semibold">{$t("siteTitle")}</h3>
+				<p class="mt-3 text-sm text-gray-400">{$t("footer.tagline")}</p>
 			</div>
 
 			<div>
-				<h4 class="text-sm font-semibold text-white">Navigate</h4>
+				<h4 class="text-sm font-semibold text-white">{$t("footer.navigateTitle")}</h4>
 				<ul class="mt-3 space-y-2 text-sm">
-					<li><a href="/" class="hover:text-white">Home</a></li>
-					<li><a href="/#how-it-works" class="hover:text-white">How it works</a></li>
-					<li><a href="/#pricing" class="hover:text-white">Pricing</a></li>
-					<li><a href="/#faq" class="hover:text-white">FAQ</a></li>
-					<li><a href="/contact" class="hover:text-white">Contact</a></li>
+					<li><a href="/" class="hover:text-white">{$t("nav.home")}</a></li>
+					<li><a href="/#how-it-works" class="hover:text-white">{$t("nav.howItWorks")}</a></li>
+					<li><a href="/#pricing" class="hover:text-white">{$t("nav.pricing")}</a></li>
+					<li><a href="/#faq" class="hover:text-white">{$t("nav.faq")}</a></li>
+					<li><a href="/contact" class="hover:text-white">{$t("nav.contact")}</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h4 class="text-sm font-semibold text-white">Legal</h4>
+				<h4 class="text-sm font-semibold text-white">{$t("footer.legalTitle")}</h4>
 				<ul class="mt-3 space-y-2 text-sm">
-					<li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
-					<li><a href="/cookies" class="hover:text-white">Cookies Policy</a></li>
-					<li><a href="/terms" class="hover:text-white">Terms of Service</a></li>
-					<li><a href="/rgpd-requests" class="hover:text-white">Requests</a></li>
-					<li><a href="/request-deletion" class="hover:text-white">Request deletion</a></li>
-					<li><a href="/legal/tokushoho" class="hover:text-white">特定商取引法に基づく表記</a></li>
+					<li><a href="/privacy" class="hover:text-white">{$t("legal.privacy")}</a></li>
+					<li><a href="/cookies" class="hover:text-white">{$t("legal.cookies")}</a></li>
+					<li><a href="/terms" class="hover:text-white">{$t("legal.terms")}</a></li>
+					<li><a href="/rgpd-requests" class="hover:text-white">{$t("legal.requests")}</a></li>
+					<li><a href="/request-deletion" class="hover:text-white">{$t("legal.requestDeletion")}</a></li>
+					<li><a href="/legal/tokushoho" class="hover:text-white">{$t("legal.tokushoho")}</a></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="mt-8 border-t border-gray-800 pt-6 text-sm text-gray-400">
-			<p>© {currentYear} Nippon Postcards. All rights reserved.</p>
+			<p>© {currentYear} {$t("siteTitle")}. {$t("footer.rights")}</p>
 		</div>
 	</div>
 </footer>

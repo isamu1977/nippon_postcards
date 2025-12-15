@@ -15,5 +15,31 @@
   "formPostalCodeLabel": "Codice Postale",
   "formCountryLabel": "Paese",
   "formBuyerEmailLabel": "La tua email",
-  "formSubmitButton": "Procedi al pagamento"
+  "formSubmitButton": "Procedi al pagamento",
+
+  "nav": {
+    "home": "Home",
+    "howItWorks": "Come funziona",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "contact": "Contatto",
+    "cart": "Carrello",
+    "choosePostcard": "Scegli una cartolina"
+  },
+
+  "legal": {
+    "privacy": "Informativa sulla privacy",
+    "cookies": "Informativa sui cookie",
+    "terms": "Termini di servizio",
+    "requests": "Richieste",
+    "requestDeletion": "Richiesta di cancellazione",
+    "tokushoho": "特定商取引法に基づく表記"
+  },
+
+  "footer": {
+    "tagline": "Cartoline giapponesi spedite da Aichi al mondo.",
+    "navigateTitle": "Navigazione",
+    "legalTitle": "Legale",
+    "rights": "Tutti i diritti riservati."
+  }
 }
