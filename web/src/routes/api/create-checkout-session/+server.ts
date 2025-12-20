@@ -1,3 +1,4 @@
+import { STRIPE_SECRET_KEY } from "$env/static/private";
 import type { RequestHandler } from "./$types";
 import { json } from "@sveltejs/kit";
 
@@ -33,9 +34,8 @@ export const POST: RequestHandler = async ({ request, url }) => {
     if (couponIsValid) computedRate += 0.1;
     const discountRate = Math.min(computedRate, 0.2);
 
-    // Prefer STRIPE_SECRET_KEY, fall back to common env names
-    const STRIPE_SECRET =
-      process.env.STRIPE_SECRET_KEY || process.env.STRIPE_API_KEY || process.env.STRIPE_KEY;
+    // Prefer env/static/private for secrets in SvelteKit
+    const STRIPE_SECRET = STRIPE_SECRET_KEY;
 
     if (STRIPE_SECRET) {
       // Lazily import stripe so the app still works if the package is not installed

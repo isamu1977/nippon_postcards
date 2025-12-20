@@ -1,45 +1,142 @@
 <script lang="ts">
-  let name = "";
-  let email = "";
-  let message = "";
-  let submitted = false;
+  const TO_EMAIL = "cyberjapanservices@gmail.com";
 
-  function submitForm() {
-    submitted = true;
-    // UI-only form for now — no backend attached.
+  let name = "";
+  let fromEmail = "";
+  let subject = "";
+  let message = "";
+
+  // Honeypot simples (anti-spam básico). Humanos não preenchem.
+  let website = "";
+
+  function buildMailto() {
+    const cleanSubject = subject?.trim() || "Contact — Nippon Postcards";
+    const lines = [
+      `Name: ${name || "-"}`,
+      `Email: ${fromEmail || "-"}`,
+      ``,
+      `Message:`,
+      message || "-",
+      ``,
+      `---`,
+      `Sent from: https://www.nipponpostcards.com/contact`,
+    ];
+
+    const body = lines.join("\n");
+
+    return `mailto:${TO_EMAIL}?subject=${encodeURIComponent(cleanSubject)}&body=${encodeURIComponent(body)}`;
+  }
+
+  function handleSend() {
+    // se o bot preencher o honeypot, não faz nada
+    if (website.trim().length > 0) return;
+
+    // abre cliente de email do usuário
+    window.location.href = buildMailto();
   }
 </script>
 
-<section class="py-12 sm:py-16 lg:py-20 bg-white">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-2xl mx-auto">
-      <h1 class="text-2xl font-bold text-gray-900">Contact</h1>
-      <p class="mt-4 text-gray-600">Have questions or need help? Send us a message and we'll get back to you.</p>
+<section class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-10">
+  <header class="mb-8">
+    <h1
+      class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900"
+    >
+      Contact
+    </h1>
+    <p class="mt-3 text-gray-700 leading-relaxed">
+      Send us a message. Clicking “Open Email App” will open your email client
+      (Gmail/Outlook/Apple Mail) with a pre-filled email.
+    </p>
+  </header>
 
-      {#if submitted}
-        <div class="mt-6 p-4 bg-green-50 border border-green-100 text-green-800 rounded">Thanks — your message has been noted (UI only).</div>
-      {/if}
+  <div
+    class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm space-y-5"
+  >
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <label class="space-y-2">
+        <span class="text-sm font-semibold text-gray-700">Your name</span>
+        <input
+          class="w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-red-600"
+          type="text"
+          bind:value={name}
+          placeholder="Your name"
+          autocomplete="name"
+        />
+      </label>
 
-      <form class="mt-6 space-y-4" on:submit|preventDefault={submitForm}>
-        <div>
-          <label class="block text-sm font-medium text-gray-700">Name</label>
-          <input type="text" bind:value={name} class="mt-1 block w-full rounded-md border border-gray-200 px-3 py-2 text-sm" />
-        </div>
+      <label class="space-y-2">
+        <span class="text-sm font-semibold text-gray-700">Your email</span>
+        <input
+          class="w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-red-600"
+          type="email"
+          bind:value={fromEmail}
+          placeholder="you@example.com"
+          autocomplete="email"
+        />
+      </label>
+    </div>
 
-        <div>
-          <label class="block text-sm font-medium text-gray-700">Email</label>
-          <input type="email" bind:value={email} class="mt-1 block w-full rounded-md border border-gray-200 px-3 py-2 text-sm" />
-        </div>
+    <label class="space-y-2 block">
+      <span class="text-sm font-semibold text-gray-700">Subject</span>
+      <input
+        class="w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-red-600"
+        type="text"
+        bind:value={subject}
+        placeholder="How can we help?"
+      />
+    </label>
 
-        <div>
-          <label class="block text-sm font-medium text-gray-700">Message</label>
-          <textarea rows="5" bind:value={message} class="mt-1 block w-full rounded-md border border-gray-200 px-3 py-2 text-sm"></textarea>
-        </div>
+    <label class="space-y-2 block">
+      <span class="text-sm font-semibold text-gray-700">Message</span>
+      <textarea
+        class="w-full min-h-[140px] rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-red-600"
+        bind:value={message}
+        placeholder="Write your message..."
+      />
+      <p class="text-xs text-gray-500">
+        Note: This form does not send messages directly. It opens your email app
+        with the message pre-filled.
+      </p>
+    </label>
 
-        <div>
-          <button type="submit" class="inline-flex items-center justify-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">Send message</button>
-        </div>
-      </form>
+    <!-- Honeypot (hidden) -->
+    <div class="hidden">
+      <label>
+        Website
+        <input
+          type="text"
+          bind:value={website}
+          tabindex="-1"
+          autocomplete="off"
+        />
+      </label>
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-3 pt-2">
+      <button
+        type="button"
+        class="inline-flex items-center justify-center rounded-lg bg-red-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2"
+        on:click={handleSend}
+      >
+        Open Email App
+      </button>
+
+      <a
+        class="inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
+        href={buildMailto()}
+      >
+        Open pre-filled email
+      </a>
+    </div>
+
+    <div class="text-sm text-gray-600">
+      Or email us directly:
+      <a
+        class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+        href="mailto:cyberjapanservices@gmail.com"
+      >
+        cyberjapanservices@gmail.com
+      </a>
     </div>
   </div>
 </section>

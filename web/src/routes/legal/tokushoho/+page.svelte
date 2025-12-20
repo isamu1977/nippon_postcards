@@ -1,47 +1,211 @@
 <script lang="ts">
 </script>
 
-<section class="py-12 sm:py-16 lg:py-20 bg-white">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto">
-      <h1 class="text-2xl font-bold text-gray-900">特定商取引法に基づく表記</h1>
-      <p class="mt-4 text-gray-600">以下は特定商取引法に基づく表記のサンプルです。実際の法的要件に合わせて内容を調整してください。</p>
+<section class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+  <!-- Header -->
+  <header class="mb-8">
+    <h1
+      class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900"
+    >
+      特定商取引法に基づく表記
+      <span class="block text-base sm:text-lg font-semibold text-gray-600 mt-2">
+        Act on Specified Commercial Transactions (Japan) — Seller Information
+      </span>
+    </h1>
+  </header>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">販売業者</h2>
-      <p class="mt-2 text-gray-600">Nippon Postcards</p>
+  <!-- Content -->
+  <div class="space-y-10 text-gray-800 leading-relaxed">
+    <!-- 1. Seller Information -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-gray-900">
+        1. 事業者の情報
+        <span class="block text-sm font-semibold text-gray-500"
+          >Seller Information</span
+        >
+      </h2>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">運営責任者</h2>
-      <p class="mt-2 text-gray-600">代表者名（例：山田 太郎）</p>
+      <dl class="rounded-2xl border border-gray-200 bg-white p-6 space-y-5">
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            屋号・ショップ名 / Site Name
+          </dt>
+          <dd class="mt-1 text-base font-semibold text-gray-900">
+            Nippon Postcards
+          </dd>
+          <dd class="text-sm text-gray-600">NipponPostcards.com</dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">所在地</h2>
-      <p class="mt-2 text-gray-600">〒000-0000 愛知県名古屋市サンプル町1-2-3</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            販売業者名 / Seller Name
+          </dt>
+          <dd class="mt-1 text-base font-semibold text-gray-900">松山 武</dd>
+          <dd class="text-sm text-gray-600">Isamu Matsuyama</dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">連絡先</h2>
-      <p class="mt-2 text-gray-600">メール: info@nipponpostcards.com<br>電話: +81-52-000-0000（受付時間：平日10:00〜17:00）</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">所在地 / Address</dt>
+          <dd class="mt-1 text-base text-gray-900">
+            〒440-0863 愛知県豊橋市向山東町２７番地１
+          </dd>
+          <dd class="text-sm text-gray-600">
+            440-0863 Aichi-ken Toyohashi-shi, Mukaiyama Higashimachi 27-1, Japan
+          </dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">販売価格</h2>
-      <p class="mt-2 text-gray-600">各商品ページに税込価格を表示します。掲載価格以外に消費税が別途かかる場合があります。</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">電話番号 / Phone</dt>
+          <dd class="mt-1 text-base text-gray-900">080-7837-9187</dd>
+          <dd class="text-sm text-gray-600">
+            <span class="font-semibold text-gray-700">Mobile Phone Number</span>
+          </dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">商品代金以外の必要料金</h2>
-      <p class="mt-2 text-gray-600">送料、振込手数料など（該当する場合）。</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            メールアドレス / Email
+          </dt>
+          <dd class="mt-1 text-base">
+            <a
+              class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+              href="mailto:cyberjapanservices@gmail.com"
+            >
+              cyberjapanservices@gmail.com
+            </a>
+          </dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">支払方法</h2>
-      <p class="mt-2 text-gray-600">クレジットカード、Stripe等の決済サービスを使用します。その他の支払方法は別途案内します。</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            ホームページURL / Website
+          </dt>
+          <dd class="mt-1 text-base">
+            <a
+              class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+              href="https://www.nipponpostcards.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              www.nipponpostcards.com
+            </a>
+          </dd>
+        </div>
+      </dl>
+    </section>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">支払時期</h2>
-      <p class="mt-2 text-gray-600">ご注文時に決済が確定します。</p>
+    <!-- 2. Product/Service Information -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-gray-900">
+        2. 商品・サービスに関する情報
+        <span class="block text-sm font-semibold text-gray-500"
+          >Product/Service Information</span
+        >
+      </h2>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">引渡し時期</h2>
-      <p class="mt-2 text-gray-600">通常は注文確定後24時間以内（営業日）に発送手配を行います。配送先地域によりお届け日数が異なります。</p>
+      <dl class="rounded-2xl border border-gray-200 bg-white p-6 space-y-5">
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            販売価格 / Sales Price
+          </dt>
+          <dd class="mt-1 text-base text-gray-900">
+            ポストカード1枚一律 <span class="font-semibold">US$15</span>（税込）
+          </dd>
+          <dd class="text-sm text-gray-600">
+            US$15 per postcard (tax included)
+          </dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">返品・交換</h2>
-      <p class="mt-2 text-gray-600">商品の性質上、原則として返品はお受けできません。ただし、商品に欠陥がある場合は到着後7日以内にご連絡ください。送料負担等の対応は状況に応じて案内します。</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            注文方法 / Order Method
+          </dt>
+          <dd class="mt-1 text-base text-gray-900">
+            インターネット（当サイト）
+          </dd>
+          <dd class="text-sm text-gray-600">Internet and website only</dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">販売数量の制限</h2>
-      <p class="mt-2 text-gray-600">在庫状況により制限する場合があります。</p>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            支払方法 / Payment Method
+          </dt>
+          <dd class="mt-1 text-base text-gray-900">クレジットカード、PayPal</dd>
+          <dd class="text-sm text-gray-600">Credit card and PayPal</dd>
+        </div>
 
-      <h2 class="mt-6 text-lg font-semibold text-gray-900">その他</h2>
-      <p class="mt-2 text-gray-600">不明点はお問い合わせページよりご連絡ください。</p>
-    </div>
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            支払時期 / Payment Timing
+          </dt>
+          <dd class="mt-1 text-base text-gray-900">注文時に決済</dd>
+          <dd class="text-sm text-gray-600">Payment at time of order</dd>
+        </div>
+
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            引渡し時期 / Delivery &amp; Shipping
+          </dt>
+          <dd class="mt-1 text-base text-gray-900">
+            決済確認後、<span class="font-semibold">2日以内</span
+            >に発送します。普通郵便で発送するため、トラッキングはできません。
+          </dd>
+          <dd class="text-sm text-gray-600">
+            Shipped within <span class="font-semibold">2 days</span> after payment
+            is confirmed. Tracking is not available with regular mail.
+          </dd>
+        </div>
+
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            返品・交換・キャンセル / Returns, Exchanges &amp; Cancellations
+          </dt>
+          <dd class="mt-2 space-y-2 text-base text-gray-900">
+            <p>
+              <span class="font-semibold">返品・交換：</span>
+              商品の性質上、発送後の返品および交換は原則としてお受けできません。
+            </p>
+            <p>
+              <span class="font-semibold">キャンセル：</span>
+              発送前に限り、キャンセルが可能です。キャンセルをご希望の場合は、できるだけ早くメールにてご連絡ください。
+            </p>
+            <p class="text-sm text-gray-600">
+              Returns/Exchanges: Due to the nature of the product, returns and
+              exchanges are not available after shipment. Cancellations:
+              Possible only before shipment. Please contact us as soon as
+              possible by email.
+            </p>
+          </dd>
+        </div>
+
+        <div>
+          <dt class="text-sm font-semibold text-gray-500">
+            クーリングオフ / Cooling-off Period
+          </dt>
+          <dd class="mt-1 text-base text-gray-900">
+            当サイトは通信販売のため、クーリングオフは適用されません。
+          </dd>
+          <dd class="text-sm text-gray-600">
+            This site is a mail order site, so the cooling-off period does not
+            apply.
+          </dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- Notes -->
+    <section
+      class="rounded-2xl border border-gray-200 bg-gray-50 p-6 space-y-3"
+    >
+      <h3 class="text-base font-bold text-gray-900">補足 / Notes</h3>
+      <ul class="pl-5 list-disc space-y-2 text-sm text-gray-700">
+        <li>
+          表記内容は予告なく変更される場合があります。最新情報は本ページをご確認ください。
+        </li>
+        <li>
+          海外宛の配送では、国・地域により関税・輸入税・手数料が発生する場合があります（発生する場合は受取人負担となることがあります）。
+        </li>
+      </ul>
+    </section>
   </div>
 </section>

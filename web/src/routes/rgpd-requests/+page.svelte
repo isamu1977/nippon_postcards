@@ -1,55 +1,205 @@
 <script lang="ts">
-  // RGPD / GDPR user request information page.
-  // This page explains how users can exercise their GDPR rights (access, deletion, portability, etc.)
-  // and provides direct links to contact channels.
+  const email = "cyberjapanservices@gmail.com";
+
+  type RequestType = "Access" | "Deletion" | "Rectification" | "Unsubscribe";
+
+  function mailtoHref(type: RequestType) {
+    const subject = `RGPD Request — ${type}`;
+    const body = [
+      `Hello Nippon Postcards team,`,
+      ``,
+      `I would like to submit a privacy request under applicable data protection laws.`,
+      ``,
+      `Request type: ${type}`,
+      ``,
+      `Email used on the website (if different):`,
+      `Order number (if available):`,
+      `Country/Region:`,
+      ``,
+      `Request details:`,
+      `- `,
+      ``,
+      `Notes:`,
+      `- I understand you may need to verify my identity before processing this request.`,
+      ``,
+      `Thank you,`,
+      `[Your name]`,
+    ].join("\n");
+
+    return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+
+  const cards: Array<{
+    type: RequestType;
+    title: string;
+    description: string;
+    bullets: string[];
+    extraLink?: { href: string; label: string };
+  }> = [
+    {
+      type: "Access",
+      title: "Data Access Request",
+      description: "Request a copy of the personal data we hold about you.",
+      bullets: [
+        "Best if you include your order number",
+        "We may ask for identity verification",
+      ],
+    },
+    {
+      type: "Deletion",
+      title: "Data Deletion Request",
+      description:
+        "Request deletion of your personal data (“Right to Erasure”).",
+      bullets: [
+        "Some records may be retained for legal/tax reasons",
+        "We’ll explain if exceptions apply",
+      ],
+      extraLink: {
+        href: "/request-deletion",
+        label: "Read the deletion policy",
+      },
+    },
+    {
+      type: "Rectification",
+      title: "Rectify Data Request",
+      description:
+        "Request correction of inaccurate or incomplete personal information.",
+      bullets: [
+        "Tell us exactly what is wrong",
+        "Provide the correct information",
+      ],
+    },
+    {
+      type: "Unsubscribe",
+      title: "Unsubscribe Request",
+      description: "Stop receiving marketing emails and promotional messages.",
+      bullets: [
+        "Use the email address you subscribed with",
+        "Transactional emails may still be sent",
+      ],
+    },
+  ];
 </script>
 
-<section class="py-16 sm:py-20 lg:py-24 bg-white">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="prose prose-lg mx-auto">
-      <h1>RGPD User Request Form</h1>
+<section class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
+  <header class="mb-8">
+    <h1
+      class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900"
+    >
+      Privacy Requests (RGPD/GDPR)
+    </h1>
 
+    <p class="mt-3 text-gray-700 leading-relaxed max-w-3xl">
+      Use the options below to contact us by email with a pre-filled template.
+      We may need to verify your identity before processing certain requests.
+    </p>
+
+    <div
+      class="mt-5 rounded-xl border border-gray-200 bg-white p-4 text-sm text-gray-700"
+    >
       <p>
-        If you wish to exercise your rights under the GDPR (e.g. right of access, rectification or erasure),
-        please use one of the options below to contact our privacy team. We will respond promptly and may
-        request additional information to verify your identity.
+        <span class="font-semibold text-gray-900">Contact email:</span>
+        <a
+          class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+          href={"mailto:" + email}
+        >
+          {email}
+        </a>
       </p>
 
-      <h2>What to include</h2>
-      <p>Please provide:</p>
-      <ul>
-        <li>Your full name</li>
-        <li>The email address you used with our service (if any)</li>
-        <li>A clear description of the request (e.g. "delete my personal data")</li>
-      </ul>
-
-      <h2>How to submit your request</h2>
-      <ol>
-        <li>
-          Use our contact form: <a href="/contact">Contact page</a>. In your message, mention "RGPD request" or "GDPR request".
-        </li>
-        <li>
-          Send an email to our privacy team: <a href="mailto:privacy@nipponpostcards.example">privacy@nipponpostcards.example</a>
-        </li>
-      </ol>
-
-      <h2>What happens next</h2>
-      <p>After receiving a valid request we will:</p>
-      <ul>
-        <li>Verify your identity if necessary</li>
-        <li>Process the request within the legal timeframes</li>
-        <li>Inform you if any data cannot be removed for legal reasons</li>
-      </ul>
-
-      <div class="mt-8 flex flex-col sm:flex-row gap-3">
-        <a href="/contact" class="inline-flex items-center justify-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg">Go to contact form</a>
-        <a href="mailto:privacy@nipponpostcards.example" class="inline-flex items-center justify-center px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg">Email privacy@nipponpostcards.example</a>
-      </div>
-
-      <p class="mt-6 text-sm text-gray-600">
-        Note: If you have an account with us and are logged in, you may be able to manage some data in your account settings.
-        This page is provided for users who prefer to submit a formal GDPR request.
+      <p class="mt-2">
+        Related pages:
+        <a
+          class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+          href="/privacy"
+        >
+          Privacy Policy
+        </a>
+        <span class="mx-2 text-gray-400">•</span>
+        <a
+          class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+          href="/cookies"
+        >
+          Cookie Policy
+        </a>
+        <span class="mx-2 text-gray-400">•</span>
+        <a
+          class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+          href="/terms"
+        >
+          Terms of Use
+        </a>
       </p>
     </div>
+  </header>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    {#each cards as c}
+      <article
+        class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h2 class="text-xl font-bold text-gray-900">{c.title}</h2>
+            <p class="mt-2 text-gray-700 leading-relaxed">{c.description}</p>
+          </div>
+
+          <span
+            class="shrink-0 rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-700"
+          >
+            {c.type}
+          </span>
+        </div>
+
+        <ul class="mt-4 list-disc pl-5 space-y-2 text-sm text-gray-600">
+          {#each c.bullets as b}
+            <li>{b}</li>
+          {/each}
+        </ul>
+
+        {#if c.extraLink}
+          <p class="mt-4 text-sm">
+            <a
+              class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
+              href={c.extraLink.href}
+            >
+              {c.extraLink.label}
+            </a>
+          </p>
+        {/if}
+
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a
+            class="inline-flex items-center justify-center rounded-lg bg-red-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2"
+            href={mailtoHref(c.type)}
+          >
+            Email this request
+          </a>
+
+          <a
+            class="inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
+            href={"mailto:" + email}
+          >
+            Open blank email
+          </a>
+        </div>
+      </article>
+    {/each}
   </div>
+
+  <footer class="mt-10 text-sm text-gray-600">
+    <p class="font-semibold text-gray-900">Tips to speed up processing</p>
+    <ul class="mt-2 list-disc pl-5 space-y-1">
+      <li>
+        Include the email used during checkout (and order number if available).
+      </li>
+      <li>
+        Be specific about what you want (what data, what correction, etc.).
+      </li>
+      <li>
+        For deletion requests, note that some transaction records may be
+        retained for legal/tax compliance.
+      </li>
+    </ul>
+  </footer>
 </section>

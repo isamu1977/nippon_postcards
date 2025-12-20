@@ -1,47 +1,99 @@
 <script lang="ts">
-    import Button from "$lib/components/ui/button/button.svelte";
+    import Button from "$lib/components/ui/button/button.svelte"
+    import { t } from "$lib/translations/translations"
 </script>
 
-<section id="hero" class="py-20 sm:py-24 lg:py-28 bg-white">
-	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-		<div class="max-w-3xl mx-auto text-center">
-			<h1 class="text-5xl sm:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
-				Japanese postcards mailed from Aichi to the world
-			</h1>
+<section id="hero" class="relative overflow-hidden">
+    <!-- Background image -->
+    <div class="absolute inset-0">
+        <img
+            src="/images/hero.png"
+            alt=""
+            class="h-full w-full object-cover"
+            aria-hidden="true"
+        />
+        <!-- Overlay: improves text contrast -->
+        <div
+            class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10"
+        ></div>
+        <!-- Optional: subtle tint to match brand -->
+        <div class="absolute inset-0 bg-red-950/10"></div>
+    </div>
 
-			<p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
-				You choose the postcard, we print the address, add your message,
-				stamp it and mail it from Japan.
-			</p>
+    <!-- Content -->
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="max-w-2xl">
+            <div
+                class="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium text-white mb-6 backdrop-blur"
+            >
+                <span class="flex h-2 w-2 rounded-full bg-red-400 mr-2"></span>
+                {$t('homePage.hero.badge.text')}
+            </div>
 
-			<div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
-				<a href="/shop" class="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg text-lg">
-					Choose a postcard
-				</a>
+            <h1
+                class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl"
+            >
+                <span class="block xl:inline">{$t('homePage.hero.title.line1')}</span>
+            </h1>
 
-				<Button variant="outline" class="inline-flex items-center justify-center border border-red-600 text-red-600 hover:bg-red-50 px-6 py-3 rounded-lg text-lg">
-					See how it works
-				</Button>
-			</div>
+            <p class="mt-4 text-base text-white/85 sm:text-xl">
+                {$t('homePage.hero.description')}
+            </p>
 
-			<p class="text-sm text-gray-500">
-				All postcards are mailed from Aichi Prefecture, Japan.
-			</p>
-		</div>
+            <div class="mt-8 flex flex-col sm:flex-row gap-3">
+                <a
+                    href="/shop"
+                    class="inline-flex items-center justify-center rounded-lg bg-red-600 px-8 py-3 text-base font-semibold text-white hover:bg-red-700 transition shadow-red-600/20 hover:shadow-red-600/40"
+                >
+                    {$t('homePage.hero.cta.primary')}
+                </a>
 
-		<div class="mt-14 flex justify-center gap-4">
-			<!-- Placeholder postcard images -->
-			<div class="w-36 h-52 bg-gray-100 rounded-2xl flex items-center justify-center shadow-md">
-				<span class="text-gray-500">Postcard 1</span>
-			</div>
+                <a
+                    href="/#how-it-works"
+                    class="inline-flex items-center justify-center rounded-lg border border-white/25 bg-white/10 px-8 py-3 text-base font-semibold text-white hover:bg-white/15 transition backdrop-blur"
+                >
+                    {$t('homePage.hero.cta.secondary')}
+                </a>
+            </div>
 
-			<div class="w-36 h-52 bg-gray-100 rounded-2xl flex items-center justify-center shadow-md">
-				<span class="text-gray-500">Postcard 2</span>
-			</div>
-
-			<div class="w-36 h-52 bg-gray-100 rounded-2xl flex items-center justify-center shadow-md">
-				<span class="text-gray-500">Postcard 3</span>
-			</div>
-		</div>
-	</div>
+            <div
+                class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/75"
+            >
+                <div class="flex items-center">
+                    <svg
+                        class="h-5 w-5 text-green-400 mr-2"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                    {$t('homePage.hero.features.globalShipping')}
+                </div>
+                <div class="flex items-center">
+                    <svg
+                        class="h-5 w-5 text-green-400 mr-2"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                    {$t('homePage.hero.features.securePayment')}
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

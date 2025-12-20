@@ -40,7 +40,6 @@
   }
 
   // When mirrorRecipient is enabled, copy the first item's recipient info to others.
-  // This is triggered when the checkbox changes.
   function onMirrorChange() {
     if (!mirrorRecipient) return;
     const items = get(cart);
@@ -50,11 +49,10 @@
       updateItemDetails(it.id, {
         recipientName: first.recipientName ?? first.recipientName,
         recipientAddress: first.recipientAddress ?? first.recipientAddress,
-      })
+      }),
     );
   }
 
-  // Coupon handlers
   function applyCouponHandler() {
     const ok = applyCoupon(couponInput);
     if (!ok) {
@@ -80,10 +78,12 @@
         !i.recipientAddress ||
         String(i.recipientAddress).trim() === "" ||
         !i.recipientName ||
-        String(i.recipientName).trim() === ""
+        String(i.recipientName).trim() === "",
     );
     if (missing) {
-      alert("Please provide a recipient name and address for all items before checkout.");
+      alert(
+        "Please provide a recipient name and address for all items before checkout.",
+      );
       return;
     }
     goto("/checkout");
@@ -96,20 +96,41 @@
       <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Your cart</h1>
       <p class="text-gray-600 mt-2">Review items and proceed to checkout.</p>
 
+      <!-- Random selection disclosure (short, non-scary) -->
+      <div
+        class="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700"
+      >
+        <span class="font-semibold text-gray-900">Random selection:</span>
+        You’re choosing a collection. The postcard design is selected at random from
+        that collection, depending on stock.
+      </div>
+
       {#if $cart.length === 0}
         <div class="mt-8 text-center text-gray-600">Your cart is empty.</div>
         <div class="mt-6 text-center">
           <button
             class="px-4 py-2 bg-red-600 text-white rounded-lg"
-            on:click={() => goto("/shop")}>Browse postcards</button
+            on:click={() => goto("/shop")}
           >
+            Browse postcards
+          </button>
         </div>
       {:else}
         <div class="mt-6 space-y-4">
-          <div class="flex items-center justify-between">
+          <div
+            class="flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+          >
             <div class="flex items-center gap-3">
-              <input id="mirror" type="checkbox" bind:checked={mirrorRecipient} class="rounded" on:change={onMirrorChange} />
-              <label for="mirror" class="text-sm text-gray-600">Use same recipient for all cards</label>
+              <input
+                id="mirror"
+                type="checkbox"
+                bind:checked={mirrorRecipient}
+                class="rounded"
+                on:change={onMirrorChange}
+              />
+              <label for="mirror" class="text-sm text-gray-600"
+                >Use same recipient for all cards</label
+              >
             </div>
 
             <div class="flex items-center gap-3">
@@ -119,8 +140,14 @@
                 bind:value={couponInput}
                 class="rounded-md border border-gray-200 px-2 py-1 text-sm"
               />
-              <button class="px-3 py-1 bg-gray-100 rounded" on:click={applyCouponHandler}>Apply</button>
-              <button class="px-3 py-1 rounded border" on:click={removeCouponHandler}>Remove</button>
+              <button
+                class="px-3 py-1 bg-gray-100 rounded"
+                on:click={applyCouponHandler}>Apply</button
+              >
+              <button
+                class="px-3 py-1 rounded border"
+                on:click={removeCouponHandler}>Remove</button
+              >
             </div>
           </div>
 
@@ -129,12 +156,38 @@
               class="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white border border-gray-100 rounded-xl p-4 shadow-sm"
             >
               <div class="flex-1 w-full sm:pr-6">
-                <div class="font-semibold text-gray-900">{item.title}</div>
-                <div class="text-sm text-gray-600">US$ {formatUnitPrice(item.price)} each</div>
+                <!-- Header row: image + title -->
+                <div class="flex items-start gap-4">
+                  {#if item.image}
+                    <img
+                      src={item.image}
+                      alt={item.imageAlt ?? item.title}
+                      class="h-20 w-20 rounded-lg object-cover border border-gray-200 bg-gray-50"
+                      loading="lazy"
+                    />
+                  {:else}
+                    <div
+                      class="h-20 w-20 rounded-lg border border-gray-200 bg-gray-50 flex items-center justify-center"
+                    >
+                      <span class="text-xs text-gray-400">No image</span>
+                    </div>
+                  {/if}
+
+                  <div class="min-w-0 flex-1">
+                    <div class="font-semibold text-gray-900 truncate">
+                      {item.title}
+                    </div>
+                    <div class="text-sm text-gray-600">
+                      US$ {formatUnitPrice(item.price)} each
+                    </div>
+                  </div>
+                </div>
 
                 <div class="mt-3 grid grid-cols-1 gap-3">
                   <div>
-                    <label class="text-sm text-gray-600 block">Recipient name</label>
+                    <label class="text-sm text-gray-600 block"
+                      >Recipient name</label
+                    >
                     <input
                       type="text"
                       value={item.recipientName ?? ""}
@@ -147,13 +200,16 @@
                   </div>
 
                   <div>
-                    <label class="text-sm text-gray-600 block">Recipient address</label>
+                    <label class="text-sm text-gray-600 block"
+                      >Recipient address</label
+                    >
                     <input
                       type="text"
                       value={item.recipientAddress ?? ""}
                       on:input={(e) =>
                         updateItemDetails(item.id, {
-                          recipientAddress: (e.target as HTMLInputElement).value,
+                          recipientAddress: (e.target as HTMLInputElement)
+                            .value,
                         })}
                       class="w-full mt-1 rounded-md border border-gray-200 px-2 py-1 text-sm"
                     />
@@ -188,9 +244,15 @@
 
           <div class="text-right mt-4 space-y-1">
             <div class="text-sm text-gray-600">Items: {$totalItems}</div>
-            <div class="text-sm text-gray-600">Subtotal: US$ {$subtotal.toFixed(2)}</div>
+            <div class="text-sm text-gray-600">
+              Subtotal: US$ {$subtotal.toFixed(2)}
+            </div>
             {#if $discountAmount > 0}
-              <div class="text-sm text-gray-600">Discount ({($discountRate * 100).toFixed(0)}%): -US$ {$discountAmount.toFixed(2)}</div>
+              <div class="text-sm text-gray-600">
+                Discount ({($discountRate * 100).toFixed(0)}%): -US$ {$discountAmount.toFixed(
+                  2,
+                )}
+              </div>
             {/if}
             <div class="text-xl font-extrabold text-gray-900">
               Total: US$ {$totalPrice.toFixed(2)}
@@ -200,12 +262,16 @@
           <div class="mt-6 flex items-center gap-3">
             <button
               class="px-4 py-2 bg-red-600 text-white rounded-lg"
-              on:click={proceedToCheckout}>Proceed to checkout</button
+              on:click={proceedToCheckout}
             >
+              Proceed to checkout
+            </button>
             <button
               class="px-4 py-2 border border-gray-200 rounded-lg text-sm"
-              on:click={clearCart}>Clear cart</button
+              on:click={clearCart}
             >
+              Clear cart
+            </button>
           </div>
         </div>
       {/if}

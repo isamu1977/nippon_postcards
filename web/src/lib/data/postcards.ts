@@ -4,7 +4,8 @@ export type Postcard = {
   description: string;
   price: number;
   category: string;
-  image?: string;
+  image?: string;     // public URL from /static (e.g. "/images/...")
+  imageAlt?: string;
 };
 
 export const postcards: Postcard[] = [
@@ -14,7 +15,8 @@ export const postcards: Postcard[] = [
     description: "Postcards featuring historic castles across Japan.",
     price: 15.0,
     category: "Castles",
-    image: "/lib/assets/postcard-castle.jpg"
+    image: "/images/himeji-castle.png",
+    imageAlt: "Himeji Castle postcard design"
   },
   {
     id: "world-heritage",
@@ -22,7 +24,8 @@ export const postcards: Postcard[] = [
     description: "Scenes from UNESCO World Heritage sites in Japan.",
     price: 15.0,
     category: "Heritage",
-    image: "/lib/assets/postcard-heritage.jpg"
+    image: "/images/itsukushima-jinja.png",
+    imageAlt: "Itsukushima Shrine (floating torii) postcard design"
   },
   {
     id: "mount-fuji",
@@ -30,6 +33,7 @@ export const postcards: Postcard[] = [
     description: "Iconic views of Mount Fuji in different seasons and moods.",
     price: 15.0,
     category: "Nature",
-    image: "/lib/assets/postcard-fuji.jpg"
+    image: "/images/mount-fuji.png",
+    imageAlt: "Mount Fuji postcard design"
   }
 ];

@@ -4,23 +4,19 @@ import type { Postcard } from "$lib/data/postcards";
 /**
  * Cart store with coupon + discount support and recipient name/address fields.
  *
- * Exports:
- * - cart: writable CartItem[]
- * - subtotal: derived number (before discounts)
- * - totalItems: derived number
- * - discountRate: derived number (0..0.2)
- * - discountAmount: derived number
- * - totalPrice: derived number (after discounts)
- * - coupon: writable string|null
- * - applyCoupon(code): boolean
- * - clearCoupon()
- * - standard cart mutation helpers (addToCart, updateQuantity, removeFromCart, updateItemDetails, clearCart)
+ * Notes:
+ * - One line item per postcard (no quantity aggregation).
+ * - Persists to localStorage.
+ * - Stores image fields so cart UI can render thumbnails.
  */
 
 export type CartItem = {
-  id: string;
+  id: string; // unique per line item in cart
+  postcardId: string; // product/category id (e.g. "mount-fuji")
   title: string;
   price: number;
+  image?: string;
+  imageAlt?: string;
   recipientName?: string;
   recipientAddress?: string;
   message?: string;
@@ -103,42 +99,54 @@ export const discountRate = derived(
   }
 );
 
-export const discountAmount = derived([subtotal, discountRate], ([$subtotal, $discountRate]) =>
-  Math.round(($subtotal * $discountRate) * 100) / 100
+export const discountAmount = derived(
+  [subtotal, discountRate],
+  ([$subtotal, $discountRate]) => Math.round($subtotal * $discountRate * 100) / 100
 );
 
-export const totalPrice = derived([subtotal, discountAmount], ([$subtotal, $discountAmount]) =>
-  Math.round(($subtotal - $discountAmount) * 100) / 100
+export const totalPrice = derived(
+  [subtotal, discountAmount],
+  ([$subtotal, $discountAmount]) => Math.round(($subtotal - $discountAmount) * 100) / 100
 );
 
 export function addToCart(p: Postcard) {
   if (!p) return;
+
   cart.update((items) => {
     const uniqueId = `${p.id}-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
-    items.push({ id: uniqueId, title: p.title, price: p.price });
+
+    items.push({
+      id: uniqueId,
+      postcardId: p.id,
+      title: p.title,
+      price: p.price,
+      image: p.image,
+      // if Postcard doesn't have imageAlt in your type yet, this safely falls back to title
+      imageAlt: (p as any).imageAlt ?? p.title
+    });
+
     return [...items];
   });
 }
-
 
 export function removeFromCart(id: string) {
   cart.update((items) => items.filter((it) => it.id !== id));
 }
 
 export function updateItemDetails(
-  postcardId: string,
+  cartItemId: string,
   details: { recipientName?: string; recipientAddress?: string; message?: string }
 ) {
   cart.update((items) =>
     items.map((it) => {
-      if (it.id !== postcardId) return it;
+      if (it.id !== cartItemId) return it;
       return {
         ...it,
         recipientName:
           details.recipientName !== undefined ? details.recipientName : it.recipientName,
         recipientAddress:
           details.recipientAddress !== undefined ? details.recipientAddress : it.recipientAddress,
-        message: details.message !== undefined ? details.message : it.message,
+        message: details.message !== undefined ? details.message : it.message
       };
     })
   );
@@ -159,7 +167,6 @@ export function applyCoupon(code: string) {
       coupon.set(normalized);
       return true;
     } else {
-      // invalid coupon - still store the attempted value (optional)
       coupon.set(null);
       return false;
     }

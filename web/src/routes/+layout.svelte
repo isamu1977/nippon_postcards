@@ -38,8 +38,7 @@
 		<div class="flex items-center justify-between h-16">
 			<!-- Logo -->
 			<a href="/" class="flex items-center space-x-3 text-gray-900">
-				<span class="text-lg font-semibold">{$t("siteTitle")}</span>
-				<span class="inline-flex items-center justify-center w-3 h-3 bg-red-600 rounded-full ring-1 ring-red-100"></span>
+				<img src="/images/nippon-logo-colored.png" alt="Logo" class="h-12 w-auto" />
 			</a>
 
 			<!-- Desktop nav -->
