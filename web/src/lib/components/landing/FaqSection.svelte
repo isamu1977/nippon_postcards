@@ -2,7 +2,7 @@
   import { t } from "$lib/translations/translations";
 
   // Quantidade de FAQs no JSON
-  const faqCount = 6;
+  const faqCount = 7;
 </script>
 
 <section id="faq" class="py-16 sm:py-20 bg-white">

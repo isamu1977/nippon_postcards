@@ -4,9 +4,9 @@
   import { t } from "$lib/translations/translations";
 
   export let items = [
-    { key: "homePage.trustStrip.items[0].text", icon: Banknote },
-    { key: "homePage.trustStrip.items[1].text", icon: Clock },
-    { key: "homePage.trustStrip.items[2].text", icon: ShieldCheck },
+    { key: "homePage.trustStrip.items.[0].text", icon: Banknote },
+    { key: "homePage.trustStrip.items.[1].text", icon: Clock },
+    { key: "homePage.trustStrip.items.[2]text", icon: ShieldCheck },
   ];
 </script>
 

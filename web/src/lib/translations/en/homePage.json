@@ -127,6 +127,10 @@
         "answer": "You can write your own message or choose to use one of our suggested texts."
       },
       {
+        "question": "Can I pick the exact postcard I’ll receive?",
+        "answer": "You pick the collection — we take care of the rest. We’ll choose a beautiful postcard from that collection according to what’s available, so each order is a small, delightful surprise sent straight from Japan."
+      },
+            {
         "question": "How long does delivery take?",
         "answer": "It depends on the destination country and postal services, but typically ranges from X to Y weeks."
       },
