@@ -1,0 +1,45 @@
+{
+  "siteTitle": "Cartões Postais Nippon",
+  "heroTitle": "Envie cartões postais reais do Japão",
+  "heroSubtitle": "Escolha um design, escreva sua mensagem, e nós enviamos para você.",
+  "ctaBuyNow": "Pedir um cartão postal",
+  "languageLabel": "Idioma",
+  "categoryMountFuji": "Monte Fuji",
+  "categoryCastles": "Castelos Japoneses",
+  "categoryWorldHeritage": "Locais do Patrimônio Mundial no Japão",
+  "formMessageLabel": "Sua mensagem",
+  "formRecipientNameLabel": "Nome do Destinatário",
+  "formStreetLabel": "Endereço",
+  "formCityLabel": "Cidade",
+  "formStateLabel": "Estado/Prefeitura",
+  "formPostalCodeLabel": "Código Postal",
+  "formCountryLabel": "País",
+  "formBuyerEmailLabel": "Seu E-mail",
+  "formSubmitButton": "Prosseguir para o Pagamento",
+
+  "nav": {
+    "home": "Início",
+    "howItWorks": "Como funciona",
+    "pricing": "Preços",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "cart": "Carrinho",
+    "choosePostcard": "Escolher um cartão"
+  },
+
+  "legal": {
+    "privacy": "Política de Privacidade",
+    "cookies": "Política de Cookies",
+    "terms": "Termos de Serviço",
+    "requests": "Pedidos",
+    "requestDeletion": "Pedido de eliminação",
+    "tokushoho": "特定商取引法に基づく表記"
+  },
+
+  "footer": {
+    "tagline": "Cartões postais japoneses enviados de Aichi para o mundo.",
+    "navigateTitle": "Navegar",
+    "legalTitle": "Legal",
+    "rights": "Todos os direitos reservados."
+  }
+}

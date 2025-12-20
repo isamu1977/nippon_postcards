@@ -5,86 +5,44 @@ const config = ({
   loaders: [
     {
       locale: 'de',
-      key: 'home',
+      key: 'common',
       loader: async () => (
-        await import('./de/homePage.json')
-      ).default,
-    },
-    {
-      locale: 'de',
-      key: 'layout',
-      loader: async () => (
-        await import('./de/layout.json')
+        await import('./de/common.json')
       ).default,
     },
     {
       locale: 'en',
-      key: 'home',
+      key: 'common',
       loader: async () => (
-        await import('./en/homePage.json')
-      ).default,
-    },
-    {
-      locale: 'en',
-      key: 'layout',
-      loader: async () => (
-        await import('./en/layout.json')
+        await import('./en/common.json')
       ).default,
     },
     {
       locale: 'es',
-      key: 'home',
+      key: 'common',
       loader: async () => (
-        await import('./es/homePage.json')
-      ).default,
-    },
-    {
-      locale: 'es',
-      key: 'layout',
-      loader: async () => (
-        await import('./es/layout.json')
+        await import('./es/common.json')
       ).default,
     },
     {
       locale: 'fr',
-      key: 'home',
+      key: 'common',
       loader: async () => (
-        await import('./fr/homePage.json')
-      ).default,
-    },
-    {
-      locale: 'fr',
-      key: 'layout',
-      loader: async () => (
-        await import('./fr/layout.json')
+        await import('./fr/common.json')
       ).default,
     },
     {
       locale: 'it',
-      key: 'home',
+      key: 'common',
       loader: async () => (
-        await import('./it/homePage.json')
-      ).default,
-    },
-    {
-      locale: 'it',
-      key: 'layout',
-      loader: async () => (
-        await import('./it/layout.json')
+        await import('./it/common.json')
       ).default,
     },
     {
       locale: 'pt',
-      key: 'home',
+      key: 'common',
       loader: async () => (
-        await import('./pt/homePage.json')
-      ).default,
-    },
-    {
-      locale: 'pt',
-      key: 'layout',
-      loader: async () => (
-        await import('./pt/layout.json')
+        await import('./pt/common.json')
       ).default,
     },
   ],

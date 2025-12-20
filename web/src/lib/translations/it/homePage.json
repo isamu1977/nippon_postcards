@@ -1,0 +1,146 @@
+{
+  "hero": {
+    "badge": {
+      "text": "Mailed directly from Aichi, Japan"
+    },
+    "title": {
+      "line1": "Share a piece of",
+      "highlight": "Real Japan"
+    },
+    "description": "Beautiful, authentic Japanese postcards mailed for you using real stamps. Send a thoughtful message from the Land of the Rising Sun to anyone in the world.",
+    "cta": {
+      "primary": "Choose a postcard",
+      "secondary": "See how it works"
+    },
+    "features": {
+      "globalShipping": "Global Shipping",
+      "securePayment": "Secure Payment"
+    }
+  },
+  "trustStrip": {
+    "items": [
+      {
+        "text": "All inclusive price: US$ 15.00"
+      },
+      {
+        "text": "Mailed within 24h from Japan"
+      },
+      {
+        "text": "Secure payments with Stripe"
+      }
+    ]
+  },
+  "howItWorksSection": {
+    "eyebrow": "Simple Process",
+    "title": "How it works",
+    "description": "From our screen to their mailbox in four simple steps.",
+    "steps": [
+      {
+        "title": "Choose a postcard",
+        "description": "Pick a design from our curated collection of Japanese scenery and art."
+      },
+      {
+        "title": "Recipient details",
+        "description": "Tell us who to send it to. We print the address clearly for reliable delivery."
+      },
+      {
+        "title": "Your message",
+        "description": "Write a personal note. We'll transcribe it onto the card for you."
+      },
+      {
+        "title": "We mail it",
+        "description": "Stamped with real Japanese stamps and mailed from Aichi Prefecture."
+      }
+    ]
+  },
+  "categoriesSection": {
+    "title": "Our Collections",
+    "description": "Explore our curated selection of high-quality Japanese postcards.",
+    "cta": {
+      "viewAll": "View all postcards",
+      "aria": {
+        "viewCollectionPrefix": "View collection: "
+      }
+    },
+    "categories": [
+      {
+        "title": "Japanese Castles",
+        "description": "Historic fortresses and architectural marvels."
+      },
+      {
+        "title": "World Heritage Sites",
+        "description": "Scenes from UNESCO protected sites across Japan."
+      },
+      {
+        "title": "Mount Fuji",
+        "description": "Iconic views of Japan's most famous mountain."
+      }
+    ]
+  },
+  "pricingSection": {
+    "title": "Simple, transparent pricing",
+    "description": "Each postcard costs US$ 15 with mailing included.",
+    "card": {
+      "label": "Price",
+      "price": "US$ 15",
+      "unit": "per postcard",
+      "cta": {
+        "primary": "Choose a postcard"
+      },
+      "discount": "20% off your first order"
+    },
+    "additionalNotes": [
+      "Postcards are mailed within 24 business hours from Aichi Prefecture, Japan.",
+      "Delivery time depends on the destination country and local postal services."
+    ]
+  },
+  "whyPhysicalSection": {
+    "title": "Why physical postcards?",
+    "description": "A short note on why a real postcard still makes an impact in a digital world.",
+    "reasons": [
+      "A real physical gesture in a digital world.",
+      "Real Japanese postage and cancellation marks.",
+      "Perfect for Japan lovers, collectors and special occasions."
+    ],
+    "image": {
+      "placeholder": "Image placeholder"
+    }
+  },
+  "faqSection": {
+    "title": "Frequently asked questions",
+    "description": "Answers to the most common questions.",
+    "items": [
+      {
+        "question": "Is the postcard sent directly to the recipient?",
+        "answer": "Yes. You provide the recipient's address and we mail the postcard directly from Japan."
+      },
+      {
+        "question": "Can I send the postcard to myself?",
+        "answer": "Yes. You can enter your own address and receive the postcard at home."
+      },
+      {
+        "question": "Is the address handwritten or printed?",
+        "answer": "We print the address to ensure maximum legibility and reduce delivery errors."
+      },
+      {
+        "question": "Who writes the message?",
+        "answer": "You can write your own message or choose to use one of our suggested texts."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "It depends on the destination country and postal services, but typically ranges from X to Y weeks."
+      },
+      {
+        "question": "Does the US$ 15 price include mailing?",
+        "answer": "Yes. The price is per postcard, with mailing included."
+      }
+    ]
+  },
+  "finalCtaSection": {
+    "title": "Ready to send a postcard from Japan?",
+    "description": "Choose a design, write your message and we will mail it from Aichi, Japan.",
+    "cta": {
+      "primary": "Choose a postcard"
+    }
+  }
+}
