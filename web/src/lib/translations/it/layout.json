@@ -1,0 +1,26 @@
+{
+  "siteTitle": "Cartoline Nippon",
+  "nav": {
+    "home": "Home",
+    "howItWorks": "Come funziona",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "contact": "Contatti",
+    "cart": "Carrello",
+    "choosePostcard": "Scegli una cartolina"
+  },
+  "footer": {
+    "tagline": "Invia un pezzo di Giappone ai tuoi cari.",
+    "navigateTitle": "Navigazione",
+    "legalTitle": "Legale",
+    "rights": "Tutti i diritti riservati."
+  },
+  "legal": {
+    "privacy": "Informativa sulla privacy",
+    "cookies": "Informativa sui cookie",
+    "terms": "Termini di utilizzo",
+    "requests": "Richieste GDPR",
+    "requestDeletion": "Richiedi la cancellazione dei dati",
+    "tokushoho": "Tokushoho"
+  }
+}

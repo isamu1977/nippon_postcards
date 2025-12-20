@@ -1,0 +1,26 @@
+{
+  "siteTitle": "Nippon Postkarten",
+  "nav": {
+    "home": "Startseite",
+    "howItWorks": "Wie es funktioniert",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "cart": "Warenkorb",
+    "choosePostcard": "Postkarte wählen"
+  },
+  "footer": {
+    "tagline": "Senden Sie ein Stück Japan an Ihre Lieben.",
+    "navigateTitle": "Navigation",
+    "legalTitle": "Rechtliches",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "Nutzungsbedingungen",
+    "requests": "DSGVO-Anfragen",
+    "requestDeletion": "Datenlöschung beantragen",
+    "tokushoho": "Tokushoho"
+  }
+}

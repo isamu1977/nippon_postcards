@@ -1,0 +1,26 @@
+{
+  "siteTitle": "Cartões Postais Nippon",
+  "nav": {
+    "home": "Início",
+    "howItWorks": "Como funciona",
+    "pricing": "Preços",
+    "faq": "FAQ",
+    "contact": "Contato",
+    "cart": "Carrinho",
+    "choosePostcard": "Escolha um Cartão Postal"
+  },
+  "footer": {
+    "tagline": "Envie um pedaço do Japão para seus entes queridos.",
+    "navigateTitle": "Navegar",
+    "legalTitle": "Legal",
+    "rights": "Todos os direitos reservados."
+  },
+  "legal": {
+    "privacy": "Política de Privacidade",
+    "cookies": "Política de Cookies",
+    "terms": "Termos de Uso",
+    "requests": "Solicitações RGPD",
+    "requestDeletion": "Solicitar Exclusão de Dados",
+    "tokushoho": "Tokushoho"
+  }
+}

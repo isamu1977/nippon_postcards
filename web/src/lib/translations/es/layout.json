@@ -1,0 +1,26 @@
+{
+  "siteTitle": "Postales de Nippon",
+  "nav": {
+    "home": "Inicio",
+    "howItWorks": "Cómo funciona",
+    "pricing": "Precios",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto",
+    "cart": "Carrito",
+    "choosePostcard": "Elegir una postal"
+  },
+  "footer": {
+    "tagline": "Envía un pedazo de Japón a tus seres queridos.",
+    "navigateTitle": "Navegación",
+    "legalTitle": "Legal",
+    "rights": "Todos los derechos reservados."
+  },
+  "legal": {
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "terms": "Términos de uso",
+    "requests": "Solicitudes RGPD",
+    "requestDeletion": "Solicitar eliminación de datos",
+    "tokushoho": "Tokushoho"
+  }
+}
