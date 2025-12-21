@@ -59,10 +59,34 @@ const config = ({
         await import('./pt/homePage.json')
       ).default,
     },
-  
-  
-  
-  
+    {
+      locale: 'es',
+      key: 'layout',
+      loader: async () => (
+        await import('./es/layout.json')
+      ).default,
+    },
+    {
+      locale: 'fr',
+      key: 'layout',
+      loader: async () => (
+        await import('./fr/layout.json')
+      ).default,
+    },
+    {
+      locale: 'it',
+      key: 'layout',
+      loader: async () => (
+        await import('./it/layout.json')
+      ).default,
+    },
+    {
+      locale: 'pt',
+      key: 'layout',
+      loader: async () => (
+        await import('./pt/layout.json')
+      ).default,
+    },
   ],
 });
 
