@@ -1,17 +1,21 @@
 <script lang="ts">
     import Button from "$lib/components/ui/button/button.svelte"
     import { t } from "$lib/translations/translations"
+    import Carousel from "$lib/components/ui/Carousel.svelte"
+
+    // Editable list of hero images — change as needed
+    const heroImages = [
+        '/images/hero.png',
+        '/images/mount-fuji.png',
+        '/images/himeji-castle.png',
+        '/images/itsukushima-jinja.png'
+    ];
 </script>
 
 <section id="hero" class="relative overflow-hidden">
-    <!-- Background image -->
+    <!-- Background carousel -->
     <div class="absolute inset-0">
-        <img
-            src="/images/hero.png"
-            alt=""
-            class="h-full w-full object-cover"
-            aria-hidden="true"
-        />
+        <Carousel images={heroImages} interval={6000} />
         <!-- Overlay: improves text contrast -->
         <div
             class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/10"
