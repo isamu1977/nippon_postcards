@@ -16,6 +16,7 @@ const keys = [
   'shopPage',
   'termsUsePage',
   'tokushohoPage',
+  'checkoutPage',
 ] as const;
 
 type Locale = typeof localesList[number];

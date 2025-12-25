@@ -1,0 +1,6 @@
+{
+  "error": {
+    "unableCreate": "Checkout-Sitzung konnte nicht erstellt werden.",
+    "creating": "Fehler beim Erstellen der Checkout-Sitzung."
+  }
+}

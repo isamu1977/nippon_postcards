@@ -1,0 +1,6 @@
+{
+  "error": {
+    "unableCreate": "Unable to create checkout session.",
+    "creating": "Error creating checkout session."
+  }
+}

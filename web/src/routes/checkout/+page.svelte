@@ -10,6 +10,7 @@
     coupon,
   } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
+  import { t } from "$lib/translations/translations";
 
   let loading = false;
   let error: string | null = null;
@@ -37,13 +38,13 @@
       if (data?.url) {
         window.location.href = data.url;
       } else {
-        error = "Unable to create checkout session.";
-        alert(error);
+        error = 'checkoutPage.error.unableCreate';
+        alert($t(error));
       }
     } catch (err) {
       console.error(err);
-      error = "Error creating checkout session.";
-      alert(error);
+      error = 'checkoutPage.error.creating';
+      alert($t(error));
     } finally {
       loading = false;
     }

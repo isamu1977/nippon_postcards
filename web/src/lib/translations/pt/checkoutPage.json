@@ -1,0 +1,6 @@
+{
+  "error": {
+    "unableCreate": "Não foi possível criar a sessão de checkout.",
+    "creating": "Erro ao criar a sessão de checkout."
+  }
+}

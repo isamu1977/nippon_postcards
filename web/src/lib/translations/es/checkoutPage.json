@@ -1,0 +1,6 @@
+{
+  "error": {
+    "unableCreate": "No se pudo crear la sesión de pago.",
+    "creating": "Error al crear la sesión de pago."
+  }
+}
