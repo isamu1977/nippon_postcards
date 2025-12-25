@@ -1,0 +1,103 @@
+{
+  "root": {
+    "title": "Choisissez une carte postale",
+    "subtitle": "Parcourez nos cartes postales et ajoutez-les à votre panier.",
+    "randomSelection": {
+      "label": "Sélection aléatoire :",
+      "text": "Vous choisissez une collection, pas un design précis. Nous sélectionnerons au hasard un design de carte postale dans la collection choisie selon les stocks."
+    },
+    "card": {
+      "fallbackImage": "Image",
+      "randomDesignNote": "Design aléatoire au sein de la collection (selon les stocks).",
+      "cta": {
+        "view": "Voir",
+        "addToCart": "Ajouter au panier",
+        "goToCart": "Aller au panier"
+      }
+    }
+  },
+  "detail": {
+    "imagePlaceholder": "Espace réservé à l’image",
+    "quickTrust": {
+      "title": "Envoyée depuis le Japon",
+      "description": "Affranchie avec de vrais timbres japonais et expédiée depuis la préfecture d’Aichi."
+    },
+    "randomSelection": {
+      "label": "Sélection aléatoire :",
+      "text": "Vous choisissez une collection, pas un design précis. Nous choisirons au hasard un design de carte postale dans cette collection selon les stocks."
+    },
+    "cta": {
+      "addToCart": "Ajouter au panier",
+      "backToShop": "Retour à la boutique"
+    },
+    "about": {
+      "headlineDefault": "À propos de cette collection",
+      "sections": {
+        "whatYouReceive": "Ce que vous recevrez",
+        "perfectFor": "Parfait pour"
+      },
+      "collections": {
+        "mountFuji": {
+          "long": "Le mont Fuji est la silhouette la plus emblématique du Japon. Cette collection propose des designs inspirés du Fuji dans différentes ambiances — matins paisibles, ciels dramatiques et paysages intemporels. Chaque commande est une petite surprise choisie au hasard dans la collection Mont Fuji, selon la disponibilité.",
+          "highlights": [
+            "1 carte postale physique de la collection Mont Fuji",
+            "Sélection aléatoire du design (selon les stocks)",
+            "Votre message retranscrit sur la carte",
+            "Envoyée depuis le Japon avec de vrais timbres japonais"
+          ],
+          "perfectFor": [
+            "Amoureux du Japon",
+            "Rêveurs de voyage",
+            "Ambiance minimaliste",
+            "Collectionneurs"
+          ]
+        },
+        "japaneseCastles": {
+          "long": "Les châteaux japonais sont une fenêtre sur l’histoire du Japon — murs de pierre, toits superposés et silhouettes impressionnantes. Cette collection célèbre cette atmosphère avec des designs inspirés de châteaux célèbres à travers le Japon. Nous sélectionnons un design au hasard dans la collection Châteaux selon les stocks.",
+          "highlights": [
+            "1 carte postale physique de la collection Châteaux",
+            "Sélection aléatoire du design (selon les stocks)",
+            "Votre message retranscrit sur la carte",
+            "Envoyée depuis le Japon avec de vrais timbres japonais"
+          ],
+          "perfectFor": [
+            "Passionnés d’histoire",
+            "Amateurs d’architecture",
+            "Culture japonaise",
+            "Envoyer un cadeau"
+          ]
+        },
+        "worldHeritage": {
+          "long": "Les sites du patrimoine mondial de l’UNESCO au Japon incluent des monuments culturels et des paysages naturels à couper le souffle. Cette collection tourne autour de designs inspirés de lieux classés au patrimoine mondial à travers le Japon. Le design de votre carte est choisi au hasard dans la collection Patrimoine mondial selon les stocks.",
+          "highlights": [
+            "1 carte postale physique de la collection Patrimoine mondial",
+            "Sélection aléatoire du design (selon les stocks)",
+            "Votre message retranscrit sur la carte",
+            "Envoyée depuis le Japon avec de vrais timbres japonais"
+          ],
+          "perfectFor": [
+            "Fans du patrimoine mondial",
+            "Nature + culture",
+            "Cadeaux attentionnés",
+            "Correspondants"
+          ]
+        },
+        "default": {
+          "long": "Vous choisissez une collection de cartes postales. Nous sélectionnerons un design au hasard dans cette collection selon les stocks, puis nous l’enverrons depuis le Japon.",
+          "highlights": [
+            "1 carte postale physique de cette collection",
+            "Sélection aléatoire du design (selon les stocks)",
+            "Votre message retranscrit sur la carte",
+            "Envoyée depuis le Japon avec de vrais timbres japonais"
+          ],
+          "perfectFor": ["Cadeaux", "Correspondants", "Fans du Japon"]
+        }
+      }
+    },
+    "notFound": {
+      "title": "Collection introuvable",
+      "description": "La collection demandée est introuvable.",
+      "ctaBackToShop": "Retour à la boutique"
+    }
+  }
+}

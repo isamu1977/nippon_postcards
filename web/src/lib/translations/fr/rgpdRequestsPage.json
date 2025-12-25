@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "Demandes de confidentialité (RGPD/GDPR)",
+    "description": "Utilisez les options ci-dessous pour nous contacter par e-mail avec un modèle prérempli. Nous pourrons être amenés à vérifier votre identité avant de traiter certaines demandes.",
+    "contactEmailLabel": "E-mail de contact :",
+    "relatedPagesLabel": "Pages associées :",
+    "relatedPages": {
+      "privacyPolicy": "Politique de confidentialité",
+      "cookiePolicy": "Politique relative aux cookies",
+      "termsOfUse": "Conditions d’utilisation"
+    }
+  },
+  "cards": {
+    "access": {
+      "title": "Demande d’accès aux données",
+      "description": "Demandez une copie des données personnelles que nous détenons à votre sujet.",
+      "bullets": [
+        "Il est préférable d’inclure votre numéro de commande",
+        "Nous pouvons demander une vérification d’identité"
+      ]
+    },
+    "deletion": {
+      "title": "Demande de suppression des données",
+      "description": "Demandez la suppression de vos données personnelles (« Droit à l’effacement »).",
+      "bullets": [
+        "Certains enregistrements peuvent être conservés pour des raisons légales ou fiscales",
+        "Nous vous expliquerons si des exceptions s’appliquent"
+      ],
+      "extraLink": {
+        "label": "Lire la politique de suppression"
+      }
+    },
+    "rectification": {
+      "title": "Demande de rectification des données",
+      "description": "Demandez la correction d’informations personnelles inexactes ou incomplètes.",
+      "bullets": [
+        "Indiquez précisément ce qui est incorrect",
+        "Fournissez les informations correctes"
+      ]
+    },
+    "unsubscribe": {
+      "title": "Demande de désinscription",
+      "description": "Cessez de recevoir des e-mails marketing et des messages promotionnels.",
+      "bullets": [
+        "Utilisez l’adresse e-mail avec laquelle vous vous êtes inscrit",
+        "Les e-mails transactionnels peuvent toujours être envoyés"
+      ]
+    }
+  },
+  "cta": {
+    "emailThisRequest": "Envoyer cette demande par e-mail",
+    "openBlankEmail": "Ouvrir un e-mail vierge"
+  },
+  "footer": {
+    "title": "Conseils pour accélérer le traitement",
+    "bullets": [
+      "Incluez l’adresse e-mail utilisée lors du paiement (et le numéro de commande si disponible).",
+      "Soyez précis sur votre demande (quelles données, quelle correction, etc.).",
+      "Pour les demandes de suppression, certains enregistrements peuvent être conservés pour des obligations légales ou fiscales."
+    ]
+  },
+  "mail": {
+    "body": {
+      "greeting": "Bonjour l’équipe Nippon Postcards,",
+      "intro": "Je souhaite soumettre une demande de confidentialité conformément aux lois applicables en matière de protection des données.",
+      "requestTypeLabel": "Type de demande :",
+      "emailUsed": "Adresse e-mail utilisée sur le site (si différente) :",
+      "orderNumber": "Numéro de commande (si disponible) :",
+      "countryRegion": "Pays/Région :",
+      "requestDetails": "Détails de la demande :",
+      "bulletPlaceholder": "- ",
+      "notes": "Remarques :",
+      "verifyNote": "- Je comprends qu’une vérification d’identité puisse être nécessaire avant le traitement de cette demande.",
+      "thanks": "Merci,",
+      "yourName": "[Votre nom]"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "root": {
+    "title": "Choose a Postcard",
+    "subtitle": "Browse our postcard designs and add them to your cart.",
+    "randomSelection": {
+      "label": "Random selection:",
+      "text": "You’re choosing a collection, not a specific design. We’ll pick a postcard design at random from the selected collection depending on stock."
+    },
+    "card": {
+      "fallbackImage": "Image",
+      "randomDesignNote": "Random design within the collection (based on stock).",
+      "cta": {
+        "view": "View",
+        "addToCart": "Add to cart",
+        "goToCart": "Go to cart"
+      }
+    }
+  },
+  "detail": {
+    "imagePlaceholder": "Image placeholder",
+    "quickTrust": {
+      "title": "Mailed from Japan",
+      "description": "Stamped with real Japanese stamps and mailed from Aichi Prefecture."
+    },
+    "randomSelection": {
+      "label": "Random selection:",
+      "text": "You’re choosing a collection, not a specific design. We’ll pick a postcard design at random from this collection depending on stock."
+    },
+    "cta": {
+      "addToCart": "Add to cart",
+      "backToShop": "Back to shop"
+    },
+    "about": {
+      "headlineDefault": "About this collection",
+      "sections": {
+        "whatYouReceive": "What you’ll receive",
+        "perfectFor": "Perfect for"
+      },
+      "collections": {
+        "mountFuji": {
+          "long": "Mount Fuji is Japan’s most iconic silhouette. This collection features postcard designs inspired by Fuji across different moods—calm mornings, dramatic skies, and timeless landscapes. Each order is a small surprise selected from the Mount Fuji collection, depending on what’s available.",
+          "highlights": [
+            "1 physical postcard from the Mount Fuji collection",
+            "Random design selection (based on stock)",
+            "Your message transcribed onto the card",
+            "Mailed from Japan with real Japanese stamps"
+          ],
+          "perfectFor": [
+            "Japan lovers",
+            "Travel dreamers",
+            "Minimalist vibes",
+            "Collectors"
+          ]
+        },
+        "japaneseCastles": {
+          "long": "Japanese castles are a window into Japan’s history—stone walls, layered roofs, and dramatic silhouettes. This collection celebrates that atmosphere with designs inspired by famous castles around Japan. We select one design at random from the Castles collection based on stock.",
+          "highlights": [
+            "1 physical postcard from the Castles collection",
+            "Random design selection (based on stock)",
+            "Your message transcribed onto the card",
+            "Mailed from Japan with real Japanese stamps"
+          ],
+          "perfectFor": [
+            "History fans",
+            "Architecture lovers",
+            "Japan culture",
+            "Gift sending"
+          ]
+        },
+        "worldHeritage": {
+          "long": "Japan’s UNESCO World Heritage sites include both cultural landmarks and breathtaking natural scenery. This collection rotates through designs inspired by World Heritage locations across Japan. Your postcard design is selected at random within the World Heritage collection depending on stock.",
+          "highlights": [
+            "1 physical postcard from the World Heritage collection",
+            "Random design selection (based on stock)",
+            "Your message transcribed onto the card",
+            "Mailed from Japan with real Japanese stamps"
+          ],
+          "perfectFor": [
+            "World Heritage fans",
+            "Nature + culture",
+            "Thoughtful gifts",
+            "Pen pals"
+          ]
+        },
+        "default": {
+          "long": "You’re choosing a postcard collection. We’ll pick a design at random from this collection depending on stock, then mail it from Japan.",
+          "highlights": [
+            "1 physical postcard from this collection",
+            "Random design selection (based on stock)",
+            "Your message transcribed onto the card",
+            "Mailed from Japan with real Japanese stamps"
+          ],
+          "perfectFor": ["Gifts", "Pen pals", "Japan fans"]
+        }
+      }
+    },
+    "notFound": {
+      "title": "Collection not found",
+      "description": "The requested collection could not be found.",
+      "ctaBackToShop": "Back to shop"
+    }
+  }
+}

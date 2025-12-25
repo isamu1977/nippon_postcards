@@ -1,0 +1,86 @@
+{
+  "header": {
+    "title": "Informativa sui cookie",
+    "lastUpdatedLabel": "Ultimo aggiornamento:",
+    "lastUpdatedDate": "April 1, 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Introduzione",
+      "p1": "La presente Informativa sui Cookie spiega come Nippon Postcards (“noi”, “ci”, “nostro”) utilizza cookie e tecnologie di tracciamento simili quando visiti il nostro sito web www.nipponpostcards.com (il “Sito”). Spiega cosa sono queste tecnologie, perché le utilizziamo e i tuoi diritti per controllarne l’uso.",
+      "p2": "Questa informativa deve essere letta insieme alla nostra Informativa sulla privacy (“Privacy Policy”), che fornisce maggiori dettagli su come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali."
+    },
+    "whatAreCookies": {
+      "title": "2. Cosa sono i cookie?",
+      "p1": "I cookie sono piccoli file di testo che vengono inseriti e memorizzati sul tuo computer o dispositivo mobile quando visiti un sito web. Sono ampiamente utilizzati per far funzionare i siti web (o per farli funzionare in modo più efficiente), nonché per fornire informazioni ai proprietari del sito. I cookie consentono ai siti web di riconoscere il tuo dispositivo e ricordare informazioni sulla tua visita, come le tue preferenze o gli articoli nel carrello.",
+      "p2": "Potremmo anche utilizzare altre tecnologie simili (come web beacon, pixel, file di log), ma in questa informativa ci riferiremo a tutte queste tecnologie collettivamente come “Cookie” per semplicità."
+    },
+    "howWeUseCookies": {
+      "title": "3. Come utilizziamo i cookie",
+      "intro": "Utilizziamo i Cookie per vari scopi, tra cui:",
+      "items": {
+        "essential": "Operazioni essenziali: Per abilitare le funzionalità di base del Sito, come la gestione del carrello, la sicurezza e la memorizzazione delle preferenze di consenso ai cookie.",
+        "analytics": "Prestazioni e analisi: Per comprendere come i visitatori interagiscono con il nostro Sito, quali pagine sono più popolari e identificare aree di miglioramento. Questo ci aiuta a migliorare l’esperienza utente.",
+        "functionality": "Funzionalità: Per ricordare le scelte che hai effettuato (come lingua o regione, se applicabile) e offrire un’esperienza più personalizzata.",
+        "marketing": "[Opzionale – aggiungere se/quando rilevante]: Marketing e pubblicità: Per potenzialmente mostrare annunci pertinenti o misurare l’efficacia delle campagne di marketing (lo faremo solo con il tuo consenso esplicito)."
+      }
+    },
+    "types": {
+      "title": "4. Tipi di cookie che utilizziamo",
+      "intro": "Classifichiamo i Cookie utilizzati sul nostro Sito nelle seguenti categorie:",
+      "strict": {
+        "title": "a) Cookie strettamente necessari",
+        "p1": "Questi Cookie sono essenziali per il corretto funzionamento del Sito e non possono essere disattivati nei nostri sistemi. Di solito vengono impostati solo in risposta ad azioni da te compiute che equivalgono a una richiesta di servizi, come impostare le preferenze sulla privacy, accedere (se applicabile) o compilare moduli, e gestire il carrello.",
+        "p2": "Puoi impostare il browser in modo da bloccare o avvisarti riguardo a questi Cookie, ma alcune parti del Sito non funzioneranno di conseguenza. Questi Cookie non memorizzano informazioni personali identificabili e non richiedono il tuo consenso preventivo."
+      },
+      "analytics": {
+        "title": "b) Cookie di prestazioni e analisi",
+        "p1": "Questi Cookie ci consentono di contare visite e fonti di traffico per misurare e migliorare le prestazioni del nostro Sito. Ci aiutano a sapere quali pagine sono più o meno popolari e a vedere come i visitatori si muovono nel Sito. Tutte le informazioni raccolte da questi Cookie sono aggregate e quindi anonime.",
+        "p2": "Utilizziamo questi Cookie solo se ci fornisci il consenso tramite il nostro strumento di consenso ai cookie.",
+        "p3": "Fornitore di esempio: Utilizziamo Google Analytics per aiutarci ad analizzare l’uso del Sito. Google Analytics utilizza cookie per raccogliere informazioni standard dei log internet e informazioni sul comportamento dei visitatori in forma anonima."
+      },
+      "functionality": {
+        "title": "c) Cookie di funzionalità",
+        "p1": "Questi Cookie consentono al Sito di offrire funzionalità avanzate e personalizzazione. Possono essere impostati da noi o da fornitori terzi i cui servizi abbiamo aggiunto alle nostre pagine. Possono ricordare scelte da te effettuate, come il nome utente (se applicabile) o le preferenze di lingua.",
+        "p2": "Utilizziamo questi Cookie solo se ci fornisci il consenso."
+      },
+      "marketing": {
+        "title": "d) Cookie di targeting o marketing",
+        "p1": "[Includere questa sezione SOLO se prevedi di utilizzare pixel pubblicitari, plugin dei social media che tracciano o tecnologie simili] Questi Cookie possono essere impostati tramite il nostro Sito da noi o dai nostri partner pubblicitari. Possono essere utilizzati per creare un profilo dei tuoi interessi e mostrarti annunci pertinenti su altri siti. Funzionano identificando in modo univoco il tuo browser e dispositivo.",
+        "p2": "Utilizziamo questi Cookie solo se ci fornisci il tuo consenso esplicito.",
+        "p3": "Fornitori di esempio: [Elenca fornitori specifici come Facebook Pixel, tag di remarketing di Google Ads, ecc., se li utilizzi]."
+      }
+    },
+    "thirdParty": {
+      "title": "5. Cookie di terze parti",
+      "p1": "Alcuni Cookie sul nostro Sito possono essere inseriti da fornitori di servizi di terze parti. Ad esempio, utilizziamo Google Analytics per l’analisi del sito web. Anche i gateway di pagamento integrati nel nostro processo di checkout potrebbero impostare cookie necessari al loro funzionamento.",
+      "p2": "Queste terze parti raccolgono e utilizzano informazioni secondo le proprie informative sulla privacy. Ti consigliamo di consultare le loro informative:"
+    },
+    "duration": {
+      "title": "6. Durata dei cookie",
+      "p1": "I cookie possono essere “cookie di sessione” (che vengono eliminati automaticamente quando chiudi il browser) o “cookie persistenti” (che rimangono sul tuo dispositivo per un periodo predeterminato o finché non li elimini manualmente). Utilizziamo entrambi i tipi."
+    },
+    "manage": {
+      "title": "7. Come gestire le preferenze sui cookie",
+      "intro": "Hai il controllo sui Cookie utilizzati sul nostro Sito (ad eccezione dei Cookie strettamente necessari). Ecco come puoi gestirli:",
+      "consentTool": {
+        "title": "a) Il nostro strumento di gestione del consenso ai cookie",
+        "li1": "Quando visiti il nostro Sito per la prima volta, apparirà un banner sui cookie che ti consentirà di accettare tutti i Cookie, rifiutare i Cookie non essenziali o personalizzare le preferenze.",
+        "li2": "Puoi cambiare idea e aggiornare le preferenze di consenso in qualsiasi momento facendo clic sul link delle impostazioni dei cookie disponibile sul sito web."
+      },
+      "browser": {
+        "title": "b) Impostazioni del browser",
+        "p1": "La maggior parte dei browser web offre controlli per gestire i Cookie tramite le impostazioni. Di solito puoi bloccare o eliminare i Cookie memorizzati sul dispositivo. Tuttavia, bloccare i Cookie strettamente necessari potrebbe impedire il corretto funzionamento del Sito.",
+        "p2": "Trova qui le istruzioni per gestire i cookie nei browser più diffusi:"
+      }
+    },
+    "changes": {
+      "title": "8. Modifiche a questa Informativa sui cookie",
+      "p1": "Potremmo aggiornare questa Informativa sui Cookie occasionalmente per riflettere cambiamenti nelle nostre pratiche, nella tecnologia o nei requisiti legali. Quando apportiamo modifiche, aggiorneremo la data “Ultimo aggiornamento” in alto in questa informativa. Ti invitiamo a consultare periodicamente questa informativa."
+    },
+    "contact": {
+      "title": "9. Contattaci",
+      "p1": "Se hai domande su questa Informativa sui Cookie o sul nostro uso dei Cookie, contattaci a:"
+    }
+  }
+}

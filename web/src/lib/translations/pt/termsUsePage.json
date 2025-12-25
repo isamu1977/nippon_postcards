@@ -1,0 +1,163 @@
+{
+  "header": {
+    "title": "Termos de uso",
+    "lastUpdated": {
+      "label": "Última atualização:",
+      "date": "01 de abril de 2025"
+    }
+  },
+  "sections": {
+    "1": {
+      "title": "1. Introdução e concordância",
+      "p1_beforeSite": "Bem-vindo ao Nippon Postcards (",
+      "p1_site": "www.nipponpostcards.com",
+      "p1_afterSite_beforeTerms": "). Estes Termos de uso (",
+      "p1_terms": "\"Termos\"",
+      "p1_afterTerms_beforeService": ") regem seu acesso e uso do nosso site e dos serviços oferecidos, incluindo a compra de cartões postais e nosso serviço exclusivo de envio (",
+      "p1_service": "\"Serviço\"",
+      "p1_afterService": ").",
+      "p2_beforePrivacy": "Ao acessar ou usar nosso site e o Serviço, você concorda em ficar vinculado a estes Termos e à nossa ",
+      "p2_privacyPolicy": "Política de Privacidade",
+      "p2_afterPrivacy": ". Se você não concordar com estes Termos, por favor não utilize o nosso Serviço.",
+      "p3_beforeWeUsOur": "Os termos ",
+      "p3_weUsOur": "\"nós\", \"nos\", \"nosso\"",
+      "p3_afterWeUsOur_beforeLocation": " referem-se ao Nippon Postcards, localizado em ",
+      "p3_location": "Toyohashi, Aichi, Japão",
+      "p3_afterLocation_beforeYou": ". O termo ",
+      "p3_you": "\"você\"",
+      "p3_afterYou": " refere-se ao usuário ou cliente do nosso site e do Serviço."
+    },
+    "2": {
+      "title": "2. Descrição do Serviço",
+      "bullets": [
+        "Oferecemos cartões postais japoneses para venda.",
+        "Nosso Serviço exclusivo inclui: após sua compra e solicitação, imprimiremos fisicamente o endereço do destinatário (fornecido por você) no cartão postal, adicionaremos selos japoneses apropriados e enviaremos o cartão diretamente do Japão via Japan Post (ou outro transportador especificado).",
+        "A intenção é que o cartão chegue ao endereço do destinatário aparentando ter sido enviado pessoalmente do Japão.",
+        "Nós cuidamos do processo físico de envio; entretanto, dependemos dos serviços postais nacionais e internacionais para a entrega."
+      ]
+    },
+    "3": {
+      "title": "3. Contas de usuário",
+      "bullets": [
+        "Para acessar certos recursos, você pode precisar criar uma conta.",
+        "Você é responsável por manter a confidencialidade das informações da sua conta (nome de usuário, senha).",
+        "Você é responsável por todas as atividades que ocorram na sua conta.",
+        "Notifique-nos imediatamente sobre qualquer uso não autorizado da sua conta.",
+        "Reservamo-nos o direito de encerrar contas a nosso critério."
+      ]
+    },
+    "4": {
+      "title": "4. Pedidos, pagamento e cumprimento",
+      "cards": {
+        "placingOrders": {
+          "title": "Fazer pedidos",
+          "p": "Ao fazer um pedido, você confirma que todas as informações fornecidas (incluindo endereço do destinatário e qualquer mensagem) são precisas e completas."
+        },
+        "recipientAddress": {
+          "title": "Endereço do destinatário",
+          "p": "Você é o único responsável por fornecer o endereço postal correto e completo do destinatário. Não nos responsabilizamos por cartões postais que não possam ser entregues devido a endereços incorretos ou incompletos fornecidos por você."
+        },
+        "personalizedMessage": {
+          "title": "Mensagem personalizada (opcional)",
+          "p": "Se você fornecer uma mensagem para ser incluída, você nos concede uma licença não exclusiva e isenta de royalties para usar essa mensagem exclusivamente com o objetivo de cumprir seu pedido. Você é responsável pelo conteúdo da sua mensagem (veja Conteúdo proibido)."
+        },
+        "orderAcceptance": {
+          "title": "Aceitação do pedido",
+          "p": "A confirmação do seu pedido constitui aceitação. Reservamo-nos o direito de recusar ou cancelar pedidos a nosso critério (por exemplo, por suspeita de fraude, problemas de estoque, violação dos termos)."
+        },
+        "pricing": {
+          "title": "Preços",
+          "p": "Os preços são exibidos no site e podem ser alterados. Os preços não incluem possíveis taxas ou impostos de importação no país do destinatário."
+        },
+        "payment": {
+          "title": "Pagamento",
+          "p": "Especifique os métodos de pagamento aceitos (por exemplo, cartão de crédito via Stripe/PayPal). O pagamento deve ser recebido antes de o serviço ser executado (cartão postal enviado)."
+        },
+        "taxesAndDuties": {
+          "title": "Impostos e taxas",
+          "p": "Destinatários fora do Japão podem estar sujeitos a taxas de importação, impostos e tarifas de processamento alfandegário cobradas pelo país. Esses valores são de responsabilidade do destinatário."
+        }
+      }
+    },
+    "5": {
+      "title": "5. Envio e entrega",
+      "bullets": [
+        "Enviaremos o cartão postal do Japão via correio aéreo padrão da Japan Post dentro de 1-2 dias úteis após a confirmação do pedido e o pagamento.",
+        "Os prazos de entrega são apenas estimativas e dependem dos serviços postais internacionais e do desembaraço aduaneiro no país de destino. Não podemos garantir datas de entrega.",
+        "O risco de perda é transferido para você (ou para o destinatário) assim que entregarmos o cartão postal ao transportador postal. Não somos responsáveis por atrasos, perdas ou danos durante o transporte pelo serviço postal.",
+        "Não podemos fornecer rastreamento para correio padrão."
+      ],
+      "businessDaysStrong": "1-2 dias úteis"
+    },
+    "6": {
+      "title": "6. Conteúdo fornecido pelo usuário (mensagens)",
+      "bullets": [
+        "Você concorda em não fornecer conteúdo de mensagem que seja ilegal, difamatório, obsceno, ofensivo, que infrinja direitos de propriedade intelectual, que invada privacidade ou que seja de outra forma inapropriado.",
+        "Você declara e garante que tem o direito de usar qualquer conteúdo que fornecer.",
+        "Reservamo-nos o direito, mas não a obrigação, de recusar imprimir ou enviar mensagens que considerarmos inadequadas ou em violação a estes Termos."
+      ]
+    },
+    "7": {
+      "title": "7. Propriedade intelectual",
+      "p1": "Todo o conteúdo deste site, incluindo textos, gráficos, logotipos, imagens (excluindo mensagens fornecidas pelo usuário após o cumprimento), designs de cartões postais (conforme apresentados para venda) e design do site, é propriedade do Nippon Postcards ou de seus licenciadores e é protegido por leis de direitos autorais japonesas e internacionais.",
+      "p2": "Você pode usar o site para fins pessoais e não comerciais relacionados a navegar e comprar nossos produtos/serviços. Nenhum outro uso, incluindo reprodução, modificação, distribuição ou republicação, é permitido sem nosso consentimento prévio por escrito."
+    },
+    "8": {
+      "title": "8. Usos proibidos",
+      "intro": "Você concorda em não usar o site ou o Serviço:",
+      "bullets": [
+        "Para qualquer finalidade ilegal.",
+        "Para solicitar que outros realizem ou participem de atos ilegais.",
+        "Para infringir ou violar nossos direitos de propriedade intelectual ou os direitos de propriedade intelectual de terceiros.",
+        "Para assediar, abusar, insultar, prejudicar, difamar, caluniar, denegrir, intimidar ou discriminar.",
+        "Para enviar informações falsas ou enganosas.",
+        "Para fazer upload ou transmitir vírus ou qualquer outro tipo de código malicioso.",
+        "Para coletar ou rastrear informações pessoais de terceiros.",
+        "Para fazer spam, phishing, pharm, pretext, spider, crawl ou scrape.",
+        "Para interferir ou contornar os recursos de segurança do Serviço ou de qualquer site relacionado."
+      ]
+    },
+    "9": {
+      "title": "9. Isenções de responsabilidade",
+      "p1_beforeAsIs": "O Serviço e todos os produtos entregues a você por meio do Serviço são fornecidos ",
+      "p1_asIs": "'no estado em que se encontram'",
+      "p1_middle": " e ",
+      "p1_asAvailable": "'conforme disponibilidade'",
+      "p1_after": " sem qualquer declaração, garantia ou condição de qualquer tipo, expressa ou implícita, incluindo todas as garantias ou condições implícitas de comercialização, qualidade, adequação a uma finalidade específica, durabilidade, titularidade e não violação.",
+      "p2": "Não garantimos que o Serviço será ininterrupto, pontual, seguro ou livre de erros.",
+      "p3": "Não garantimos que os resultados obtidos com o uso do Serviço serão precisos ou confiáveis.",
+      "p4": "Não somos responsáveis pelo desempenho dos serviços postais após o envio do cartão postal."
+    },
+    "10": {
+      "title": "10. Limitação de responsabilidade",
+      "p": "Na máxima extensão permitida pela lei aplicável, o Nippon Postcards, seus diretores, executivos, funcionários, afiliadas, agentes, contratados, estagiários, fornecedores, prestadores de serviço ou licenciadores não serão responsáveis por qualquer lesão, perda, reivindicação, nem por quaisquer danos diretos, indiretos, incidentais, punitivos, especiais ou consequenciais de qualquer tipo, incluindo, sem limitação, lucros cessantes, perda de receita, perda de economias, perda de dados, custos de reposição ou quaisquer danos similares, seja com base em contrato, ato ilícito (incluindo negligência), responsabilidade objetiva ou de outra forma, decorrentes do seu uso do Serviço ou de quaisquer produtos adquiridos usando o Serviço, ou por qualquer outra reivindicação relacionada de qualquer maneira ao seu uso do Serviço ou de qualquer produto, incluindo, mas não se limitando a, quaisquer erros ou omissões em qualquer conteúdo, ou qualquer perda ou dano de qualquer tipo incorrido como resultado do uso do Serviço ou de qualquer conteúdo (ou produto) publicado, transmitido ou de outra forma disponibilizado por meio do Serviço, mesmo que avisados da possibilidade."
+    },
+    "11": {
+      "title": "11. Indenização",
+      "p": "Você concorda em indenizar, defender e isentar de responsabilidade o Nippon Postcards e nossas afiliadas, parceiros, executivos, diretores, agentes, contratados, licenciadores, prestadores de serviço, subcontratados, fornecedores, estagiários e funcionários, de qualquer reclamação ou demanda, incluindo honorários advocatícios razoáveis, feita por terceiros devido a ou decorrente da sua violação destes Termos de uso ou dos documentos incorporados por referência, ou da sua violação de qualquer lei ou dos direitos de terceiros."
+    },
+    "12": {
+      "title": "12. Lei aplicável e resolução de disputas",
+      "p1_beforeJapan": "Estes Termos de serviço e quaisquer acordos separados pelos quais fornecemos Serviços a você serão regidos e interpretados de acordo com as leis do ",
+      "p1_japan": "Japão",
+      "p1_afterJapan": ", sem considerar suas regras de conflito de leis.",
+      "p2_beforeToyohashi": "Qualquer disputa decorrente de ou relacionada a estes Termos ou ao Serviço estará sujeita à jurisdição exclusiva dos tribunais localizados em ",
+      "p2_toyohashi": "Toyohashi, Japão",
+      "p2_afterToyohashi": "."
+    },
+    "13": {
+      "title": "13. Alterações nos Termos de uso",
+      "p": "Reservamo-nos o direito de atualizar, alterar ou substituir qualquer parte destes Termos de uso publicando atualizações e/ou alterações em nosso site. É sua responsabilidade verificar esta página periodicamente. Seu uso contínuo do site após a publicação de quaisquer alterações constitui aceitação dessas alterações."
+    },
+    "14": {
+      "title": "14. Rescisão",
+      "p1": "Estes Termos permanecem em vigor até que sejam rescindidos por você ou por nós. Você pode rescindir estes Termos a qualquer momento nos notificando que não deseja mais usar nossos Serviços, ou quando deixar de usar nosso site.",
+      "p2": "Podemos rescindir este acordo a qualquer momento, sem aviso prévio, se, a nosso exclusivo critério, você deixar de cumprir qualquer termo ou disposição."
+    },
+    "15": {
+      "title": "15. Informações de contato",
+      "p_beforeEmail": "Dúvidas sobre os Termos de uso devem ser enviadas para:",
+      "emailText": "cyberjapanservices@gmail.com"
+    }
+  }
+}

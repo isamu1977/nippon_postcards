@@ -1,0 +1,10 @@
+{
+  "title": "Obrigado — seu pedido foi confirmado",
+  "description": "Processamos seu pedido. Uma confirmação será enviada para você por e-mail (quando disponível).",
+  "session": {
+    "label": "Sessão"
+  },
+  "actions": {
+    "backToHomepage": "Voltar para a página inicial"
+  }
+}

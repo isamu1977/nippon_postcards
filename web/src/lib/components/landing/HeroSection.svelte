@@ -5,10 +5,10 @@
 
     // Editable list of hero images — change as needed
     const heroImages = [
-        '/images/hero.png',
-        '/images/mount-fuji.png',
-        '/images/himeji-castle.png',
-        '/images/itsukushima-jinja.png'
+        '/images/hero-img01.jpg',
+        '/images/hero-img02.jpg',
+        '/images/hero-img03.jpg',
+        '/images/hero-img04.jpg'
     ];
 </script>
 

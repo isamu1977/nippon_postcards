@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "Contacto",
+    "description": "Envíanos un mensaje. Al hacer clic en “Abrir aplicación de correo”, se abrirá tu cliente de correo (Gmail/Outlook/Apple Mail) con un mensaje prellenado."
+  },
+  "form": {
+    "name": {
+      "label": "Tu nombre",
+      "placeholder": "Tu nombre"
+    },
+    "email": {
+      "label": "Tu correo electrónico",
+      "placeholder": "tu@ejemplo.com"
+    },
+    "subject": {
+      "label": "Asunto",
+      "placeholder": "¿Cómo podemos ayudarte?"
+    },
+    "message": {
+      "label": "Mensaje",
+      "placeholder": "Escribe tu mensaje...",
+      "note": "Nota: Este formulario no envía mensajes directamente. Abre tu aplicación de correo con el mensaje prellenado."
+    }
+  },
+  "honeypot": {
+    "label": "Sitio web"
+  },
+  "actions": {
+    "openEmailApp": "Abrir aplicación de correo",
+    "openPrefilledEmail": "Abrir correo prellenado"
+  },
+  "footer": {
+    "orEmailUsDirectly": "O envíanos un correo directamente:"
+  }
+}

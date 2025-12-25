@@ -1,0 +1,110 @@
+{
+  "header": {
+    "title": "Política de Privacidade",
+    "lastUpdatedLabel": "Última atualização:",
+    "lastUpdatedDate": "01 de abril de 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Introdução",
+      "p1": "Bem-vindo(a) à Nippon Postcards (“nós”, “nos”, “nosso”). Temos o compromisso de proteger suas informações pessoais e seu direito à privacidade. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você visita nosso site www.nipponpostcards.com e utiliza nossos serviços de venda e envio de cartões-postais (coletivamente, o “Serviço”).",
+      "p2": "Esta política se aplica às informações que coletamos por meio do nosso site e em e-mails ou outras mensagens eletrônicas entre você e este site.",
+      "p3": "Leia esta Política de Privacidade com atenção. Ao utilizar o Serviço, você concorda com os termos desta Política de Privacidade. Se você não concordar, não acesse o site nem utilize o Serviço.",
+      "p4": "Nós somos o controlador dos dados referentes às informações coletadas por meio deste Serviço. Nossos dados de contato estão ao final desta política. Nossas operações têm base em Toyohashi, Aichi, Japão."
+    },
+    "informationCollected": {
+      "title": "2. Informações que coletamos",
+      "intro": "Coletamos informações pessoais que você fornece voluntariamente e informações coletadas automaticamente quando você utiliza o nosso Serviço.",
+      "direct": {
+        "title": "Informações fornecidas diretamente por você",
+        "contact": "Informações de contato: seu nome, seu e-mail, seu endereço de cobrança.",
+        "recipient": "Informações do destinatário: nome e endereço postal da pessoa para quem você deseja enviar o cartão-postal (o destinatário).",
+        "message": "Conteúdo da mensagem: qualquer mensagem pessoal que você fornecer para ser incluída no cartão-postal.",
+        "payment": "Informações de pagamento: os dados de pagamento (por exemplo, cartão de crédito) são processados com segurança por processadores de pagamento terceirizados (por exemplo, Stripe, PayPal). Nós não armazenamos o número completo do seu cartão de crédito em nossos servidores.",
+        "account": "Informações de conta (se aplicável): nome de usuário, senha e outros dados caso você crie uma conta.",
+        "communication": "Comunicações: informações fornecidas quando você entra em contato conosco com dúvidas ou para suporte ao cliente."
+      },
+      "automatic": {
+        "title": "Informações coletadas automaticamente",
+        "logs": "Dados de log e uso: endereço IP, tipo de navegador, sistema operacional, URLs de origem, páginas visitadas, tempo em páginas, cliques em links e outras estatísticas de uso.",
+        "cookies": "Cookies e tecnologias semelhantes: usamos cookies e tecnologias de rastreamento para acompanhar atividades no Serviço e armazenar determinadas informações. Consulte nossa Política de Cookies para mais detalhes e para gerenciar suas preferências."
+      }
+    },
+    "useOfInformation": {
+      "title": "3. Como usamos suas informações",
+      "intro": "Usamos as informações coletadas para diversas finalidades:",
+      "items": {
+        "service": "Para fornecer e gerenciar o Serviço: cumprir seus pedidos de cartões-postais, incluindo imprimir endereços e mensagens, aplicar o selo e enviar os cartões-postais do Japão.",
+        "payments": "Para processar pagamentos: viabilizar transações de pagamento por meio de processadores terceirizados.",
+        "communication": "Para nos comunicarmos com você: enviar confirmações de pedido, atualizações de envio, responder a dúvidas e oferecer suporte.",
+        "marketing": "Para fins de marketing (com seu consentimento): enviar newsletters ou materiais promocionais apenas se você optar por receber. Você pode cancelar a qualquer momento.",
+        "improvement": "Para melhorar nosso Serviço: analisar dados de uso para entender como o site é utilizado, identificar tendências e melhorar a experiência e nossas ofertas.",
+        "security": "Para segurança e prevenção de fraudes: monitorar e prevenir transações fraudulentas e atividades ilegais; proteger a segurança do site e do Serviço.",
+        "legal": "Para cumprir obrigações legais: atender exigências legais, como leis fiscais, ou responder a solicitações legais de autoridades."
+      }
+    },
+    "legalBasis": {
+      "title": "4. Base legal para o tratamento de informações pessoais (GDPR e leis relevantes)",
+      "intro": "Se você estiver no Espaço Econômico Europeu (EEE) ou em regiões com leis semelhantes, nossa base legal depende das informações e do contexto:",
+      "contract": "Execução de contrato: o tratamento é necessário para cumprir nosso contrato com você (processar e enviar seu pedido).",
+      "consent": "Consentimento: quando você nos deu consentimento explícito (por exemplo, e-mails de marketing, cookies não essenciais). Você pode retirar o consentimento a qualquer momento.",
+      "legitimateInterest": "Interesses legítimos: quando necessário para nossos interesses legítimos (por exemplo, melhoria do Serviço, prevenção de fraudes, análises), desde que não prevaleçam sobre seus direitos e liberdades.",
+      "legalObligation": "Obrigação legal: quando necessário para cumprir uma obrigação legal à qual estamos sujeitos."
+    },
+    "sharing": {
+      "title": "5. Como compartilhamos suas informações",
+      "intro": "Não vendemos suas informações pessoais. Podemos compartilhá-las com terceiros apenas nas formas descritas abaixo:",
+      "postal": "Transportadoras/serviços postais: compartilhamos nome e endereço do destinatário com serviços postais (por exemplo, Japan Post) para entregar seu cartão-postal.",
+      "payment": "Processadores de pagamento: compartilhamos informações de pagamento com processadores seguros (por exemplo, Stripe, PayPal) para concluir transações. Eles possuem suas próprias políticas de privacidade.",
+      "providers": "Prestadores de serviços: podemos compartilhar informações com fornecedores terceirizados (por exemplo, hospedagem, análises como Google Analytics, provedores de e-mail). Eles acessam apenas o necessário e são obrigados a proteger os dados.",
+      "legal": "Exigências legais: podemos divulgar informações se exigido por lei ou se acreditarmos de boa-fé que é necessário para proteger nossos direitos, a sua segurança ou a de terceiros, investigar fraudes ou responder a solicitações governamentais.",
+      "business": "Transferências comerciais: em caso de fusão, aquisição ou venda de ativos, suas informações pessoais podem ser transferidas como parte da transação."
+    },
+    "internationalTransfers": {
+      "title": "6. Transferências internacionais de dados",
+      "p1": "Suas informações podem ser transferidas e mantidas em computadores localizados fora de sua jurisdição, onde as leis de proteção de dados podem ser diferentes.",
+      "p2": "Como operamos a partir do Japão, informações de usuários fora do Japão serão processadas no Japão.",
+      "p3": "Tomaremos medidas razoáveis para garantir que seus dados sejam tratados com segurança e de acordo com esta Política e a lei aplicável."
+    },
+    "security": {
+      "title": "7. Segurança dos dados",
+      "p1": "Utilizamos medidas de segurança administrativas, técnicas e físicas para proteger suas informações. Usamos criptografia HTTPS para dados transmitidos de/para o site.",
+      "p2": "Apesar dos nossos esforços, nenhuma medida é perfeita e nenhum método de transmissão pode ser garantido contra interceptação ou uso indevido."
+    },
+    "retention": {
+      "title": "8. Retenção de dados",
+      "p1": "Manteremos suas informações pessoais apenas pelo tempo necessário para os fins desta Política. Podemos reter e usar dados para cumprir obrigações legais, resolver disputas e fazer cumprir acordos e políticas.",
+      "p2": "Dados de uso geralmente são mantidos por um período mais curto, exceto quando usados para reforçar segurança, melhorar o Serviço ou quando a lei exigir retenção por mais tempo."
+    },
+    "rights": {
+      "title": "9. Seus direitos de proteção de dados",
+      "intro": "Dependendo da sua localização, você pode ter os seguintes direitos:",
+      "access": "Direito de acesso: você pode solicitar cópias de suas informações pessoais.",
+      "rectification": "Direito de retificação: você pode solicitar correção de informações imprecisas ou complementação de informações incompletas.",
+      "erasure": "Direito de exclusão: você pode solicitar que apaguemos suas informações pessoais sob certas condições.",
+      "restriction": "Direito de restringir o tratamento: você pode solicitar restrição sob certas condições.",
+      "objection": "Direito de oposição ao tratamento: você pode se opor (por exemplo, marketing direto) sob certas condições.",
+      "portability": "Direito à portabilidade de dados: você pode solicitar transferência para outra organização ou diretamente para você.",
+      "withdraw": "Direito de retirar o consentimento: quando o tratamento se baseia em consentimento, você pode retirar a qualquer momento.",
+      "complaint": "Direito de reclamar a uma autoridade competente.",
+      "note": "Para exercer seus direitos, entre em contato conosco. Podemos precisar verificar sua identidade antes de responder."
+    },
+    "cookies": {
+      "title": "10. Cookies e tecnologias de rastreamento",
+      "p1": "Usamos cookies e tecnologias semelhantes. Para mais informações, consulte nossa Política de Cookies e a ferramenta de consentimento de cookies no site."
+    },
+    "children": {
+      "title": "11. Privacidade de menores",
+      "p1": "Nosso Serviço não é destinado a menores de 18 anos. Não coletamos intencionalmente dados pessoais de menores de 18 anos."
+    },
+    "changes": {
+      "title": "12. Alterações nesta Política de Privacidade",
+      "p1": "Podemos atualizar esta Política periodicamente. As alterações entram em vigor quando publicadas nesta página."
+    },
+    "contact": {
+      "title": "13. Contato",
+      "p1": "Se você tiver dúvidas sobre esta Política ou quiser exercer seus direitos, entre em contato conosco:",
+      "byEmail": "Por e-mail:"
+    }
+  }
+}

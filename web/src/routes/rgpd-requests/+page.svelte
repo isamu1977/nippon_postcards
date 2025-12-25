@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { t } from "$lib/translations/translations";
+
   const email = "cyberjapanservices@gmail.com";
 
   type RequestType = "Access" | "Deletion" | "Rectification" | "Unsubscribe";
@@ -6,24 +8,24 @@
   function mailtoHref(type: RequestType) {
     const subject = `RGPD Request — ${type}`;
     const body = [
-      `Hello Nippon Postcards team,`,
+      $t("rgpdRequestsPage.mail.body.greeting"),
       ``,
-      `I would like to submit a privacy request under applicable data protection laws.`,
+      $t("rgpdRequestsPage.mail.body.intro"),
       ``,
-      `Request type: ${type}`,
+      `${$t("rgpdRequestsPage.mail.body.requestTypeLabel")} ${type}`,
       ``,
-      `Email used on the website (if different):`,
-      `Order number (if available):`,
-      `Country/Region:`,
+      $t("rgpdRequestsPage.mail.body.emailUsed"),
+      $t("rgpdRequestsPage.mail.body.orderNumber"),
+      $t("rgpdRequestsPage.mail.body.countryRegion"),
       ``,
-      `Request details:`,
-      `- `,
+      $t("rgpdRequestsPage.mail.body.requestDetails"),
+      $t("rgpdRequestsPage.mail.body.bulletPlaceholder"),
       ``,
-      `Notes:`,
-      `- I understand you may need to verify my identity before processing this request.`,
+      $t("rgpdRequestsPage.mail.body.notes"),
+      $t("rgpdRequestsPage.mail.body.verifyNote"),
       ``,
-      `Thank you,`,
-      `[Your name]`,
+      $t("rgpdRequestsPage.mail.body.thanks"),
+      $t("rgpdRequestsPage.mail.body.yourName"),
     ].join("\n");
 
     return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -38,44 +40,42 @@
   }> = [
     {
       type: "Access",
-      title: "Data Access Request",
-      description: "Request a copy of the personal data we hold about you.",
+      title: $t("rgpdRequestsPage.cards.access.title"),
+      description: $t("rgpdRequestsPage.cards.access.description"),
       bullets: [
-        "Best if you include your order number",
-        "We may ask for identity verification",
+        $t("rgpdRequestsPage.cards.access.bullets.0"),
+        $t("rgpdRequestsPage.cards.access.bullets.1"),
       ],
     },
     {
       type: "Deletion",
-      title: "Data Deletion Request",
-      description:
-        "Request deletion of your personal data (“Right to Erasure”).",
+      title: $t("rgpdRequestsPage.cards.deletion.title"),
+      description: $t("rgpdRequestsPage.cards.deletion.description"),
       bullets: [
-        "Some records may be retained for legal/tax reasons",
-        "We’ll explain if exceptions apply",
+        $t("rgpdRequestsPage.cards.deletion.bullets.0"),
+        $t("rgpdRequestsPage.cards.deletion.bullets.1"),
       ],
       extraLink: {
         href: "/request-deletion",
-        label: "Read the deletion policy",
+        label: $t("rgpdRequestsPage.cards.deletion.extraLink.label"),
       },
     },
     {
       type: "Rectification",
-      title: "Rectify Data Request",
-      description:
-        "Request correction of inaccurate or incomplete personal information.",
+      title: $t("rgpdRequestsPage.cards.rectification.title"),
+      description: $t("rgpdRequestsPage.cards.rectification.description"),
       bullets: [
-        "Tell us exactly what is wrong",
-        "Provide the correct information",
+        $t("rgpdRequestsPage.cards.rectification.bullets.0"),
+        $t("rgpdRequestsPage.cards.rectification.bullets.1"),
       ],
     },
     {
       type: "Unsubscribe",
-      title: "Unsubscribe Request",
-      description: "Stop receiving marketing emails and promotional messages.",
+      title: $t("rgpdRequestsPage.cards.unsubscribe.title"),
+      description: $t("rgpdRequestsPage.cards.unsubscribe.description"),
       bullets: [
-        "Use the email address you subscribed with",
-        "Transactional emails may still be sent",
+        $t("rgpdRequestsPage.cards.unsubscribe.bullets.0"),
+        $t("rgpdRequestsPage.cards.unsubscribe.bullets.1"),
       ],
     },
   ];
@@ -86,19 +86,20 @@
     <h1
       class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900"
     >
-      Privacy Requests (RGPD/GDPR)
+      {$t("rgpdRequestsPage.header.title")}
     </h1>
 
     <p class="mt-3 text-gray-700 leading-relaxed max-w-3xl">
-      Use the options below to contact us by email with a pre-filled template.
-      We may need to verify your identity before processing certain requests.
+      {$t("rgpdRequestsPage.header.description")}
     </p>
 
     <div
       class="mt-5 rounded-xl border border-gray-200 bg-white p-4 text-sm text-gray-700"
     >
       <p>
-        <span class="font-semibold text-gray-900">Contact email:</span>
+        <span class="font-semibold text-gray-900">
+          {$t("rgpdRequestsPage.header.contactEmailLabel")}
+        </span>
         <a
           class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
           href={"mailto:" + email}
@@ -108,26 +109,26 @@
       </p>
 
       <p class="mt-2">
-        Related pages:
+        {$t("rgpdRequestsPage.header.relatedPagesLabel")}
         <a
           class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
           href="/privacy"
         >
-          Privacy Policy
+          {$t("rgpdRequestsPage.header.relatedPages.privacyPolicy")}
         </a>
         <span class="mx-2 text-gray-400">•</span>
         <a
           class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
           href="/cookies"
         >
-          Cookie Policy
+          {$t("rgpdRequestsPage.header.relatedPages.cookiePolicy")}
         </a>
         <span class="mx-2 text-gray-400">•</span>
         <a
           class="text-red-700 underline decoration-red-300 underline-offset-4 hover:text-red-800 font-semibold"
           href="/terms"
         >
-          Terms of Use
+          {$t("rgpdRequestsPage.header.relatedPages.termsOfUse")}
         </a>
       </p>
     </div>
@@ -173,14 +174,14 @@
             class="inline-flex items-center justify-center rounded-lg bg-red-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2"
             href={mailtoHref(c.type)}
           >
-            Email this request
+            {$t("rgpdRequestsPage.cta.emailThisRequest")}
           </a>
 
           <a
             class="inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
             href={"mailto:" + email}
           >
-            Open blank email
+            {$t("rgpdRequestsPage.cta.openBlankEmail")}
           </a>
         </div>
       </article>
@@ -188,18 +189,13 @@
   </div>
 
   <footer class="mt-10 text-sm text-gray-600">
-    <p class="font-semibold text-gray-900">Tips to speed up processing</p>
+    <p class="font-semibold text-gray-900">
+      {$t("rgpdRequestsPage.footer.title")}
+    </p>
     <ul class="mt-2 list-disc pl-5 space-y-1">
-      <li>
-        Include the email used during checkout (and order number if available).
-      </li>
-      <li>
-        Be specific about what you want (what data, what correction, etc.).
-      </li>
-      <li>
-        For deletion requests, note that some transaction records may be
-        retained for legal/tax compliance.
-      </li>
+      <li>{$t("rgpdRequestsPage.footer.bullets.0")}</li>
+      <li>{$t("rgpdRequestsPage.footer.bullets.1")}</li>
+      <li>{$t("rgpdRequestsPage.footer.bullets.2")}</li>
     </ul>
   </footer>
 </section>

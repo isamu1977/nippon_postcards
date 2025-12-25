@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "Kontakt",
+    "description": "Senden Sie uns eine Nachricht. Wenn Sie auf „E-Mail-App öffnen“ klicken, wird Ihr E-Mail-Programm (Gmail/Outlook/Apple Mail) mit einer vorausgefüllten E-Mail geöffnet."
+  },
+  "form": {
+    "name": {
+      "label": "Ihr Name",
+      "placeholder": "Ihr Name"
+    },
+    "email": {
+      "label": "Ihre E-Mail-Adresse",
+      "placeholder": "sie@beispiel.com"
+    },
+    "subject": {
+      "label": "Betreff",
+      "placeholder": "Wie können wir helfen?"
+    },
+    "message": {
+      "label": "Nachricht",
+      "placeholder": "Schreiben Sie Ihre Nachricht...",
+      "note": "Hinweis: Dieses Formular sendet keine Nachrichten direkt. Es öffnet Ihre E-Mail-App mit einer vorausgefüllten Nachricht."
+    }
+  },
+  "honeypot": {
+    "label": "Webseite"
+  },
+  "actions": {
+    "openEmailApp": "E-Mail-App öffnen",
+    "openPrefilledEmail": "Vorausgefüllte E-Mail öffnen"
+  },
+  "footer": {
+    "orEmailUsDirectly": "Oder schreiben Sie uns direkt per E-Mail:"
+  }
+}

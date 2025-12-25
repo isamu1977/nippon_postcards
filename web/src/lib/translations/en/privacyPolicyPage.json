@@ -1,0 +1,124 @@
+{
+  "header": {
+    "title": "Privacy Policy",
+    "lastUpdatedLabel": "Last Updated:",
+    "lastUpdatedDate": "April 01, 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Introduction",
+      "p1": "Welcome to Nippon Postcards (\"we\", \"us\", \"our\"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.nipponpostcards.com and use our postcard sales and mailing services (collectively, the \"Service\").",
+      "p2": "This policy applies to information we collect through our website and in email or other electronic messages between you and this website.",
+      "p3": "Please read this Privacy Policy carefully. By using the Service, you agree to the terms of this Privacy Policy. If you do not agree, please do not access the site or use the Service.",
+      "p4": "We are the data controller for the information collected via this Service. Our contact details are provided at the end of this policy. Our operations are based in Toyohashi, Aichi, Japan."
+    },
+
+    "informationCollected": {
+      "title": "2. Information We Collect",
+      "intro": "We collect personal information that you voluntarily provide to us and information that is automatically collected when you use our Service.",
+
+      "direct": {
+        "title": "Information You Provide Directly",
+        "contact": "Contact Information: Your name, email address, billing address.",
+        "recipient": "Recipient Information: The name and mailing address of the person you want the postcard sent to (the recipient).",
+        "message": "Message Content: Any personal message you provide to be included on the postcard.",
+        "payment": "Payment Information: Payment details (e.g., credit card information) are processed securely by our third-party payment processors (e.g., Stripe, PayPal). We do not store your full credit card number on our servers.",
+        "account": "Account Information (if applicable): Username, password, and other details if you create an account.",
+        "communication": "Communications: Information you provide when you contact us with questions or for customer support."
+      },
+
+      "automatic": {
+        "title": "Information Collected Automatically",
+        "logs": "Log and Usage Data: IP address, browser type, operating system, referring URLs, pages viewed, time spent on pages, links clicked, and other usage statistics.",
+        "cookies": "Cookies and Similar Technologies: We use cookies and similar tracking technologies to track activity on our Service and hold certain information. Please see our Cookie Policy for more details and how to manage your preferences."
+      }
+    },
+
+    "useOfInformation": {
+      "title": "3. How We Use Your Information",
+      "intro": "We use the information we collect for various purposes:",
+      "items": {
+        "service": "To Provide and Manage the Service: Fulfill your postcard orders, including printing recipient addresses and messages, applying postage, and mailing the postcards from Japan.",
+        "payments": "To Process Payments: Facilitate payment transactions for your orders via our third-party payment processors.",
+        "communication": "To Communicate With You: Send order confirmations, shipping updates, respond to inquiries, and provide customer support.",
+        "marketing": "For Marketing Purposes (with your consent): Send newsletters or promotional materials, but only if you have opted-in to receive them. You can opt-out at any time.",
+        "improvement": "To Improve Our Service: Analyze usage data to understand how our website is used, identify trends, and improve user experience and offerings.",
+        "security": "For Security and Fraud Prevention: Monitor for and prevent fraudulent transactions and other illegal activities; protect the security of our website and Service.",
+        "legal": "To Comply with Legal Obligations: Meet legal requirements, such as tax laws or responding to lawful requests from authorities."
+      }
+    },
+
+    "legalBasis": {
+      "title": "4. Legal Basis for Processing Personal Information (GDPR & relevant laws)",
+      "intro": "If you are from the European Economic Area (EEA) or other regions with similar data protection laws, our legal basis for collecting and using the personal information described above depends on the information concerned and the specific context:",
+      "contract": "Performance of a Contract: Processing is necessary to fulfill our contract with you (i.e., to process and mail your postcard order).",
+      "consent": "Consent: Where you have given us explicit consent (e.g., for marketing emails, non-essential cookies). You can withdraw consent at any time.",
+      "legitimateInterest": "Legitimate Interests: Where processing is necessary for our legitimate interests (e.g., improving our Service, fraud prevention, analytics), provided these interests are not overridden by your data protection interests or fundamental rights and freedoms.",
+      "legalObligation": "Legal Obligation: Where processing is necessary to comply with a legal obligation we are subject to."
+    },
+
+    "sharing": {
+      "title": "5. How We Share Your Information",
+      "intro": "We do not sell your personal information. We may share your information with third parties only in the ways described below:",
+      "postal": "Postal/Shipping Carriers: We share the recipient's name and address with postal services (e.g., Japan Post) to deliver your postcard.",
+      "payment": "Payment Processors: We share payment information with secure third-party payment processors (e.g., Stripe, PayPal) to complete transactions. They have their own privacy policies.",
+      "providers": "Service Providers: We may share information with third-party vendors who perform services on our behalf (e.g., website hosting, analytics providers like Google Analytics, email service providers). These providers only have access to the information needed to perform their functions and are obligated to protect it.",
+      "legal": "Legal Requirements: We may disclose your information if required by law, subpoena, or other legal process, or if we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.",
+      "business": "Business Transfers: In the event of a merger, acquisition, or sale of all or a portion of our assets, your personal information may be transferred as part of that transaction."
+    },
+
+    "internationalTransfers": {
+      "title": "6. International Data Transfers",
+      "p1": "Your information, including personal data, may be transferred to — and maintained on — computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ.",
+      "p2": "As we operate from Japan, information provided by users outside Japan will be processed in Japan.",
+      "p3": "We will take steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and applicable law."
+    },
+
+    "security": {
+      "title": "7. Data Security",
+      "p1": "We use administrative, technical, and physical security measures to help protect your personal information. We use HTTPS encryption for data transmitted to/from our website.",
+      "p2": "Despite our efforts, no security measures are perfect or impenetrable."
+    },
+
+    "retention": {
+      "title": "8. Data Retention",
+      "p1": "We will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy.",
+      "p2": "Usage data is generally retained for a shorter period."
+    },
+
+    "rights": {
+      "title": "9. Your Data Protection Rights",
+      "intro": "Depending on your location, you may have the following rights regarding your personal data:",
+      "access": "The right to access: You can request copies of your personal information.",
+      "rectification": "The right to rectification: You can request that we correct inaccurate or incomplete information.",
+      "erasure": "The right to erasure: You can request that we erase your personal information.",
+      "restriction": "The right to restrict processing.",
+      "objection": "The right to object to processing.",
+      "portability": "The right to data portability.",
+      "withdraw": "The right to withdraw consent.",
+      "complaint": "The right to lodge a complaint with a data protection authority.",
+      "note": "To exercise these rights, please contact us. We may need to verify your identity."
+    },
+
+    "cookies": {
+      "title": "10. Cookies and Tracking Technologies",
+      "p1": "We use cookies and similar technologies. Please refer to our Cookie Policy."
+    },
+
+    "children": {
+      "title": "11. Children's Privacy",
+      "p1": "Our Service is not intended for children under 18 years old."
+    },
+
+    "changes": {
+      "title": "12. Changes to This Privacy Policy",
+      "p1": "We may update this Privacy Policy from time to time."
+    },
+
+    "contact": {
+      "title": "13. Contact Us",
+      "p1": "If you have questions about this Privacy Policy or wish to exercise your rights, please contact us:",
+      "byEmail": "By email:"
+    }
+  }
+}

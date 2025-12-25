@@ -1,0 +1,39 @@
+{
+  "header": {
+    "subtitle": "Act on Specified Commercial Transactions (Japan) — Seller Information"
+  },
+  "section1": {
+    "subtitle": "Seller Information"
+  },
+  "section2": {
+    "subtitle": "Product/Service Information"
+  },
+  "labels": {
+    "siteName": "Site Name",
+    "sellerName": "Seller Name",
+    "address": "Address",
+    "phone": "Phone",
+    "mobilePhoneNumber": "Mobile Phone Number",
+    "email": "Email",
+    "website": "Website",
+    "salesPrice": "Sales Price",
+    "orderMethod": "Order Method",
+    "paymentMethod": "Payment Method",
+    "paymentTiming": "Payment Timing",
+    "deliveryShipping": "Delivery & Shipping",
+    "returnsExchangesCancellations": "Returns, Exchanges & Cancellations",
+    "coolingOffPeriod": "Cooling-off Period"
+  },
+  "values": {
+    "usd15PerPostcardTaxIncluded": "US$15 per postcard (tax included)",
+    "internetAndWebsiteOnly": "Internet and website only",
+    "creditCardAndPayPal": "Credit card and PayPal",
+    "paymentAtTimeOfOrder": "Payment at time of order",
+    "shippedWithin2DaysNoTracking": "Shipped within 2 days after payment is confirmed. Tracking is not available with regular mail.",
+    "returnsExchangesCancellationsText": "Returns/Exchanges: Due to the nature of the product, returns and exchanges are not available after shipment. Cancellations: Possible only before shipment. Please contact us as soon as possible by email.",
+    "coolingOffDoesNotApply": "This site is a mail order site, so the cooling-off period does not apply."
+  },
+  "notes": {
+    "title": "Notes"
+  }
+}

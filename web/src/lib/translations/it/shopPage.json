@@ -1,0 +1,103 @@
+{
+  "root": {
+    "title": "Scegli una cartolina",
+    "subtitle": "Sfoglia le nostre cartoline e aggiungile al carrello.",
+    "randomSelection": {
+      "label": "Selezione casuale:",
+      "text": "Stai scegliendo una collezione, non un design specifico. Selezioneremo casualmente un design di cartolina dalla collezione scelta in base alla disponibilità."
+    },
+    "card": {
+      "fallbackImage": "Immagine",
+      "randomDesignNote": "Design casuale all’interno della collezione (in base alla disponibilità).",
+      "cta": {
+        "view": "Vedi",
+        "addToCart": "Aggiungi al carrello",
+        "goToCart": "Vai al carrello"
+      }
+    }
+  },
+  "detail": {
+    "imagePlaceholder": "Segnaposto immagine",
+    "quickTrust": {
+      "title": "Spedita dal Giappone",
+      "description": "Affrancata con veri francobolli giapponesi e spedita dalla prefettura di Aichi."
+    },
+    "randomSelection": {
+      "label": "Selezione casuale:",
+      "text": "Stai scegliendo una collezione, non un design specifico. Sceglieremo casualmente un design di cartolina da questa collezione in base alla disponibilità."
+    },
+    "cta": {
+      "addToCart": "Aggiungi al carrello",
+      "backToShop": "Torna allo shop"
+    },
+    "about": {
+      "headlineDefault": "Informazioni su questa collezione",
+      "sections": {
+        "whatYouReceive": "Cosa riceverai",
+        "perfectFor": "Perfetto per"
+      },
+      "collections": {
+        "mountFuji": {
+          "long": "Il Monte Fuji è la silhouette più iconica del Giappone. Questa collezione include design di cartoline ispirati al Fuji in diverse atmosfere — mattine tranquille, cieli drammatici e paesaggi senza tempo. Ogni ordine è una piccola sorpresa selezionata casualmente dalla collezione Monte Fuji, in base alla disponibilità.",
+          "highlights": [
+            "1 cartolina fisica della collezione Monte Fuji",
+            "Selezione casuale del design (in base alla disponibilità)",
+            "Il tuo messaggio trascritto sulla cartolina",
+            "Spedita dal Giappone con veri francobolli giapponesi"
+          ],
+          "perfectFor": [
+            "Amanti del Giappone",
+            "Sognatori di viaggi",
+            "Vibrazioni minimaliste",
+            "Collezionisti"
+          ]
+        },
+        "japaneseCastles": {
+          "long": "I castelli giapponesi sono una finestra sulla storia del Giappone — mura di pietra, tetti stratificati e silhouette suggestive. Questa collezione celebra quell’atmosfera con design ispirati a castelli famosi in tutto il Giappone. Selezioniamo un design a caso dalla collezione Castelli in base alla disponibilità.",
+          "highlights": [
+            "1 cartolina fisica della collezione Castelli",
+            "Selezione casuale del design (in base alla disponibilità)",
+            "Il tuo messaggio trascritto sulla cartolina",
+            "Spedita dal Giappone con veri francobolli giapponesi"
+          ],
+          "perfectFor": [
+            "Appassionati di storia",
+            "Amanti dell’architettura",
+            "Cultura giapponese",
+            "Inviare regali"
+          ]
+        },
+        "worldHeritage": {
+          "long": "I siti UNESCO Patrimonio dell’Umanità in Giappone includono sia luoghi culturali sia scenari naturali mozzafiato. Questa collezione ruota tra design ispirati a località Patrimonio dell’Umanità in tutto il Giappone. Il design della tua cartolina viene selezionato casualmente all’interno della collezione Patrimonio dell’Umanità in base alla disponibilità.",
+          "highlights": [
+            "1 cartolina fisica della collezione Patrimonio dell’Umanità",
+            "Selezione casuale del design (in base alla disponibilità)",
+            "Il tuo messaggio trascritto sulla cartolina",
+            "Spedita dal Giappone con veri francobolli giapponesi"
+          ],
+          "perfectFor": [
+            "Fan del Patrimonio UNESCO",
+            "Natura + cultura",
+            "Regali pensati",
+            "Amici di penna"
+          ]
+        },
+        "default": {
+          "long": "Stai scegliendo una collezione di cartoline. Selezioneremo casualmente un design da questa collezione in base alla disponibilità e poi la spediremo dal Giappone.",
+          "highlights": [
+            "1 cartolina fisica di questa collezione",
+            "Selezione casuale del design (in base alla disponibilità)",
+            "Il tuo messaggio trascritto sulla cartolina",
+            "Spedita dal Giappone con veri francobolli giapponesi"
+          ],
+          "perfectFor": ["Regali", "Amici di penna", "Amanti del Giappone"]
+        }
+      }
+    },
+    "notFound": {
+      "title": "Collezione non trovata",
+      "description": "La collezione richiesta non è stata trovata.",
+      "ctaBackToShop": "Torna allo shop"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "header": {
+    "title": "Cookie-Richtlinie",
+    "lastUpdatedLabel": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "April 1, 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Einleitung",
+      "p1": "Diese Cookie-Richtlinie erläutert, wie Nippon Postcards („wir“, „uns“, „unser“) Cookies und ähnliche Tracking-Technologien verwendet, wenn Sie unsere Website www.nipponpostcards.com (die „Website“) besuchen. Sie erklärt, was diese Technologien sind, warum wir sie verwenden und welche Rechte Sie haben, um unsere Verwendung zu steuern.",
+      "p2": "Diese Richtlinie sollte zusammen mit unserer allgemeinen Datenschutzrichtlinie („Privacy Policy“) gelesen werden, die detaillierter beschreibt, wie wir Ihre personenbezogenen Daten erheben, verwenden und schützen."
+    },
+    "whatAreCookies": {
+      "title": "2. Was sind Cookies?",
+      "p1": "Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Computer oder Mobilgerät abgelegt und gespeichert werden. Sie werden häufig verwendet, damit Websites funktionieren (oder effizienter funktionieren) und um den Betreibern der Website Informationen bereitzustellen. Cookies ermöglichen es Websites, Ihr Gerät wiederzuerkennen und Informationen über Ihren Besuch zu speichern, z. B. Ihre Einstellungen oder Artikel in einem Warenkorb.",
+      "p2": "Wir können auch andere ähnliche Technologien (z. B. Web Beacons, Pixel, Logdateien) verwenden, aber der Einfachheit halber bezeichnen wir all diese Technologien in dieser Richtlinie zusammenfassend als „Cookies“."
+    },
+    "howWeUseCookies": {
+      "title": "3. Wie wir Cookies verwenden",
+      "intro": "Wir verwenden Cookies für verschiedene Zwecke, unter anderem:",
+      "items": {
+        "essential": "Wesentliche Funktionen: Zur Ermöglichung zentraler Website-Funktionen, z. B. zur Verwaltung Ihres Warenkorbs, zur Gewährleistung der Sicherheit und zur Speicherung Ihrer Cookie-Einwilligungspräferenzen.",
+        "analytics": "Leistung und Analysen: Um zu verstehen, wie Besucher mit unserer Website interagieren, welche Seiten beliebt sind, und um Verbesserungsmöglichkeiten zu erkennen. Dies hilft uns, die Nutzererfahrung zu verbessern.",
+        "functionality": "Funktionalität: Um Ihre Entscheidungen (z. B. Sprache oder Region, falls zutreffend) zu speichern und Ihnen ein personalisierteres Erlebnis zu bieten.",
+        "marketing": "[Optional – bei Bedarf hinzufügen]: Marketing und Werbung: Um ggf. relevante Werbung bereitzustellen oder die Wirksamkeit von Marketingkampagnen zu messen (dies erfolgt nur mit Ihrer ausdrücklichen Einwilligung)."
+      }
+    },
+    "types": {
+      "title": "4. Arten von Cookies, die wir verwenden",
+      "intro": "Wir kategorisieren die auf unserer Website verwendeten Cookies wie folgt:",
+      "strict": {
+        "title": "a) Unbedingt erforderliche Cookies",
+        "p1": "Diese Cookies sind erforderlich, damit die Website ordnungsgemäß funktioniert, und können in unseren Systemen nicht deaktiviert werden. Sie werden in der Regel nur als Reaktion auf von Ihnen vorgenommene Aktionen gesetzt, die einer Dienstanforderung entsprechen, z. B. das Festlegen Ihrer Datenschutzeinstellungen, das Anmelden (falls zutreffend) oder das Ausfüllen von Formularen sowie die Verwaltung Ihres Warenkorbs.",
+        "p2": "Sie können Ihren Browser so einstellen, dass er diese Cookies blockiert oder Sie darüber informiert; dadurch funktionieren jedoch möglicherweise einige Teile der Website nicht. Diese Cookies speichern keine personenbezogenen Informationen und erfordern keine vorherige Einwilligung."
+      },
+      "analytics": {
+        "title": "b) Leistungs- und Analyse-Cookies",
+        "p1": "Diese Cookies ermöglichen es uns, Besuche und Traffic-Quellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu erkennen, welche Seiten am beliebtesten bzw. am wenigsten beliebt sind, und wie sich Besucher auf der Website bewegen. Alle Informationen, die diese Cookies erfassen, werden aggregiert und sind daher anonym.",
+        "p2": "Wir verwenden diese Cookies nur, wenn Sie uns über unser Cookie-Einwilligungstool Ihre Zustimmung erteilen.",
+        "p3": "Beispielanbieter: Wir verwenden Google Analytics, um die Nutzung der Website zu analysieren. Google Analytics verwendet Cookies, um standardmäßige Internet-Log-Informationen und Informationen zum Besucherverhalten in anonymisierter Form zu erfassen."
+      },
+      "functionality": {
+        "title": "c) Funktionalitäts-Cookies",
+        "p1": "Diese Cookies ermöglichen der Website erweiterte Funktionen und Personalisierung. Sie können von uns oder von Drittanbietern gesetzt werden, deren Dienste wir in unsere Seiten eingebunden haben. Sie können Ihre Auswahl speichern, z. B. Ihren Benutzernamen (falls zutreffend) oder Spracheinstellungen.",
+        "p2": "Wir verwenden diese Cookies nur, wenn Sie Ihre Einwilligung erteilen."
+      },
+      "marketing": {
+        "title": "d) Targeting- oder Marketing-Cookies",
+        "p1": "[Diesen Abschnitt NUR aufnehmen, wenn Sie Werbe-Pixel, Social-Media-Plugins mit Tracking oder ähnliche Technologien nutzen möchten] Diese Cookies können über unsere Website von uns oder unseren Werbepartnern gesetzt werden. Sie können verwendet werden, um ein Profil Ihrer Interessen zu erstellen und Ihnen relevante Werbung auf anderen Websites anzuzeigen. Sie funktionieren, indem sie Ihren Browser und Ihr Gerät eindeutig identifizieren.",
+        "p2": "Wir verwenden diese Cookies nur, wenn Sie uns Ihre ausdrückliche Einwilligung erteilen.",
+        "p3": "Beispielanbieter: [Nennen Sie konkrete Anbieter wie Facebook Pixel, Google Ads Remarketing-Tags usw., falls Sie diese verwenden]."
+      }
+    },
+    "thirdParty": {
+      "title": "5. Cookies von Drittanbietern",
+      "p1": "Einige Cookies auf unserer Website können von Drittanbietern platziert werden. Beispielsweise verwenden wir Google Analytics zur Website-Analyse. In unseren Checkout-Prozess integrierte Zahlungsanbieter können ebenfalls Cookies setzen, die für deren Betrieb erforderlich sind.",
+      "p2": "Diese Drittanbieter erheben und verwenden Informationen gemäß ihren eigenen Datenschutzrichtlinien. Wir empfehlen, deren Richtlinien zu prüfen:"
+    },
+    "duration": {
+      "title": "6. Dauer von Cookies",
+      "p1": "Cookies können entweder „Session-Cookies“ sein (die automatisch gelöscht werden, wenn Sie Ihren Browser schließen) oder „persistente Cookies“ (die für einen festgelegten Zeitraum auf Ihrem Gerät verbleiben oder bis Sie sie manuell löschen). Wir verwenden beide Arten."
+    },
+    "manage": {
+      "title": "7. So verwalten Sie Ihre Cookie-Einstellungen",
+      "intro": "Sie haben Kontrolle über die auf unserer Website verwendeten Cookies (außer den unbedingt erforderlichen Cookies). So können Sie diese verwalten:",
+      "consentTool": {
+        "title": "a) Unser Cookie-Einwilligungs-Management-Tool",
+        "li1": "Wenn Sie unsere Website zum ersten Mal besuchen, erscheint ein Cookie-Banner, mit dem Sie alle Cookies akzeptieren, nicht unbedingt erforderliche Cookies ablehnen oder Ihre Einstellungen anpassen können.",
+        "li2": "Sie können Ihre Entscheidung jederzeit ändern und Ihre Einwilligungseinstellungen aktualisieren, indem Sie auf den Link zu den Cookie-Einstellungen auf der Website klicken."
+      },
+      "browser": {
+        "title": "b) Browser-Einstellungen",
+        "p1": "Die meisten Webbrowser bieten in ihren Einstellungen Optionen zur Verwaltung von Cookies. Sie können Cookies, die auf Ihrem Gerät gespeichert sind, in der Regel blockieren oder löschen. Das Blockieren unbedingt erforderlicher Cookies kann jedoch dazu führen, dass unsere Website nicht ordnungsgemäß funktioniert.",
+        "p2": "Anleitungen zur Verwaltung von Cookies in gängigen Browsern finden Sie hier:"
+      }
+    },
+    "changes": {
+      "title": "8. Änderungen an dieser Cookie-Richtlinie",
+      "p1": "Wir können diese Cookie-Richtlinie gelegentlich aktualisieren, um Änderungen unserer Praktiken, Technologien oder rechtlichen Anforderungen widerzuspiegeln. Wenn wir Änderungen vornehmen, aktualisieren wir das Datum „Zuletzt aktualisiert“ oben in dieser Richtlinie. Wir empfehlen, diese Richtlinie regelmäßig zu prüfen."
+    },
+    "contact": {
+      "title": "9. Kontakt",
+      "p1": "Wenn Sie Fragen zu dieser Cookie-Richtlinie oder unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte unter:"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "Contatto",
+    "description": "Inviaci un messaggio. Facendo clic su “Apri app email”, si aprirà il tuo client di posta (Gmail/Outlook/Apple Mail) con un’email precompilata."
+  },
+  "form": {
+    "name": {
+      "label": "Il tuo nome",
+      "placeholder": "Il tuo nome"
+    },
+    "email": {
+      "label": "La tua email",
+      "placeholder": "tu@esempio.com"
+    },
+    "subject": {
+      "label": "Oggetto",
+      "placeholder": "Come possiamo aiutarti?"
+    },
+    "message": {
+      "label": "Messaggio",
+      "placeholder": "Scrivi il tuo messaggio...",
+      "note": "Nota: Questo modulo non invia messaggi direttamente. Apre la tua app email con il messaggio precompilato."
+    }
+  },
+  "honeypot": {
+    "label": "Sito web"
+  },
+  "actions": {
+    "openEmailApp": "Apri app email",
+    "openPrefilledEmail": "Apri email precompilata"
+  },
+  "footer": {
+    "orEmailUsDirectly": "Oppure inviaci un’email direttamente:"
+  }
+}

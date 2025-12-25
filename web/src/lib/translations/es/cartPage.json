@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Tu carrito",
+    "subtitle": "Revisa los artículos y continúa con el pago."
+  },
+  "randomSelection": {
+    "label": "Selección aleatoria:",
+    "text": "Estás eligiendo una colección. El diseño de la postal se selecciona de forma aleatoria de esa colección, según la disponibilidad."
+  },
+  "emptyState": {
+    "message": "Tu carrito está vacío.",
+    "cta": "Ver postales"
+  },
+  "controls": {
+    "mirrorRecipient": "Usar el mismo destinatario para todas las tarjetas"
+  },
+  "coupon": {
+    "placeholder": "Código de cupón",
+    "apply": "Aplicar",
+    "remove": "Eliminar"
+  },
+  "item": {
+    "noImage": "Sin imagen",
+    "pricePrefix": "US$ ",
+    "priceSuffix": " cada una",
+    "remove": "Eliminar"
+  },
+  "form": {
+    "recipientName": "Nombre del destinatario",
+    "recipientAddress": "Dirección del destinatario",
+    "message": "Mensaje"
+  },
+  "summary": {
+    "currencyPrefix": "US$ ",
+    "items": "Artículos",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "discountPrefix": "-",
+    "total": "Total"
+  },
+  "actions": {
+    "proceedToCheckout": "Proceder al pago",
+    "clearCart": "Vaciar carrito"
+  }
+}

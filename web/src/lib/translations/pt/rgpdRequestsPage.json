@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "Solicitações de privacidade (RGPD/GDPR)",
+    "description": "Use as opções abaixo para entrar em contato conosco por e-mail com um modelo pré-preenchido. Podemos precisar verificar sua identidade antes de processar algumas solicitações.",
+    "contactEmailLabel": "Email de contato:",
+    "relatedPagesLabel": "Páginas relacionadas:",
+    "relatedPages": {
+      "privacyPolicy": "Política de Privacidade",
+      "cookiePolicy": "Política de Cookies",
+      "termsOfUse": "Termos de Uso"
+    }
+  },
+  "cards": {
+    "access": {
+      "title": "Solicitação de acesso aos dados",
+      "description": "Solicite uma cópia dos dados pessoais que mantemos sobre você.",
+      "bullets": [
+        "É recomendável incluir o número do pedido",
+        "Podemos solicitar verificação de identidade"
+      ]
+    },
+    "deletion": {
+      "title": "Solicitação de exclusão de dados",
+      "description": "Solicite a exclusão dos seus dados pessoais («Direito ao esquecimento»).",
+      "bullets": [
+        "Alguns registros podem ser mantidos por razões legais ou fiscais",
+        "Explicaremos se houver exceções"
+      ],
+      "extraLink": {
+        "label": "Ler a política de exclusão"
+      }
+    },
+    "rectification": {
+      "title": "Solicitação de correção de dados",
+      "description": "Solicite a correção de informações pessoais incorretas ou incompletas.",
+      "bullets": [
+        "Informe exatamente o que está incorreto",
+        "Forneça as informações corretas"
+      ]
+    },
+    "unsubscribe": {
+      "title": "Solicitação de cancelamento de inscrição",
+      "description": "Pare de receber e-mails de marketing e mensagens promocionais.",
+      "bullets": [
+        "Use o endereço de e-mail com o qual você se inscreveu",
+        "E-mails transacionais ainda podem ser enviados"
+      ]
+    }
+  },
+  "cta": {
+    "emailThisRequest": "Enviar esta solicitação por e-mail",
+    "openBlankEmail": "Abrir e-mail em branco"
+  },
+  "footer": {
+    "title": "Dicas para agilizar o processamento",
+    "bullets": [
+      "Inclua o e-mail usado durante a compra (e o número do pedido, se disponível).",
+      "Seja específico sobre o que deseja (quais dados, qual correção, etc.).",
+      "Para solicitações de exclusão, observe que alguns registros podem ser mantidos por conformidade legal ou fiscal."
+    ]
+  },
+  "mail": {
+    "body": {
+      "greeting": "Olá, equipe Nippon Postcards,",
+      "intro": "Gostaria de enviar uma solicitação de privacidade de acordo com as leis de proteção de dados aplicáveis.",
+      "requestTypeLabel": "Tipo de solicitação:",
+      "emailUsed": "E-mail usado no site (se diferente):",
+      "orderNumber": "Número do pedido (se disponível):",
+      "countryRegion": "País/Região:",
+      "requestDetails": "Detalhes da solicitação:",
+      "bulletPlaceholder": "- ",
+      "notes": "Observações:",
+      "verifyNote": "- Entendo que pode ser necessário verificar minha identidade antes de processar esta solicitação.",
+      "thanks": "Obrigado,",
+      "yourName": "[Seu nome]"
+    }
+  }
+}

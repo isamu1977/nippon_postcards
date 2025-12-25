@@ -1,0 +1,103 @@
+{
+  "root": {
+    "title": "Escolha um cartão postal",
+    "subtitle": "Veja nossos cartões postais e adicione ao seu carrinho.",
+    "randomSelection": {
+      "label": "Seleção aleatória:",
+      "text": "Você está escolhendo uma coleção, não um design específico. Vamos escolher um design de cartão postal aleatoriamente da coleção selecionada, de acordo com o estoque."
+    },
+    "card": {
+      "fallbackImage": "Imagem",
+      "randomDesignNote": "Design aleatório dentro da coleção (de acordo com o estoque).",
+      "cta": {
+        "view": "Ver",
+        "addToCart": "Adicionar ao carrinho",
+        "goToCart": "Ir para o carrinho"
+      }
+    }
+  },
+  "detail": {
+    "imagePlaceholder": "Imagem de exemplo",
+    "quickTrust": {
+      "title": "Enviado do Japão",
+      "description": "Com selos japoneses reais e enviado da província de Aichi."
+    },
+    "randomSelection": {
+      "label": "Seleção aleatória:",
+      "text": "Você está escolhendo uma coleção, não um design específico. Vamos escolher um design de cartão postal aleatoriamente desta coleção, de acordo com o estoque."
+    },
+    "cta": {
+      "addToCart": "Adicionar ao carrinho",
+      "backToShop": "Voltar para a loja"
+    },
+    "about": {
+      "headlineDefault": "Sobre esta coleção",
+      "sections": {
+        "whatYouReceive": "O que você vai receber",
+        "perfectFor": "Perfeito para"
+      },
+      "collections": {
+        "mountFuji": {
+          "long": "O Monte Fuji é a silhueta mais icônica do Japão. Esta coleção traz designs de cartões inspirados no Fuji em diferentes climas — manhãs calmas, céus dramáticos e paisagens atemporais. Cada pedido é uma pequena surpresa selecionada aleatoriamente na coleção do Monte Fuji, de acordo com a disponibilidade.",
+          "highlights": [
+            "1 cartão postal físico da coleção do Monte Fuji",
+            "Seleção aleatória do design (de acordo com o estoque)",
+            "Sua mensagem transcrita no cartão",
+            "Enviado do Japão com selos japoneses reais"
+          ],
+          "perfectFor": [
+            "Amantes do Japão",
+            "Sonhadores de viagem",
+            "Vibe minimalista",
+            "Colecionadores"
+          ]
+        },
+        "japaneseCastles": {
+          "long": "Castelos japoneses são uma janela para a história do Japão — muros de pedra, telhados em camadas e silhuetas marcantes. Esta coleção celebra essa atmosfera com designs inspirados em castelos famosos pelo Japão. Selecionamos um design aleatoriamente da coleção de Castelos, de acordo com o estoque.",
+          "highlights": [
+            "1 cartão postal físico da coleção de Castelos",
+            "Seleção aleatória do design (de acordo com o estoque)",
+            "Sua mensagem transcrita no cartão",
+            "Enviado do Japão com selos japoneses reais"
+          ],
+          "perfectFor": [
+            "Fãs de história",
+            "Amantes de arquitetura",
+            "Cultura do Japão",
+            "Enviar presentes"
+          ]
+        },
+        "worldHeritage": {
+          "long": "Os locais do Patrimônio Mundial da UNESCO no Japão incluem tanto marcos culturais quanto paisagens naturais incríveis. Esta coleção alterna designs inspirados em lugares Patrimônio Mundial por todo o Japão. O design do seu cartão é selecionado aleatoriamente dentro da coleção Patrimônio Mundial, de acordo com o estoque.",
+          "highlights": [
+            "1 cartão postal físico da coleção Patrimônio Mundial",
+            "Seleção aleatória do design (de acordo com o estoque)",
+            "Sua mensagem transcrita no cartão",
+            "Enviado do Japão com selos japoneses reais"
+          ],
+          "perfectFor": [
+            "Fãs de Patrimônio Mundial",
+            "Natureza + cultura",
+            "Presentes com carinho",
+            "Pen pals"
+          ]
+        },
+        "default": {
+          "long": "Você está escolhendo uma coleção de cartões postais. Vamos selecionar um design aleatoriamente desta coleção, de acordo com o estoque, e depois enviar do Japão.",
+          "highlights": [
+            "1 cartão postal físico desta coleção",
+            "Seleção aleatória do design (de acordo com o estoque)",
+            "Sua mensagem transcrita no cartão",
+            "Enviado do Japão com selos japoneses reais"
+          ],
+          "perfectFor": ["Presentes", "Pen pals", "Amantes do Japão"]
+        }
+      }
+    },
+    "notFound": {
+      "title": "Coleção não encontrada",
+      "description": "Não foi possível encontrar a coleção solicitada.",
+      "ctaBackToShop": "Voltar para a loja"
+    }
+  }
+}

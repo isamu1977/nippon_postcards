@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "Richieste sulla privacy (RGPD/GDPR)",
+    "description": "Utilizza le opzioni seguenti per contattarci via e-mail con un modello precompilato. Potremmo dover verificare la tua identità prima di elaborare alcune richieste.",
+    "contactEmailLabel": "Email di contatto:",
+    "relatedPagesLabel": "Pagine correlate:",
+    "relatedPages": {
+      "privacyPolicy": "Informativa sulla privacy",
+      "cookiePolicy": "Politica sui cookie",
+      "termsOfUse": "Termini di utilizzo"
+    }
+  },
+  "cards": {
+    "access": {
+      "title": "Richiesta di accesso ai dati",
+      "description": "Richiedi una copia dei dati personali che conserviamo su di te.",
+      "bullets": [
+        "È consigliabile includere il numero dell’ordine",
+        "Potremmo richiedere una verifica dell’identità"
+      ]
+    },
+    "deletion": {
+      "title": "Richiesta di cancellazione dei dati",
+      "description": "Richiedi la cancellazione dei tuoi dati personali («Diritto all’oblio»).",
+      "bullets": [
+        "Alcuni dati potrebbero essere conservati per motivi legali o fiscali",
+        "Spiegheremo se si applicano eccezioni"
+      ],
+      "extraLink": {
+        "label": "Leggi la politica di cancellazione"
+      }
+    },
+    "rectification": {
+      "title": "Richiesta di rettifica dei dati",
+      "description": "Richiedi la correzione di informazioni personali inaccurate o incomplete.",
+      "bullets": [
+        "Indica esattamente cosa non è corretto",
+        "Fornisci le informazioni corrette"
+      ]
+    },
+    "unsubscribe": {
+      "title": "Richiesta di annullamento iscrizione",
+      "description": "Interrompi la ricezione di email di marketing e messaggi promozionali.",
+      "bullets": [
+        "Usa l’indirizzo email con cui ti sei iscritto",
+        "Le email transazionali potrebbero comunque essere inviate"
+      ]
+    }
+  },
+  "cta": {
+    "emailThisRequest": "Invia questa richiesta via email",
+    "openBlankEmail": "Apri email vuota"
+  },
+  "footer": {
+    "title": "Suggerimenti per velocizzare l’elaborazione",
+    "bullets": [
+      "Includi l’email utilizzata durante il checkout (e il numero d’ordine se disponibile).",
+      "Sii specifico su ciò che richiedi (quali dati, quale correzione, ecc.).",
+      "Per le richieste di cancellazione, alcuni dati potrebbero essere conservati per obblighi legali o fiscali."
+    ]
+  },
+  "mail": {
+    "body": {
+      "greeting": "Salve team Nippon Postcards,",
+      "intro": "Desidero presentare una richiesta sulla privacy ai sensi delle leggi applicabili sulla protezione dei dati.",
+      "requestTypeLabel": "Tipo di richiesta:",
+      "emailUsed": "Email utilizzata sul sito (se diversa):",
+      "orderNumber": "Numero d’ordine (se disponibile):",
+      "countryRegion": "Paese/Regione:",
+      "requestDetails": "Dettagli della richiesta:",
+      "bulletPlaceholder": "- ",
+      "notes": "Note:",
+      "verifyNote": "- Comprendo che potrebbe essere necessaria una verifica della mia identità prima dell’elaborazione di questa richiesta.",
+      "thanks": "Grazie,",
+      "yourName": "[Il tuo nome]"
+    }
+  }
+}

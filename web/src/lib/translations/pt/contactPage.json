@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "Contato",
+    "description": "Envie-nos uma mensagem. Ao clicar em “Abrir aplicativo de e-mail”, o seu cliente de e-mail (Gmail/Outlook/Apple Mail) será aberto com um e-mail pré-preenchido."
+  },
+  "form": {
+    "name": {
+      "label": "Seu nome",
+      "placeholder": "Seu nome"
+    },
+    "email": {
+      "label": "Seu e-mail",
+      "placeholder": "voce@exemplo.com"
+    },
+    "subject": {
+      "label": "Assunto",
+      "placeholder": "Como podemos ajudar?"
+    },
+    "message": {
+      "label": "Mensagem",
+      "placeholder": "Escreva sua mensagem...",
+      "note": "Observação: Este formulário não envia mensagens diretamente. Ele abre o seu aplicativo de e-mail com a mensagem pré-preenchida."
+    }
+  },
+  "honeypot": {
+    "label": "Website"
+  },
+  "actions": {
+    "openEmailApp": "Abrir aplicativo de e-mail",
+    "openPrefilledEmail": "Abrir e-mail pré-preenchido"
+  },
+  "footer": {
+    "orEmailUsDirectly": "Ou envie um e-mail diretamente:"
+  }
+}

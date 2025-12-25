@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "Privacy Requests (RGPD/GDPR)",
+    "description": "Use the options below to contact us by email with a pre-filled template. We may need to verify your identity before processing certain requests.",
+    "contactEmailLabel": "Contact email:",
+    "relatedPagesLabel": "Related pages:",
+    "relatedPages": {
+      "privacyPolicy": "Privacy Policy",
+      "cookiePolicy": "Cookie Policy",
+      "termsOfUse": "Terms of Use"
+    }
+  },
+  "cards": {
+    "access": {
+      "title": "Data Access Request",
+      "description": "Request a copy of the personal data we hold about you.",
+      "bullets": [
+        "Best if you include your order number",
+        "We may ask for identity verification"
+      ]
+    },
+    "deletion": {
+      "title": "Data Deletion Request",
+      "description": "Request deletion of your personal data (“Right to Erasure”).",
+      "bullets": [
+        "Some records may be retained for legal/tax reasons",
+        "We’ll explain if exceptions apply"
+      ],
+      "extraLink": {
+        "label": "Read the deletion policy"
+      }
+    },
+    "rectification": {
+      "title": "Rectify Data Request",
+      "description": "Request correction of inaccurate or incomplete personal information.",
+      "bullets": [
+        "Tell us exactly what is wrong",
+        "Provide the correct information"
+      ]
+    },
+    "unsubscribe": {
+      "title": "Unsubscribe Request",
+      "description": "Stop receiving marketing emails and promotional messages.",
+      "bullets": [
+        "Use the email address you subscribed with",
+        "Transactional emails may still be sent"
+      ]
+    }
+  },
+  "cta": {
+    "emailThisRequest": "Email this request",
+    "openBlankEmail": "Open blank email"
+  },
+  "footer": {
+    "title": "Tips to speed up processing",
+    "bullets": [
+      "Include the email used during checkout (and order number if available).",
+      "Be specific about what you want (what data, what correction, etc.).",
+      "For deletion requests, note that some transaction records may be retained for legal/tax compliance."
+    ]
+  },
+  "mail": {
+    "body": {
+      "greeting": "Hello Nippon Postcards team,",
+      "intro": "I would like to submit a privacy request under applicable data protection laws.",
+      "requestTypeLabel": "Request type:",
+      "emailUsed": "Email used on the website (if different):",
+      "orderNumber": "Order number (if available):",
+      "countryRegion": "Country/Region:",
+      "requestDetails": "Request details:",
+      "bulletPlaceholder": "- ",
+      "notes": "Notes:",
+      "verifyNote": "- I understand you may need to verify my identity before processing this request.",
+      "thanks": "Thank you,",
+      "yourName": "[Your name]"
+    }
+  }
+}

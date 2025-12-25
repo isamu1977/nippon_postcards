@@ -1,0 +1,107 @@
+{
+  "root": {
+    "title": "Elige una postal",
+    "subtitle": "Explora nuestras postales y añádelas a tu carrito.",
+    "randomSelection": {
+      "label": "Selección aleatoria:",
+      "text": "Estás eligiendo una colección, no un diseño específico. Seleccionaremos al azar un diseño de postal de la colección elegida según el stock."
+    },
+    "card": {
+      "fallbackImage": "Imagen",
+      "randomDesignNote": "Diseño aleatorio dentro de la colección (según el stock).",
+      "cta": {
+        "view": "Ver",
+        "addToCart": "Añadir al carrito",
+        "goToCart": "Ir al carrito"
+      }
+    }
+  },
+  "detail": {
+    "imagePlaceholder": "Marcador de imagen",
+    "quickTrust": {
+      "title": "Enviado desde Japón",
+      "description": "Sellado con estampillas japonesas reales y enviado desde la prefectura de Aichi."
+    },
+    "randomSelection": {
+      "label": "Selección aleatoria:",
+      "text": "Estás eligiendo una colección, no un diseño específico. Elegiremos al azar un diseño de postal de esta colección según el stock."
+    },
+    "cta": {
+      "addToCart": "Añadir al carrito",
+      "backToShop": "Volver a la tienda"
+    },
+    "about": {
+      "headlineDefault": "Sobre esta colección",
+      "sections": {
+        "whatYouReceive": "Lo que recibirás",
+        "perfectFor": "Ideal para"
+      },
+      "collections": {
+        "mountFuji": {
+          "long": "El monte Fuji es la silueta más icónica de Japón. Esta colección incluye diseños de postales inspirados en el Fuji en distintos ambientes: mañanas tranquilas, cielos dramáticos y paisajes atemporales. Cada pedido es una pequeña sorpresa seleccionada al azar de la colección del Monte Fuji, según disponibilidad.",
+          "highlights": [
+            "1 postal física de la colección del Monte Fuji",
+            "Selección aleatoria del diseño (según el stock)",
+            "Tu mensaje transcrito en la postal",
+            "Enviado desde Japón con estampillas japonesas reales"
+          ],
+          "perfectFor": [
+            "Amantes de Japón",
+            "Soñadores de viajes",
+            "Estilo minimalista",
+            "Coleccionistas"
+          ]
+        },
+        "japaneseCastles": {
+          "long": "Los castillos japoneses son una ventana a la historia de Japón: muros de piedra, techos superpuestos y siluetas dramáticas. Esta colección celebra esa atmósfera con diseños inspirados en castillos famosos de todo Japón. Seleccionamos un diseño al azar de la colección de Castillos según el stock.",
+          "highlights": [
+            "1 postal física de la colección de Castillos",
+            "Selección aleatoria del diseño (según el stock)",
+            "Tu mensaje transcrito en la postal",
+            "Enviado desde Japón con estampillas japonesas reales"
+          ],
+          "perfectFor": [
+            "Fans de la historia",
+            "Amantes de la arquitectura",
+            "Cultura japonesa",
+            "Enviar regalos"
+          ]
+        },
+        "worldHeritage": {
+          "long": "Los sitios Patrimonio Mundial de la UNESCO en Japón incluyen tanto lugares culturales como paisajes naturales impresionantes. Esta colección rota entre diseños inspirados en ubicaciones Patrimonio Mundial de todo Japón. El diseño de tu postal se selecciona al azar dentro de la colección Patrimonio Mundial según el stock.",
+          "highlights": [
+            "1 postal física de la colección Patrimonio Mundial",
+            "Selección aleatoria del diseño (según el stock)",
+            "Tu mensaje transcrito en la postal",
+            "Enviado desde Japón con estampillas japonesas reales"
+          ],
+          "perfectFor": [
+            "Fans del Patrimonio Mundial",
+            "Naturaleza + cultura",
+            "Regalos con intención",
+            "Amigos por correspondencia"
+          ]
+        },
+        "default": {
+          "long": "Estás eligiendo una colección de postales. Elegiremos al azar un diseño de esta colección según el stock y luego la enviaremos desde Japón.",
+          "highlights": [
+            "1 postal física de esta colección",
+            "Selección aleatoria del diseño (según el stock)",
+            "Tu mensaje transcrito en la postal",
+            "Enviado desde Japón con estampillas japonesas reales"
+          ],
+          "perfectFor": [
+            "Regalos",
+            "Amigos por correspondencia",
+            "Fans de Japón"
+          ]
+        }
+      }
+    },
+    "notFound": {
+      "title": "Colección no encontrada",
+      "description": "No se pudo encontrar la colección solicitada.",
+      "ctaBackToShop": "Volver a la tienda"
+    }
+  }
+}

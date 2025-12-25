@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Ihr Warenkorb",
+    "subtitle": "Überprüfen Sie die Artikel und fahren Sie mit dem Checkout fort."
+  },
+  "randomSelection": {
+    "label": "Zufällige Auswahl:",
+    "text": "Sie wählen eine Kollektion aus. Das Postkartenmotiv wird je nach Lagerbestand zufällig aus dieser Kollektion ausgewählt."
+  },
+  "emptyState": {
+    "message": "Ihr Warenkorb ist leer.",
+    "cta": "Postkarten ansehen"
+  },
+  "controls": {
+    "mirrorRecipient": "Gleichen Empfänger für alle Karten verwenden"
+  },
+  "coupon": {
+    "placeholder": "Gutscheincode",
+    "apply": "Anwenden",
+    "remove": "Entfernen"
+  },
+  "item": {
+    "noImage": "Kein Bild",
+    "pricePrefix": "US$ ",
+    "priceSuffix": " pro Stück",
+    "remove": "Entfernen"
+  },
+  "form": {
+    "recipientName": "Name des Empfängers",
+    "recipientAddress": "Adresse des Empfängers",
+    "message": "Nachricht"
+  },
+  "summary": {
+    "currencyPrefix": "US$ ",
+    "items": "Artikel",
+    "subtotal": "Zwischensumme",
+    "discount": "Rabatt",
+    "discountPrefix": "-",
+    "total": "Gesamtbetrag"
+  },
+  "actions": {
+    "proceedToCheckout": "Zur Kasse gehen",
+    "clearCart": "Warenkorb leeren"
+  }
+}

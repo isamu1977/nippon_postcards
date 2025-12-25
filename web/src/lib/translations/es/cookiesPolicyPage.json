@@ -1,0 +1,86 @@
+{
+  "header": {
+    "title": "Política de cookies",
+    "lastUpdatedLabel": "Última actualización:",
+    "lastUpdatedDate": "April 1, 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Introducción",
+      "p1": "Esta Política de Cookies explica cómo Nippon Postcards (“nosotros”, “nos”, “nuestro”) utiliza cookies y tecnologías de seguimiento similares cuando visitas nuestro sitio web www.nipponpostcards.com (el “Sitio”). Explica qué son estas tecnologías, por qué las usamos y tus derechos para controlar su uso.",
+      "p2": "Esta política debe leerse junto con nuestra Política de Privacidad (“Privacy Policy”), que ofrece más detalles sobre cómo recopilamos, usamos y protegemos tus datos personales."
+    },
+    "whatAreCookies": {
+      "title": "2. ¿Qué son las cookies?",
+      "p1": "Las cookies son pequeños archivos de texto que se colocan y almacenan en tu ordenador o dispositivo móvil cuando visitas un sitio web. Se utilizan ampliamente para que los sitios web funcionen (o funcionen de manera más eficiente), así como para proporcionar información a los propietarios del sitio. Las cookies permiten que los sitios web reconozcan tu dispositivo y recuerden información sobre tu visita, como tus preferencias o los artículos en un carrito de compra.",
+      "p2": "También podemos utilizar otras tecnologías similares (como web beacons, píxeles, archivos de registro), pero para simplificar nos referiremos a todas ellas de forma conjunta como “Cookies” en esta política."
+    },
+    "howWeUseCookies": {
+      "title": "3. Cómo usamos las cookies",
+      "intro": "Usamos Cookies para diversos fines, incluidos:",
+      "items": {
+        "essential": "Operaciones esenciales: Para habilitar funcionalidades básicas del Sitio, como gestionar tu carrito, garantizar la seguridad y recordar tus preferencias de consentimiento de cookies.",
+        "analytics": "Rendimiento y analítica: Para entender cómo interactúan los visitantes con nuestro Sitio, qué páginas son populares e identificar áreas de mejora. Esto nos ayuda a mejorar la experiencia del usuario.",
+        "functionality": "Funcionalidad: Para recordar elecciones que has hecho (como idioma o región, si aplica) y ofrecer una experiencia más personalizada.",
+        "marketing": "[Opcional – añadir si/cuando sea relevante]: Marketing y publicidad: Para potencialmente ofrecer anuncios relevantes o medir la eficacia de campañas de marketing (solo lo haremos con tu consentimiento explícito)."
+      }
+    },
+    "types": {
+      "title": "4. Tipos de cookies que usamos",
+      "intro": "Clasificamos las Cookies utilizadas en nuestro Sitio en las siguientes categorías:",
+      "strict": {
+        "title": "a) Cookies estrictamente necesarias",
+        "p1": "Estas Cookies son esenciales para que el Sitio funcione correctamente y no pueden desactivarse en nuestros sistemas. Por lo general, solo se configuran en respuesta a acciones realizadas por ti que equivalen a una solicitud de servicios, como establecer tus preferencias de privacidad, iniciar sesión (si aplica) o completar formularios, y gestionar tu carrito de compra.",
+        "p2": "Puedes configurar tu navegador para bloquear o alertarte sobre estas Cookies, pero algunas partes del Sitio no funcionarán como resultado. Estas Cookies no almacenan información personal identificable y no requieren tu consentimiento previo."
+      },
+      "analytics": {
+        "title": "b) Cookies de rendimiento y analítica",
+        "p1": "Estas Cookies nos permiten contar visitas y fuentes de tráfico para medir y mejorar el rendimiento de nuestro Sitio. Nos ayudan a saber qué páginas son las más y menos populares y a ver cómo se mueven los visitantes por el Sitio. Toda la información que recopilan estas Cookies se agrega y, por lo tanto, es anónima.",
+        "p2": "Solo usamos estas Cookies si nos das tu consentimiento a través de nuestra herramienta de consentimiento de cookies.",
+        "p3": "Proveedor de ejemplo: Usamos Google Analytics para ayudarnos a analizar el uso del Sitio. Google Analytics utiliza cookies para recopilar información estándar de registro de internet e información sobre el comportamiento de los visitantes de forma anónima."
+      },
+      "functionality": {
+        "title": "c) Cookies de funcionalidad",
+        "p1": "Estas Cookies permiten que el Sitio ofrezca funcionalidades mejoradas y personalización. Pueden ser configuradas por nosotros o por proveedores externos cuyos servicios hemos añadido a nuestras páginas. Pueden recordar elecciones que haces, como tu nombre de usuario (si aplica) o preferencias de idioma.",
+        "p2": "Solo usamos estas Cookies si nos das tu consentimiento."
+      },
+      "marketing": {
+        "title": "d) Cookies de segmentación o marketing",
+        "p1": "[Incluir esta sección SOLO si planeas usar píxeles publicitarios, plugins de redes sociales que rastrean u otras tecnologías similares] Estas Cookies pueden configurarse a través de nuestro Sitio por nosotros o por nuestros socios publicitarios. Pueden ser utilizadas por esas empresas para crear un perfil de tus intereses y mostrarte anuncios relevantes en otros sitios. Funcionan identificando de forma única tu navegador y dispositivo.",
+        "p2": "Solo usamos estas Cookies si nos das tu consentimiento explícito.",
+        "p3": "Proveedores de ejemplo: [Enumera proveedores específicos como Facebook Pixel, etiquetas de remarketing de Google Ads, etc., si los utilizas]."
+      }
+    },
+    "thirdParty": {
+      "title": "5. Cookies de terceros",
+      "p1": "Algunas Cookies en nuestro Sitio pueden ser colocadas por proveedores de servicios externos. Por ejemplo, usamos Google Analytics para el análisis del sitio web. Las pasarelas de pago integradas en nuestro proceso de pago también podrían configurar cookies necesarias para su funcionamiento.",
+      "p2": "Estos terceros recopilan y utilizan información de acuerdo con sus propias políticas de privacidad. Recomendamos revisar sus políticas:"
+    },
+    "duration": {
+      "title": "6. Duración de las cookies",
+      "p1": "Las cookies pueden ser “cookies de sesión” (que se eliminan automáticamente cuando cierras el navegador) o “cookies persistentes” (que permanecen en tu dispositivo durante un período predeterminado o hasta que las elimines manualmente). Utilizamos ambos tipos."
+    },
+    "manage": {
+      "title": "7. Cómo gestionar tus preferencias de cookies",
+      "intro": "Tienes control sobre las Cookies utilizadas en nuestro Sitio (excepto las Cookies estrictamente necesarias). Así es como puedes gestionarlas:",
+      "consentTool": {
+        "title": "a) Nuestra herramienta de gestión del consentimiento de cookies",
+        "li1": "Cuando visitas nuestro Sitio por primera vez, aparecerá un banner de cookies que te permitirá aceptar todas las Cookies, rechazar las Cookies no esenciales o personalizar tus preferencias.",
+        "li2": "Puedes cambiar de opinión y actualizar tus preferencias de consentimiento en cualquier momento haciendo clic en el enlace de configuración de cookies disponible en el sitio web."
+      },
+      "browser": {
+        "title": "b) Configuración del navegador",
+        "p1": "La mayoría de los navegadores web ofrecen controles para gestionar las Cookies a través de sus ajustes. Normalmente puedes bloquear o eliminar las Cookies almacenadas en tu dispositivo. Sin embargo, bloquear las Cookies estrictamente necesarias puede impedir que nuestro Sitio funcione correctamente.",
+        "p2": "Encuentra aquí instrucciones para gestionar cookies en navegadores populares:"
+      }
+    },
+    "changes": {
+      "title": "8. Cambios en esta Política de Cookies",
+      "p1": "Podemos actualizar esta Política de Cookies ocasionalmente para reflejar cambios en nuestras prácticas, tecnología o requisitos legales. Cuando realicemos cambios, revisaremos la fecha de “Última actualización” en la parte superior de esta política. Te recomendamos revisar esta política periódicamente."
+    },
+    "contact": {
+      "title": "9. Contáctanos",
+      "p1": "Si tienes alguna pregunta sobre esta Política de Cookies o sobre nuestro uso de Cookies, contáctanos en:"
+    }
+  }
+}

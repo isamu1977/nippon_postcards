@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": "Contact",
+    "description": "Envoyez-nous un message. En cliquant sur « Ouvrir l’application e-mail », votre client de messagerie (Gmail/Outlook/Apple Mail) s’ouvrira avec un e-mail prérempli."
+  },
+  "form": {
+    "name": {
+      "label": "Votre nom",
+      "placeholder": "Votre nom"
+    },
+    "email": {
+      "label": "Votre adresse e-mail",
+      "placeholder": "vous@exemple.com"
+    },
+    "subject": {
+      "label": "Objet",
+      "placeholder": "Comment pouvons-nous vous aider ?"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Écrivez votre message...",
+      "note": "Remarque : Ce formulaire n’envoie pas de messages directement. Il ouvre votre application e-mail avec le message prérempli."
+    }
+  },
+  "honeypot": {
+    "label": "Site web"
+  },
+  "actions": {
+    "openEmailApp": "Ouvrir l’application e-mail",
+    "openPrefilledEmail": "Ouvrir l’e-mail prérempli"
+  },
+  "footer": {
+    "orEmailUsDirectly": "Ou envoyez-nous un e-mail directement :"
+  }
+}

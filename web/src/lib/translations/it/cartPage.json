@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Il tuo carrello",
+    "subtitle": "Controlla gli articoli e procedi al pagamento."
+  },
+  "randomSelection": {
+    "label": "Selezione casuale:",
+    "text": "Stai scegliendo una collezione. Il design della cartolina viene selezionato in modo casuale da quella collezione, in base alla disponibilità."
+  },
+  "emptyState": {
+    "message": "Il tuo carrello è vuoto.",
+    "cta": "Sfoglia le cartoline"
+  },
+  "controls": {
+    "mirrorRecipient": "Usa lo stesso destinatario per tutte le cartoline"
+  },
+  "coupon": {
+    "placeholder": "Codice coupon",
+    "apply": "Applica",
+    "remove": "Rimuovi"
+  },
+  "item": {
+    "noImage": "Nessuna immagine",
+    "pricePrefix": "US$ ",
+    "priceSuffix": " ciascuna",
+    "remove": "Rimuovi"
+  },
+  "form": {
+    "recipientName": "Nome del destinatario",
+    "recipientAddress": "Indirizzo del destinatario",
+    "message": "Messaggio"
+  },
+  "summary": {
+    "currencyPrefix": "US$ ",
+    "items": "Articoli",
+    "subtotal": "Subtotale",
+    "discount": "Sconto",
+    "discountPrefix": "-",
+    "total": "Totale"
+  },
+  "actions": {
+    "proceedToCheckout": "Procedi al pagamento",
+    "clearCart": "Svuota il carrello"
+  }
+}

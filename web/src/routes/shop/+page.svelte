@@ -2,6 +2,7 @@
   import { postcards } from "$lib/data/postcards";
   import { addToCart } from "$lib/stores/cart";
   import { goto } from "$app/navigation";
+  import { t } from "$lib/translations/translations";
 
   let recentlyAddedId: string | null = null;
 
@@ -19,19 +20,20 @@
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center mb-8">
       <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">
-        Choose a Postcard
+        {$t("shopPage.root.title")}
       </h1>
       <p class="text-gray-600 mt-2">
-        Browse our postcard designs and add them to your cart.
+        {$t("shopPage.root.subtitle")}
       </p>
     </div>
 
     <div
       class="mt-6 rounded-xl border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700"
     >
-      <span class="font-semibold text-gray-900">Random selection:</span>
-      You’re choosing a collection, not a specific design. We’ll pick a postcard
-      design at random from the selected collection depending on stock.
+      <span class="font-semibold text-gray-900">
+        {$t("shopPage.root.randomSelection.label")}
+      </span>
+      {$t("shopPage.root.randomSelection.text")}
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -54,7 +56,9 @@
               ></div>
             {:else}
               <div class="h-full w-full flex items-center justify-center">
-                <span class="text-gray-400">Image</span>
+                <span class="text-gray-400"
+                  >{$t("shopPage.root.card.fallbackImage")}</span
+                >
               </div>
             {/if}
           </div>
@@ -63,7 +67,7 @@
           <p class="text-sm text-gray-600 mt-2">{p.description}</p>
 
           <p class="mt-1 text-xs text-gray-500">
-            Random design within the collection (based on stock).
+            {$t("shopPage.root.card.randomDesignNote")}
           </p>
 
           <div class="mt-4 flex items-center justify-between">
@@ -74,14 +78,14 @@
                 class="text-sm text-red-600 border border-red-600 rounded px-3 py-2 hover:bg-red-50"
                 on:click={() => goto(`/shop/${p.id}`)}
               >
-                View
+                {$t("shopPage.root.card.cta.view")}
               </button>
 
               <button
                 class="text-sm bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded"
                 on:click={() => handleAdd(p)}
               >
-                Add to cart
+                {$t("shopPage.root.card.cta.addToCart")}
               </button>
             </div>
           </div>
@@ -92,7 +96,7 @@
                 href="/cart"
                 class="inline-flex items-center justify-center px-10 py-2 bg-red-600 hover:bg-red-40 rounded-lg text-white font-semibold"
               >
-                Go to cart
+                {$t("shopPage.root.card.cta.goToCart")}
               </a>
             </div>
           {/if}

@@ -1,0 +1,163 @@
+{
+  "header": {
+    "title": "Conditions d’utilisation",
+    "lastUpdated": {
+      "label": "Dernière mise à jour :",
+      "date": "01 avril 2025"
+    }
+  },
+  "sections": {
+    "1": {
+      "title": "1. Introduction et acceptation",
+      "p1_beforeSite": "Bienvenue sur Nippon Postcards (",
+      "p1_site": "www.nipponpostcards.com",
+      "p1_afterSite_beforeTerms": "). Les présentes Conditions d’utilisation (",
+      "p1_terms": "\"Conditions\"",
+      "p1_afterTerms_beforeService": ") régissent votre accès et votre utilisation de notre site web et des services proposés, y compris l’achat de cartes postales et notre service d’envoi unique (",
+      "p1_service": "\"Service\"",
+      "p1_afterService": ").",
+      "p2_beforePrivacy": "En accédant à notre site web ou en utilisant le Service, vous acceptez d’être lié par ces Conditions et par notre ",
+      "p2_privacyPolicy": "Politique de confidentialité",
+      "p2_afterPrivacy": ". Si vous n’acceptez pas ces Conditions, veuillez ne pas utiliser notre Service.",
+      "p3_beforeWeUsOur": "Les termes ",
+      "p3_weUsOur": "\"nous\", \"notre\", \"nos\"",
+      "p3_afterWeUsOur_beforeLocation": " désignent Nippon Postcards, situé à ",
+      "p3_location": "Toyohashi, Aichi, Japon",
+      "p3_afterLocation_beforeYou": ". Le terme ",
+      "p3_you": "\"vous\"",
+      "p3_afterYou": " désigne l’utilisateur ou le client de notre site web et du Service."
+    },
+    "2": {
+      "title": "2. Description du Service",
+      "bullets": [
+        "Nous proposons des cartes postales japonaises à la vente.",
+        "Notre Service unique inclut : suite à votre achat et à votre demande, nous imprimerons physiquement l’adresse du destinataire (fournie par vous) sur la carte postale, ajouterons des timbres japonais appropriés et enverrons la carte directement depuis le Japon via Japan Post (ou un autre transporteur spécifié).",
+        "L’objectif est que la carte postale arrive à l’adresse du destinataire en donnant l’impression d’avoir été envoyée personnellement depuis le Japon.",
+        "Nous gérons le processus d’envoi physique ; toutefois, nous dépendons des services postaux nationaux et internationaux pour la livraison."
+      ]
+    },
+    "3": {
+      "title": "3. Comptes utilisateur",
+      "bullets": [
+        "Pour accéder à certaines fonctionnalités, vous devrez peut-être créer un compte.",
+        "Vous êtes responsable de la confidentialité des informations de votre compte (nom d’utilisateur, mot de passe).",
+        "Vous êtes responsable de toutes les activités effectuées via votre compte.",
+        "Informez-nous immédiatement de toute utilisation non autorisée de votre compte.",
+        "Nous nous réservons le droit de résilier des comptes à notre discrétion."
+      ]
+    },
+    "4": {
+      "title": "4. Commandes, paiement et exécution",
+      "cards": {
+        "placingOrders": {
+          "title": "Passer commande",
+          "p": "En passant une commande, vous confirmez que toutes les informations fournies (y compris l’adresse du destinataire et tout message) sont exactes et complètes."
+        },
+        "recipientAddress": {
+          "title": "Adresse du destinataire",
+          "p": "Vous êtes seul responsable de fournir l’adresse postale correcte et complète du destinataire. Nous ne sommes pas responsables des cartes postales non livrables en raison d’adresses incorrectes ou incomplètes fournies par vous."
+        },
+        "personalizedMessage": {
+          "title": "Message personnalisé (optionnel)",
+          "p": "Si vous fournissez un message à inclure, vous nous accordez une licence non exclusive et libre de redevance pour utiliser ce message uniquement afin d’exécuter votre commande. Vous êtes responsable du contenu de votre message (voir Contenu interdit)."
+        },
+        "orderAcceptance": {
+          "title": "Acceptation de la commande",
+          "p": "Notre confirmation de votre commande vaut acceptation. Nous nous réservons le droit de refuser ou d’annuler des commandes à notre discrétion (par ex. suspicion de fraude, problèmes de stock, violation des conditions)."
+        },
+        "pricing": {
+          "title": "Tarification",
+          "p": "Les prix sont indiqués sur le site et peuvent changer. Les prix n’incluent pas d’éventuels droits ou taxes d’importation dans le pays du destinataire."
+        },
+        "payment": {
+          "title": "Paiement",
+          "p": "Indiquez les moyens de paiement acceptés (par ex. carte bancaire via Stripe/PayPal). Le paiement doit être reçu avant l’exécution du service (carte postale envoyée)."
+        },
+        "taxesAndDuties": {
+          "title": "Taxes et droits",
+          "p": "Les destinataires en dehors du Japon peuvent être soumis à des droits d’importation, taxes et frais de traitement douanier imposés par leur pays. Ces frais sont à la charge du destinataire."
+        }
+      }
+    },
+    "5": {
+      "title": "5. Expédition et livraison",
+      "bullets": [
+        "Nous expédierons la carte postale depuis le Japon via le courrier aérien standard de Japan Post dans un délai de 1 à 2 jours ouvrables après confirmation de la commande et paiement.",
+        "Les délais de livraison ne sont que des estimations et dépendent des services postaux internationaux et du dédouanement dans le pays de destination. Nous ne pouvons pas garantir de dates de livraison.",
+        "Le risque de perte est transféré à vous (ou au destinataire) dès que nous remettons la carte postale au transporteur postal. Nous ne sommes pas responsables des retards, pertes ou dommages survenant durant le transport par le service postal.",
+        "Nous ne pouvons pas fournir de suivi pour le courrier standard."
+      ],
+      "businessDaysStrong": "1 à 2 jours ouvrables"
+    },
+    "6": {
+      "title": "6. Contenu fourni par l’utilisateur (messages)",
+      "bullets": [
+        "Vous acceptez de ne pas fournir de contenu de message illégal, diffamatoire, obscène, offensant, portant atteinte à des droits de propriété intellectuelle, portant atteinte à la vie privée, ou autrement répréhensible.",
+        "Vous déclarez et garantissez que vous avez le droit d’utiliser tout contenu que vous fournissez.",
+        "Nous nous réservons le droit, sans y être obligés, de refuser d’imprimer ou d’envoyer des messages que nous jugeons inappropriés ou contraires aux présentes Conditions."
+      ]
+    },
+    "7": {
+      "title": "7. Propriété intellectuelle",
+      "p1": "Tout le contenu de ce site web, y compris les textes, graphiques, logos, images (à l’exception des messages fournis par l’utilisateur après exécution), les designs de cartes postales (tels que présentés à la vente) et le design du site, est la propriété de Nippon Postcards ou de ses concédants et est protégé par les lois japonaises et internationales sur le droit d’auteur.",
+      "p2": "Vous pouvez utiliser le site à des fins personnelles et non commerciales liées à la navigation et à l’achat de nos produits/services. Toute autre utilisation, y compris la reproduction, la modification, la distribution ou la republication, est interdite sans notre consentement écrit préalable."
+    },
+    "8": {
+      "title": "8. Utilisations interdites",
+      "intro": "Vous acceptez de ne pas utiliser le site web ou le Service :",
+      "bullets": [
+        "À des fins illégales.",
+        "Pour inciter d’autres personnes à commettre ou participer à des actes illégaux.",
+        "Pour enfreindre ou violer nos droits de propriété intellectuelle ou ceux d’autrui.",
+        "Pour harceler, abuser, insulter, nuire, diffamer, calomnier, dénigrer, intimider ou discriminer.",
+        "Pour soumettre des informations fausses ou trompeuses.",
+        "Pour téléverser ou transmettre des virus ou tout autre type de code malveillant.",
+        "Pour collecter ou suivre les informations personnelles d’autrui.",
+        "Pour spammer, hameçonner, pharming, prétexte, spider, crawler ou scraper.",
+        "Pour interférer avec ou contourner les fonctionnalités de sécurité du Service ou de tout site web associé."
+      ]
+    },
+    "9": {
+      "title": "9. Avertissements et exclusions",
+      "p1_beforeAsIs": "Le Service et tous les produits qui vous sont livrés via le Service sont fournis ",
+      "p1_asIs": "'en l’état'",
+      "p1_middle": " et ",
+      "p1_asAvailable": "'selon disponibilité'",
+      "p1_after": " sans aucune déclaration, garantie ou condition de quelque nature que ce soit, expresse ou implicite, y compris toutes garanties ou conditions implicites de qualité marchande, qualité, adéquation à un usage particulier, durabilité, titre et non-contrefaçon.",
+      "p2": "Nous ne garantissons pas que le Service sera ininterrompu, opportun, sécurisé ou exempt d’erreurs.",
+      "p3": "Nous ne garantissons pas que les résultats obtenus via l’utilisation du Service seront exacts ou fiables.",
+      "p4": "Nous ne sommes pas responsables des performances des services postaux une fois la carte postale envoyée."
+    },
+    "10": {
+      "title": "10. Limitation de responsabilité",
+      "p": "Dans toute la mesure permise par la loi applicable, Nippon Postcards, ses dirigeants, administrateurs, employés, affiliés, agents, contractants, stagiaires, fournisseurs, prestataires de services ou concédants ne pourront être tenus responsables de tout dommage, perte, réclamation, ou de tout dommage direct, indirect, accessoire, punitif, spécial ou consécutif de quelque nature que ce soit, y compris, sans limitation, perte de profits, perte de revenus, perte d’économies, perte de données, coûts de remplacement ou tout dommage similaire, qu’il soit fondé sur un contrat, un délit (y compris la négligence), une responsabilité stricte ou autre, résultant de votre utilisation du Service ou de tout produit acquis via le Service, ou de toute autre réclamation liée de quelque manière que ce soit à votre utilisation du Service ou d’un produit, y compris, mais sans s’y limiter, toute erreur ou omission dans un contenu, ou toute perte ou dommage de quelque nature que ce soit résultant de l’utilisation du Service ou de tout contenu (ou produit) publié, transmis ou autrement rendu disponible via le Service, même si la possibilité en a été signalée."
+    },
+    "11": {
+      "title": "11. Indemnisation",
+      "p": "Vous acceptez d’indemniser, de défendre et de dégager de toute responsabilité Nippon Postcards ainsi que nos affiliés, partenaires, dirigeants, administrateurs, agents, contractants, concédants, prestataires de services, sous-traitants, fournisseurs, stagiaires et employés, contre toute réclamation ou demande, y compris des honoraires raisonnables d’avocats, formulée par un tiers en raison de ou découlant de votre violation des présentes Conditions d’utilisation ou des documents qu’elles incorporent par référence, ou de votre violation de toute loi ou des droits d’un tiers."
+    },
+    "12": {
+      "title": "12. Droit applicable et règlement des litiges",
+      "p1_beforeJapan": "Les présentes Conditions de service et tout accord séparé par lequel nous vous fournissons des Services sont régis et interprétés conformément aux lois du ",
+      "p1_japan": "Japon",
+      "p1_afterJapan": ", sans tenir compte de ses règles de conflit de lois.",
+      "p2_beforeToyohashi": "Tout litige découlant de ou lié à ces Conditions ou au Service sera soumis à la compétence exclusive des tribunaux situés à ",
+      "p2_toyohashi": "Toyohashi, Japon",
+      "p2_afterToyohashi": "."
+    },
+    "13": {
+      "title": "13. Modifications des Conditions d’utilisation",
+      "p": "Nous nous réservons le droit de mettre à jour, modifier ou remplacer toute partie de ces Conditions d’utilisation en publiant des mises à jour et/ou des modifications sur notre site web. Il vous incombe de consulter cette page périodiquement. Votre utilisation continue du site web après publication de modifications constitue votre acceptation de ces modifications."
+    },
+    "14": {
+      "title": "14. Résiliation",
+      "p1": "Ces Conditions sont effectives sauf et jusqu’à leur résiliation par vous ou par nous. Vous pouvez résilier ces Conditions à tout moment en nous informant que vous ne souhaitez plus utiliser nos Services, ou lorsque vous cessez d’utiliser notre site.",
+      "p2": "Nous pouvons résilier cet accord à tout moment sans préavis si, à notre seule discrétion, vous ne respectez pas une condition ou une disposition."
+    },
+    "15": {
+      "title": "15. Coordonnées",
+      "p_beforeEmail": "Les questions concernant les Conditions d’utilisation doivent nous être envoyées à :",
+      "emailText": "cyberjapanservices@gmail.com"
+    }
+  }
+}

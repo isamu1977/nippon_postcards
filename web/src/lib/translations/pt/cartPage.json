@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Seu carrinho",
+    "subtitle": "Revise os itens e prossiga para o pagamento."
+  },
+  "randomSelection": {
+    "label": "Seleção aleatória:",
+    "text": "Você está escolhendo uma coleção. O design do cartão postal é selecionado aleatoriamente dentro dessa coleção, de acordo com a disponibilidade."
+  },
+  "emptyState": {
+    "message": "Seu carrinho está vazio.",
+    "cta": "Ver cartões postais"
+  },
+  "controls": {
+    "mirrorRecipient": "Usar o mesmo destinatário para todos os cartões"
+  },
+  "coupon": {
+    "placeholder": "Código do cupom",
+    "apply": "Aplicar",
+    "remove": "Remover"
+  },
+  "item": {
+    "noImage": "Sem imagem",
+    "pricePrefix": "US$ ",
+    "priceSuffix": " cada",
+    "remove": "Remover"
+  },
+  "form": {
+    "recipientName": "Nome do destinatário",
+    "recipientAddress": "Endereço do destinatário",
+    "message": "Mensagem"
+  },
+  "summary": {
+    "currencyPrefix": "US$ ",
+    "items": "Itens",
+    "subtotal": "Subtotal",
+    "discount": "Desconto",
+    "discountPrefix": "-",
+    "total": "Total"
+  },
+  "actions": {
+    "proceedToCheckout": "Prosseguir para o pagamento",
+    "clearCart": "Limpar carrinho"
+  }
+}

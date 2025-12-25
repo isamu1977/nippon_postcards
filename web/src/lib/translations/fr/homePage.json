@@ -1,146 +1,150 @@
 {
   "hero": {
     "badge": {
-      "text": "Mailed directly from Aichi, Japan"
+      "text": "Envoyée directement depuis Aichi, Japon"
     },
     "title": {
-      "line1": "Share a piece of",
-      "highlight": "Real Japan"
+      "line1": "Partagez un morceau du vrai Japon"
     },
-    "description": "Beautiful, authentic Japanese postcards mailed for you using real stamps. Send a thoughtful message from the Land of the Rising Sun to anyone in the world.",
+    "description": "De magnifiques cartes postales japonaises authentiques, envoyées pour vous avec de vrais timbres. Envoyez un message attentionné depuis le Pays du Soleil Levant à n’importe qui dans le monde.",
     "cta": {
-      "primary": "Choose a postcard",
-      "secondary": "See how it works"
+      "primary": "Choisir une carte postale",
+      "secondary": "Voir comment ça marche"
     },
     "features": {
-      "globalShipping": "Global Shipping",
-      "securePayment": "Secure Payment"
+      "globalShipping": "Livraison mondiale",
+      "securePayment": "Paiement sécurisé"
     }
   },
   "trustStrip": {
     "items": [
       {
-        "text": "All inclusive price: US$ 15.00"
+        "text": "Prix tout compris : 15,00 US$"
       },
       {
-        "text": "Mailed within 24h from Japan"
+        "text": "Envoyée sous 24 h depuis le Japon"
       },
       {
-        "text": "Secure payments with Stripe"
+        "text": "Paiements sécurisés avec Stripe"
       }
     ]
   },
   "howItWorksSection": {
-    "eyebrow": "Simple Process",
-    "title": "How it works",
-    "description": "From our screen to their mailbox in four simple steps.",
+    "eyebrow": "Processus simple",
+    "title": "Comment ça marche",
+    "description": "De notre écran à leur boîte aux lettres en quatre étapes simples.",
     "steps": [
       {
-        "title": "Choose a postcard",
-        "description": "Pick a design from our curated collection of Japanese scenery and art."
+        "title": "Choisir une carte postale",
+        "description": "Choisissez un visuel parmi notre collection soigneusement sélectionnée de paysages et d’art japonais."
       },
       {
-        "title": "Recipient details",
-        "description": "Tell us who to send it to. We print the address clearly for reliable delivery."
+        "title": "Coordonnées du destinataire",
+        "description": "Dites-nous à qui l’envoyer. Nous imprimons l’adresse clairement pour une livraison fiable."
       },
       {
-        "title": "Your message",
-        "description": "Write a personal note. We'll transcribe it onto the card for you."
+        "title": "Votre message",
+        "description": "Écrivez un mot personnel. Nous le transcrirons sur la carte pour vous."
       },
       {
-        "title": "We mail it",
-        "description": "Stamped with real Japanese stamps and mailed from Aichi Prefecture."
+        "title": "Nous l’envoyons",
+        "description": "Affranchie avec de vrais timbres japonais et envoyée depuis la préfecture d’Aichi."
       }
     ]
   },
   "categoriesSection": {
-    "title": "Our Collections",
-    "description": "Explore our curated selection of high-quality Japanese postcards.",
+    "title": "Nos collections",
+    "description": "Découvrez notre sélection soigneusement choisie de cartes postales japonaises de haute qualité.",
     "cta": {
-      "viewAll": "View all postcards",
+      "viewAll": "Voir toutes les cartes postales",
       "aria": {
-        "viewCollectionPrefix": "View collection: "
+        "viewCollectionPrefix": "Voir la collection : "
       }
     },
     "categories": [
       {
-        "title": "Japanese Castles",
-        "description": "Historic fortresses and architectural marvels."
+        "title": "Châteaux japonais",
+        "description": "Forteresses historiques et merveilles architecturales."
       },
       {
-        "title": "World Heritage Sites",
-        "description": "Scenes from UNESCO protected sites across Japan."
+        "title": "Sites du patrimoine mondial",
+        "description": "Scènes de sites protégés par l’UNESCO à travers le Japon."
       },
       {
-        "title": "Mount Fuji",
-        "description": "Iconic views of Japan's most famous mountain."
+        "title": "Mont Fuji",
+        "description": "Vues emblématiques de la montagne la plus célèbre du Japon."
       }
     ]
   },
   "pricingSection": {
-    "title": "Simple, transparent pricing",
-    "description": "Each postcard costs US$ 15 with mailing included.",
+    "title": "Une tarification simple et transparente",
+    "description": "Chaque carte postale coûte 15 US$ avec l’envoi inclus.",
     "card": {
-      "label": "Price",
-      "price": "US$ 15",
-      "unit": "per postcard",
+      "label": "Prix",
+      "price": "15 US$",
+      "unit": "par carte postale",
       "cta": {
-        "primary": "Choose a postcard"
+        "primary": "Choisir une carte postale"
       },
-      "discount": "20% off your first order"
+      "discount": "Obtenez 10 % de réduction avec le code",
+      "couponName": "NIPPON10"
     },
     "additionalNotes": [
-      "Postcards are mailed within 24 business hours from Aichi Prefecture, Japan.",
-      "Delivery time depends on the destination country and local postal services."
+      "Les cartes postales sont envoyées sous 24 heures ouvrables depuis la préfecture d’Aichi, Japon.",
+      "Le délai de livraison dépend du pays de destination et des services postaux locaux."
     ]
   },
   "whyPhysicalSection": {
-    "title": "Why physical postcards?",
-    "description": "A short note on why a real postcard still makes an impact in a digital world.",
+    "title": "Pourquoi des cartes postales physiques ?",
+    "description": "Une courte note sur pourquoi une vraie carte postale a toujours de l’impact dans un monde numérique.",
     "reasons": [
-      "A real physical gesture in a digital world.",
-      "Real Japanese postage and cancellation marks.",
-      "Perfect for Japan lovers, collectors and special occasions."
+      "Un vrai geste physique dans un monde numérique.",
+      "De vrais timbres japonais et des cachets d’oblitération.",
+      "Parfait pour les amoureux du Japon, les collectionneurs et les occasions spéciales."
     ],
     "image": {
-      "placeholder": "Image placeholder"
+      "placeholder": "Emplacement d’image"
     }
   },
   "faqSection": {
-    "title": "Frequently asked questions",
-    "description": "Answers to the most common questions.",
+    "title": "Questions fréquentes",
+    "description": "Réponses aux questions les plus courantes.",
     "items": [
       {
-        "question": "Is the postcard sent directly to the recipient?",
-        "answer": "Yes. You provide the recipient's address and we mail the postcard directly from Japan."
+        "question": "La carte postale est-elle envoyée directement au destinataire ?",
+        "answer": "Oui. Vous fournissez l’adresse du destinataire et nous envoyons la carte postale directement depuis le Japon."
       },
       {
-        "question": "Can I send the postcard to myself?",
-        "answer": "Yes. You can enter your own address and receive the postcard at home."
+        "question": "Puis-je m’envoyer la carte postale à moi-même ?",
+        "answer": "Oui. Vous pouvez saisir votre propre adresse et recevoir la carte postale chez vous."
       },
       {
-        "question": "Is the address handwritten or printed?",
-        "answer": "We print the address to ensure maximum legibility and reduce delivery errors."
+        "question": "L’adresse est-elle écrite à la main ou imprimée ?",
+        "answer": "Nous imprimons l’adresse afin d’assurer une lisibilité maximale et de réduire les erreurs de livraison."
       },
       {
-        "question": "Who writes the message?",
-        "answer": "You can write your own message or choose to use one of our suggested texts."
+        "question": "Qui écrit le message ?",
+        "answer": "Vous pouvez écrire votre propre message ou choisir d’utiliser l’un de nos textes suggérés."
       },
       {
-        "question": "How long does delivery take?",
-        "answer": "It depends on the destination country and postal services, but typically ranges from X to Y weeks."
+        "question": "Puis-je choisir exactement la carte postale que je recevrai ?",
+        "answer": "Vous choisissez la collection — nous nous occupons du reste. Nous sélectionnerons une belle carte postale de cette collection selon la disponibilité, ainsi chaque commande est une petite surprise délicieuse envoyée directement depuis le Japon."
       },
       {
-        "question": "Does the US$ 15 price include mailing?",
-        "answer": "Yes. The price is per postcard, with mailing included."
+        "question": "Combien de temps prend la livraison ?",
+        "answer": "Cela dépend du pays de destination et des services postaux, mais cela varie généralement de X à Y semaines."
+      },
+      {
+        "question": "Le prix de 15 US$ inclut-il l’envoi ?",
+        "answer": "Oui. Le prix est par carte postale, envoi inclus."
       }
     ]
   },
   "finalCtaSection": {
-    "title": "Ready to send a postcard from Japan?",
-    "description": "Choose a design, write your message and we will mail it from Aichi, Japan.",
+    "title": "Prêt à envoyer une carte postale depuis le Japon ?",
+    "description": "Choisissez un visuel, écrivez votre message et nous l’enverrons depuis Aichi, Japon.",
     "cta": {
-      "primary": "Choose a postcard"
+      "primary": "Choisir une carte postale"
     }
   }
 }

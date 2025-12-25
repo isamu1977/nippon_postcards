@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Your cart",
+    "subtitle": "Review items and proceed to checkout."
+  },
+  "randomSelection": {
+    "label": "Random selection:",
+    "text": "You’re choosing a collection. The postcard design is selected at random from that collection, depending on stock."
+  },
+  "emptyState": {
+    "message": "Your cart is empty.",
+    "cta": "Browse postcards"
+  },
+  "controls": {
+    "mirrorRecipient": "Use same recipient for all cards"
+  },
+  "coupon": {
+    "placeholder": "Coupon code",
+    "apply": "Apply",
+    "remove": "Remove"
+  },
+  "item": {
+    "noImage": "No image",
+    "pricePrefix": "US$ ",
+    "priceSuffix": " each",
+    "remove": "Remove"
+  },
+  "form": {
+    "recipientName": "Recipient name",
+    "recipientAddress": "Recipient address",
+    "message": "Message"
+  },
+  "summary": {
+    "currencyPrefix": "US$ ",
+    "items": "Items",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "discountPrefix": "-",
+    "total": "Total"
+  },
+  "actions": {
+    "proceedToCheckout": "Proceed to checkout",
+    "clearCart": "Clear cart"
+  }
+}

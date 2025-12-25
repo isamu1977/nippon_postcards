@@ -1,0 +1,10 @@
+{
+  "title": "Grazie — il tuo ordine è confermato",
+  "description": "Abbiamo elaborato il tuo ordine. Una conferma ti verrà inviata via e-mail (quando disponibile).",
+  "session": {
+    "label": "Sessione"
+  },
+  "actions": {
+    "backToHomepage": "Torna alla home"
+  }
+}

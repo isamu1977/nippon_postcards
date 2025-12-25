@@ -1,0 +1,103 @@
+{
+  "root": {
+    "title": "Postkarte auswählen",
+    "subtitle": "Stöbern Sie in unseren Postkarten und legen Sie sie in Ihren Warenkorb.",
+    "randomSelection": {
+      "label": "Zufallsauswahl:",
+      "text": "Sie wählen eine Kollektion, kein konkretes Design. Wir wählen je nach Bestand zufällig ein Postkartenmotiv aus der ausgewählten Kollektion."
+    },
+    "card": {
+      "fallbackImage": "Bild",
+      "randomDesignNote": "Zufälliges Design innerhalb der Kollektion (je nach Bestand).",
+      "cta": {
+        "view": "Ansehen",
+        "addToCart": "In den Warenkorb",
+        "goToCart": "Zum Warenkorb"
+      }
+    }
+  },
+  "detail": {
+    "imagePlaceholder": "Bildplatzhalter",
+    "quickTrust": {
+      "title": "Aus Japan versendet",
+      "description": "Mit echten japanischen Briefmarken frankiert und aus der Präfektur Aichi verschickt."
+    },
+    "randomSelection": {
+      "label": "Zufallsauswahl:",
+      "text": "Sie wählen eine Kollektion, kein konkretes Design. Wir wählen je nach Bestand zufällig ein Postkartenmotiv aus dieser Kollektion."
+    },
+    "cta": {
+      "addToCart": "In den Warenkorb",
+      "backToShop": "Zurück zum Shop"
+    },
+    "about": {
+      "headlineDefault": "Über diese Kollektion",
+      "sections": {
+        "whatYouReceive": "Was Sie erhalten",
+        "perfectFor": "Perfekt für"
+      },
+      "collections": {
+        "mountFuji": {
+          "long": "Der Fuji ist Japans ikonischste Silhouette. Diese Kollektion enthält Postkartenmotive, die vom Fuji in unterschiedlichen Stimmungen inspiriert sind – ruhige Morgen, dramatische Himmel und zeitlose Landschaften. Jede Bestellung ist eine kleine Überraschung: Wir wählen je nach Verfügbarkeit zufällig eine Karte aus der Mount-Fuji-Kollektion.",
+          "highlights": [
+            "1 physische Postkarte aus der Mount-Fuji-Kollektion",
+            "Zufällige Designauswahl (je nach Bestand)",
+            "Ihre Nachricht wird auf die Karte übertragen",
+            "Aus Japan mit echten japanischen Briefmarken versendet"
+          ],
+          "perfectFor": [
+            "Japan-Fans",
+            "Reiseträumer",
+            "Minimalistische Vibes",
+            "Sammler"
+          ]
+        },
+        "japaneseCastles": {
+          "long": "Japanische Burgen sind ein Fenster in Japans Geschichte – Steinmauern, gestaffelte Dächer und eindrucksvolle Silhouetten. Diese Kollektion feiert diese Atmosphäre mit Motiven, die von berühmten Burgen in ganz Japan inspiriert sind. Wir wählen je nach Bestand zufällig ein Design aus der Burgen-Kollektion.",
+          "highlights": [
+            "1 physische Postkarte aus der Burgen-Kollektion",
+            "Zufällige Designauswahl (je nach Bestand)",
+            "Ihre Nachricht wird auf die Karte übertragen",
+            "Aus Japan mit echten japanischen Briefmarken versendet"
+          ],
+          "perfectFor": [
+            "Geschichtsfans",
+            "Architekturliebhaber",
+            "Japan-Kultur",
+            "Geschenke verschicken"
+          ]
+        },
+        "worldHeritage": {
+          "long": "Japans UNESCO-Welterbestätten umfassen kulturelle Wahrzeichen und atemberaubende Naturlandschaften. Diese Kollektion wechselt zwischen Motiven, die von Welterbe-Orten in ganz Japan inspiriert sind. Ihr Postkartenmotiv wird je nach Bestand zufällig innerhalb der Welterbe-Kollektion ausgewählt.",
+          "highlights": [
+            "1 physische Postkarte aus der Welterbe-Kollektion",
+            "Zufällige Designauswahl (je nach Bestand)",
+            "Ihre Nachricht wird auf die Karte übertragen",
+            "Aus Japan mit echten japanischen Briefmarken versendet"
+          ],
+          "perfectFor": [
+            "Welterbe-Fans",
+            "Natur + Kultur",
+            "Aufmerksame Geschenke",
+            "Brieffreunde"
+          ]
+        },
+        "default": {
+          "long": "Sie wählen eine Postkarten-Kollektion. Wir wählen je nach Bestand zufällig ein Design aus dieser Kollektion aus und versenden es anschließend aus Japan.",
+          "highlights": [
+            "1 physische Postkarte aus dieser Kollektion",
+            "Zufällige Designauswahl (je nach Bestand)",
+            "Ihre Nachricht wird auf die Karte übertragen",
+            "Aus Japan mit echten japanischen Briefmarken versendet"
+          ],
+          "perfectFor": ["Geschenke", "Brieffreunde", "Japan-Fans"]
+        }
+      }
+    },
+    "notFound": {
+      "title": "Kollektion nicht gefunden",
+      "description": "Die angeforderte Kollektion wurde nicht gefunden.",
+      "ctaBackToShop": "Zurück zum Shop"
+    }
+  }
+}

@@ -1,15 +1,14 @@
 <script lang="ts">
+  import { t } from "$lib/translations/translations";
 </script>
 
 <section class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
   <!-- Header -->
   <header class="mb-8">
-    <h1
-      class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900"
-    >
+    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
       特定商取引法に基づく表記
       <span class="block text-base sm:text-lg font-semibold text-gray-600 mt-2">
-        Act on Specified Commercial Transactions (Japan) — Seller Information
+        {$t("tokushoho.header.subtitle")}
       </span>
     </h1>
   </header>
@@ -20,32 +19,32 @@
     <section class="space-y-4">
       <h2 class="text-xl font-bold text-gray-900">
         1. 事業者の情報
-        <span class="block text-sm font-semibold text-gray-500"
-          >Seller Information</span
-        >
+        <span class="block text-sm font-semibold text-gray-500">
+          {$t("tokushoho.section1.subtitle")}
+        </span>
       </h2>
 
       <dl class="rounded-2xl border border-gray-200 bg-white p-6 space-y-5">
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            屋号・ショップ名 / Site Name
+            屋号・ショップ名 / {$t("tokushoho.labels.siteName")}
           </dt>
-          <dd class="mt-1 text-base font-semibold text-gray-900">
-            Nippon Postcards
-          </dd>
+          <dd class="mt-1 text-base font-semibold text-gray-900">Nippon Postcards</dd>
           <dd class="text-sm text-gray-600">NipponPostcards.com</dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            販売業者名 / Seller Name
+            販売業者名 / {$t("tokushoho.labels.sellerName")}
           </dt>
           <dd class="mt-1 text-base font-semibold text-gray-900">松山 武</dd>
           <dd class="text-sm text-gray-600">Isamu Matsuyama</dd>
         </div>
 
         <div>
-          <dt class="text-sm font-semibold text-gray-500">所在地 / Address</dt>
+          <dt class="text-sm font-semibold text-gray-500">
+            所在地 / {$t("tokushoho.labels.address")}
+          </dt>
           <dd class="mt-1 text-base text-gray-900">
             〒440-0863 愛知県豊橋市向山東町２７番地１
           </dd>
@@ -55,16 +54,20 @@
         </div>
 
         <div>
-          <dt class="text-sm font-semibold text-gray-500">電話番号 / Phone</dt>
+          <dt class="text-sm font-semibold text-gray-500">
+            電話番号 / {$t("tokushoho.labels.phone")}
+          </dt>
           <dd class="mt-1 text-base text-gray-900">080-7837-9187</dd>
           <dd class="text-sm text-gray-600">
-            <span class="font-semibold text-gray-700">Mobile Phone Number</span>
+            <span class="font-semibold text-gray-700">
+              {$t("tokushoho.labels.mobilePhoneNumber")}
+            </span>
           </dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            メールアドレス / Email
+            メールアドレス / {$t("tokushoho.labels.email")}
           </dt>
           <dd class="mt-1 text-base">
             <a
@@ -78,7 +81,7 @@
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            ホームページURL / Website
+            ホームページURL / {$t("tokushoho.labels.website")}
           </dt>
           <dd class="mt-1 text-base">
             <a
@@ -98,67 +101,69 @@
     <section class="space-y-4">
       <h2 class="text-xl font-bold text-gray-900">
         2. 商品・サービスに関する情報
-        <span class="block text-sm font-semibold text-gray-500"
-          >Product/Service Information</span
-        >
+        <span class="block text-sm font-semibold text-gray-500">
+          {$t("tokushoho.section2.subtitle")}
+        </span>
       </h2>
 
       <dl class="rounded-2xl border border-gray-200 bg-white p-6 space-y-5">
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            販売価格 / Sales Price
+            販売価格 / {$t("tokushoho.labels.salesPrice")}
           </dt>
           <dd class="mt-1 text-base text-gray-900">
             ポストカード1枚一律 <span class="font-semibold">US$15</span>（税込）
           </dd>
           <dd class="text-sm text-gray-600">
-            US$15 per postcard (tax included)
+            {$t("tokushoho.values.usd15PerPostcardTaxIncluded")}
           </dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            注文方法 / Order Method
+            注文方法 / {$t("tokushoho.labels.orderMethod")}
           </dt>
-          <dd class="mt-1 text-base text-gray-900">
-            インターネット（当サイト）
+          <dd class="mt-1 text-base text-gray-900">インターネット（当サイト）</dd>
+          <dd class="text-sm text-gray-600">
+            {$t("tokushoho.values.internetAndWebsiteOnly")}
           </dd>
-          <dd class="text-sm text-gray-600">Internet and website only</dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            支払方法 / Payment Method
+            支払方法 / {$t("tokushoho.labels.paymentMethod")}
           </dt>
           <dd class="mt-1 text-base text-gray-900">クレジットカード、PayPal</dd>
-          <dd class="text-sm text-gray-600">Credit card and PayPal</dd>
+          <dd class="text-sm text-gray-600">
+            {$t("tokushoho.values.creditCardAndPayPal")}
+          </dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            支払時期 / Payment Timing
+            支払時期 / {$t("tokushoho.labels.paymentTiming")}
           </dt>
           <dd class="mt-1 text-base text-gray-900">注文時に決済</dd>
-          <dd class="text-sm text-gray-600">Payment at time of order</dd>
+          <dd class="text-sm text-gray-600">
+            {$t("tokushoho.values.paymentAtTimeOfOrder")}
+          </dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            引渡し時期 / Delivery &amp; Shipping
+            引渡し時期 / {$t("tokushoho.labels.deliveryShipping")}
           </dt>
           <dd class="mt-1 text-base text-gray-900">
-            決済確認後、<span class="font-semibold">2日以内</span
-            >に発送します。普通郵便で発送するため、トラッキングはできません。
+            決済確認後、<span class="font-semibold">2日以内</span>に発送します。普通郵便で発送するため、トラッキングはできません。
           </dd>
           <dd class="text-sm text-gray-600">
-            Shipped within <span class="font-semibold">2 days</span> after payment
-            is confirmed. Tracking is not available with regular mail.
+            {$t("tokushoho.values.shippedWithin2DaysNoTracking")}
           </dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            返品・交換・キャンセル / Returns, Exchanges &amp; Cancellations
+            返品・交換・キャンセル / {$t("tokushoho.labels.returnsExchangesCancellations")}
           </dt>
           <dd class="mt-2 space-y-2 text-base text-gray-900">
             <p>
@@ -170,34 +175,30 @@
               発送前に限り、キャンセルが可能です。キャンセルをご希望の場合は、できるだけ早くメールにてご連絡ください。
             </p>
             <p class="text-sm text-gray-600">
-              Returns/Exchanges: Due to the nature of the product, returns and
-              exchanges are not available after shipment. Cancellations:
-              Possible only before shipment. Please contact us as soon as
-              possible by email.
+              {$t("tokushoho.values.returnsExchangesCancellationsText")}
             </p>
           </dd>
         </div>
 
         <div>
           <dt class="text-sm font-semibold text-gray-500">
-            クーリングオフ / Cooling-off Period
+            クーリングオフ / {$t("tokushoho.labels.coolingOffPeriod")}
           </dt>
           <dd class="mt-1 text-base text-gray-900">
             当サイトは通信販売のため、クーリングオフは適用されません。
           </dd>
           <dd class="text-sm text-gray-600">
-            This site is a mail order site, so the cooling-off period does not
-            apply.
+            {$t("tokushoho.values.coolingOffDoesNotApply")}
           </dd>
         </div>
       </dl>
     </section>
 
     <!-- Notes -->
-    <section
-      class="rounded-2xl border border-gray-200 bg-gray-50 p-6 space-y-3"
-    >
-      <h3 class="text-base font-bold text-gray-900">補足 / Notes</h3>
+    <section class="rounded-2xl border border-gray-200 bg-gray-50 p-6 space-y-3">
+      <h3 class="text-base font-bold text-gray-900">
+        補足 / {$t("tokushoho.notes.title")}
+      </h3>
       <ul class="pl-5 list-disc space-y-2 text-sm text-gray-700">
         <li>
           表記内容は予告なく変更される場合があります。最新情報は本ページをご確認ください。

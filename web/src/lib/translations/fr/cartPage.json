@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Votre panier",
+    "subtitle": "Vérifiez les articles et passez au paiement."
+  },
+  "randomSelection": {
+    "label": "Sélection aléatoire :",
+    "text": "Vous choisissez une collection. Le design de la carte postale est sélectionné aléatoirement dans cette collection, en fonction du stock disponible."
+  },
+  "emptyState": {
+    "message": "Votre panier est vide.",
+    "cta": "Voir les cartes postales"
+  },
+  "controls": {
+    "mirrorRecipient": "Utiliser le même destinataire pour toutes les cartes"
+  },
+  "coupon": {
+    "placeholder": "Code promo",
+    "apply": "Appliquer",
+    "remove": "Supprimer"
+  },
+  "item": {
+    "noImage": "Aucune image",
+    "pricePrefix": "US$ ",
+    "priceSuffix": " l’unité",
+    "remove": "Supprimer"
+  },
+  "form": {
+    "recipientName": "Nom du destinataire",
+    "recipientAddress": "Adresse du destinataire",
+    "message": "Message"
+  },
+  "summary": {
+    "currencyPrefix": "US$ ",
+    "items": "Articles",
+    "subtotal": "Sous-total",
+    "discount": "Remise",
+    "discountPrefix": "-",
+    "total": "Total"
+  },
+  "actions": {
+    "proceedToCheckout": "Passer au paiement",
+    "clearCart": "Vider le panier"
+  }
+}

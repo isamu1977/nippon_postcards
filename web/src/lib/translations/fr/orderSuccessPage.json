@@ -1,0 +1,10 @@
+{
+  "title": "Merci — votre commande est confirmée",
+  "description": "Nous avons traité votre commande. Une confirmation vous sera envoyée par e-mail (lorsque disponible).",
+  "session": {
+    "label": "Session"
+  },
+  "actions": {
+    "backToHomepage": "Retour à l’accueil"
+  }
+}

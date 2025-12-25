@@ -1,0 +1,110 @@
+{
+  "header": {
+    "title": "Informativa sulla privacy",
+    "lastUpdatedLabel": "Ultimo aggiornamento:",
+    "lastUpdatedDate": "01 aprile 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Introduzione",
+      "p1": "Benvenuto/a su Nippon Postcards (“noi”, “ci”, “nostro”). Ci impegniamo a proteggere le tue informazioni personali e il tuo diritto alla privacy. La presente Informativa spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando visiti il nostro sito www.nipponpostcards.com e utilizzi i nostri servizi di vendita e spedizione di cartoline (collettivamente, il “Servizio”).",
+      "p2": "Questa informativa si applica alle informazioni raccolte tramite il nostro sito e tramite e-mail o altri messaggi elettronici tra te e questo sito.",
+      "p3": "Leggi attentamente questa Informativa. Utilizzando il Servizio, accetti i termini della presente Informativa. Se non sei d’accordo, ti preghiamo di non accedere al sito né utilizzare il Servizio.",
+      "p4": "Siamo il titolare del trattamento dei dati raccolti tramite questo Servizio. I nostri contatti sono riportati alla fine di questa informativa. Le nostre operazioni hanno sede a Toyohashi, Aichi, Giappone."
+    },
+    "informationCollected": {
+      "title": "2. Informazioni che raccogliamo",
+      "intro": "Raccogliamo informazioni personali che ci fornisci volontariamente e informazioni che vengono raccolte automaticamente quando utilizzi il nostro Servizio.",
+      "direct": {
+        "title": "Informazioni che fornisci direttamente",
+        "contact": "Informazioni di contatto: nome, indirizzo e-mail, indirizzo di fatturazione.",
+        "recipient": "Informazioni del destinatario: nome e indirizzo postale della persona a cui vuoi inviare la cartolina (il destinatario).",
+        "message": "Contenuto del messaggio: qualsiasi messaggio personale che fornisci da includere sulla cartolina.",
+        "payment": "Informazioni di pagamento: i dettagli di pagamento (ad es. dati della carta di credito) vengono elaborati in modo sicuro dai nostri processori di pagamento terzi (ad es. Stripe, PayPal). Non memorizziamo il numero completo della tua carta di credito sui nostri server.",
+        "account": "Informazioni dell’account (se applicabile): nome utente, password e altri dettagli se crei un account.",
+        "communication": "Comunicazioni: informazioni fornite quando ci contatti per domande o supporto clienti."
+      },
+      "automatic": {
+        "title": "Informazioni raccolte automaticamente",
+        "logs": "Dati di log e utilizzo: indirizzo IP, tipo di browser, sistema operativo, URL di provenienza, pagine visualizzate, tempo trascorso, link cliccati e altre statistiche d’uso.",
+        "cookies": "Cookie e tecnologie simili: utilizziamo cookie e tecnologie di tracciamento simili per monitorare l’attività sul Servizio e conservare determinate informazioni. Consulta la nostra Cookie Policy per maggiori dettagli e per gestire le preferenze."
+      }
+    },
+    "useOfInformation": {
+      "title": "3. Come utilizziamo le tue informazioni",
+      "intro": "Utilizziamo le informazioni raccolte per vari scopi:",
+      "items": {
+        "service": "Per fornire e gestire il Servizio: evadere gli ordini, inclusa la stampa di indirizzi e messaggi, l’applicazione dell’affrancatura e la spedizione delle cartoline dal Giappone.",
+        "payments": "Per elaborare i pagamenti: facilitare le transazioni tramite i nostri processori di pagamento terzi.",
+        "communication": "Per comunicare con te: inviare conferme d’ordine, aggiornamenti di spedizione, rispondere alle richieste e fornire assistenza.",
+        "marketing": "Per finalità di marketing (con il tuo consenso): inviare newsletter o materiale promozionale solo se hai aderito. Puoi annullare l’iscrizione in qualsiasi momento.",
+        "improvement": "Per migliorare il Servizio: analizzare i dati di utilizzo, identificare trend e migliorare l’esperienza utente e l’offerta.",
+        "security": "Per sicurezza e prevenzione frodi: monitorare e prevenire transazioni fraudolente o attività illegali; proteggere la sicurezza del sito e del Servizio.",
+        "legal": "Per adempiere agli obblighi legali: rispettare requisiti di legge (ad es. fiscali) o rispondere a richieste legittime delle autorità."
+      }
+    },
+    "legalBasis": {
+      "title": "4. Base giuridica del trattamento dei dati personali (GDPR e leggi pertinenti)",
+      "intro": "Se risiedi nello Spazio Economico Europeo (SEE) o in altre regioni con leggi simili, la base giuridica dipende dai dati e dal contesto:",
+      "contract": "Esecuzione di un contratto: trattamento necessario per adempiere al contratto con te (processare e spedire l’ordine).",
+      "consent": "Consenso: quando hai fornito un consenso esplicito (ad es. e-mail marketing, cookie non essenziali). Puoi revocarlo in qualsiasi momento.",
+      "legitimateInterest": "Legittimi interessi: quando necessario per i nostri legittimi interessi (miglioramento del Servizio, prevenzione frodi, analisi), purché non prevalgano i tuoi diritti e libertà.",
+      "legalObligation": "Obbligo legale: quando necessario per adempiere a un obbligo legale."
+    },
+    "sharing": {
+      "title": "5. Come condividiamo le tue informazioni",
+      "intro": "Non vendiamo le tue informazioni personali. Possiamo condividerle solo nei seguenti casi:",
+      "postal": "Vettori postali/spedizionieri: condividiamo nome e indirizzo del destinatario con i servizi postali (ad es. Japan Post) per consegnare la cartolina.",
+      "payment": "Processori di pagamento: condividiamo informazioni di pagamento con processori terzi sicuri (ad es. Stripe, PayPal). Hanno proprie informative.",
+      "providers": "Fornitori di servizi: possiamo condividere informazioni con fornitori terzi (hosting, analytics come Google Analytics, servizi e-mail). Accedono solo ai dati necessari e sono tenuti a proteggerli.",
+      "legal": "Requisiti legali: possiamo divulgare informazioni se richiesto dalla legge o se riteniamo in buona fede che sia necessario per proteggere i nostri diritti o la sicurezza, indagare su frodi o rispondere a richieste governative.",
+      "business": "Trasferimenti aziendali: in caso di fusione, acquisizione o vendita di asset, le informazioni personali possono essere trasferite come parte della transazione."
+    },
+    "internationalTransfers": {
+      "title": "6. Trasferimenti internazionali di dati",
+      "p1": "Le tue informazioni possono essere trasferite e conservate su computer situati al di fuori della tua giurisdizione, dove le leggi sulla protezione dei dati possono differire.",
+      "p2": "Operando dal Giappone, i dati degli utenti fuori dal Giappone saranno trattati in Giappone.",
+      "p3": "Adotteremo misure ragionevoli per garantire che i dati siano trattati in modo sicuro e conforme (ad es. Clausole Contrattuali Standard, ove richiesto)."
+    },
+    "security": {
+      "title": "7. Sicurezza dei dati",
+      "p1": "Adottiamo misure di sicurezza amministrative, tecniche e fisiche e utilizziamo HTTPS per i dati trasmessi verso/da il sito.",
+      "p2": "Nonostante gli sforzi, nessuna misura è perfetta e nessuna trasmissione può essere garantita contro intercettazioni o usi impropri."
+    },
+    "retention": {
+      "title": "8. Conservazione dei dati",
+      "p1": "Conserveremo le informazioni personali solo per il tempo necessario agli scopi descritti, o per adempiere a obblighi legali, risolvere controversie e far rispettare accordi e policy.",
+      "p2": "I dati di utilizzo sono generalmente conservati per un periodo più breve, salvo esigenze di sicurezza, funzionalità o obblighi legali."
+    },
+    "rights": {
+      "title": "9. I tuoi diritti in materia di protezione dei dati",
+      "intro": "A seconda della tua posizione, potresti avere i seguenti diritti:",
+      "access": "Diritto di accesso: puoi richiedere copie delle tue informazioni personali.",
+      "rectification": "Diritto di rettifica: puoi richiedere la correzione di dati inesatti o l’integrazione di dati incompleti.",
+      "erasure": "Diritto alla cancellazione: puoi richiedere la cancellazione dei dati personali in determinate condizioni.",
+      "restriction": "Diritto di limitazione del trattamento: puoi richiedere la limitazione in determinate condizioni.",
+      "objection": "Diritto di opposizione al trattamento: puoi opporti (ad es. marketing diretto) in determinate condizioni.",
+      "portability": "Diritto alla portabilità dei dati: puoi richiedere il trasferimento a un’altra organizzazione o direttamente a te.",
+      "withdraw": "Diritto di revocare il consenso: quando il trattamento si basa sul consenso, puoi revocarlo in qualsiasi momento.",
+      "complaint": "Diritto di proporre reclamo: puoi presentare reclamo a un’autorità competente.",
+      "note": "Per esercitare questi diritti, contattaci. Potremmo dover verificare la tua identità."
+    },
+    "cookies": {
+      "title": "10. Cookie e tecnologie di tracciamento",
+      "p1": "Utilizziamo cookie e tecnologie simili. Per maggiori informazioni, consulta la Cookie Policy e lo strumento di consenso cookie sul sito."
+    },
+    "children": {
+      "title": "11. Privacy dei minori",
+      "p1": "Il Servizio non è destinato a minori di 18 anni. Non raccogliamo consapevolmente dati personali di minori di 18 anni."
+    },
+    "changes": {
+      "title": "12. Modifiche alla presente Informativa",
+      "p1": "Potremmo aggiornare periodicamente questa Informativa. Le modifiche sono efficaci quando pubblicate su questa pagina."
+    },
+    "contact": {
+      "title": "13. Contattaci",
+      "p1": "Se hai domande su questa Informativa o desideri esercitare i tuoi diritti, contattaci:",
+      "byEmail": "Via e-mail:"
+    }
+  }
+}

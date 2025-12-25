@@ -1,0 +1,78 @@
+{
+  "header": {
+    "title": "Datenschutzanfragen (RGPD/GDPR)",
+    "description": "Nutzen Sie die untenstehenden Optionen, um uns per E-Mail mit einer vorausgefüllten Vorlage zu kontaktieren. In bestimmten Fällen müssen wir möglicherweise Ihre Identität überprüfen.",
+    "contactEmailLabel": "Kontakt-E-Mail:",
+    "relatedPagesLabel": "Zugehörige Seiten:",
+    "relatedPages": {
+      "privacyPolicy": "Datenschutzerklärung",
+      "cookiePolicy": "Cookie-Richtlinie",
+      "termsOfUse": "Nutzungsbedingungen"
+    }
+  },
+  "cards": {
+    "access": {
+      "title": "Antrag auf Datenzugang",
+      "description": "Fordern Sie eine Kopie der personenbezogenen Daten an, die wir über Sie gespeichert haben.",
+      "bullets": [
+        "Am besten geben Sie Ihre Bestellnummer an",
+        "Wir können eine Identitätsprüfung verlangen"
+      ]
+    },
+    "deletion": {
+      "title": "Antrag auf Datenlöschung",
+      "description": "Beantragen Sie die Löschung Ihrer personenbezogenen Daten („Recht auf Vergessenwerden“).",
+      "bullets": [
+        "Einige Daten müssen aus rechtlichen/steuerlichen Gründen aufbewahrt werden",
+        "Wir erklären Ihnen, falls Ausnahmen gelten"
+      ],
+      "extraLink": {
+        "label": "Löschrichtlinie lesen"
+      }
+    },
+    "rectification": {
+      "title": "Antrag auf Datenberichtigung",
+      "description": "Beantragen Sie die Korrektur unrichtiger oder unvollständiger personenbezogener Daten.",
+      "bullets": [
+        "Beschreiben Sie genau, was falsch ist",
+        "Geben Sie die korrekten Informationen an"
+      ]
+    },
+    "unsubscribe": {
+      "title": "Abmeldeantrag",
+      "description": "Beenden Sie den Erhalt von Marketing-E-Mails und Werbenachrichten.",
+      "bullets": [
+        "Verwenden Sie die E-Mail-Adresse, mit der Sie sich angemeldet haben",
+        "Transaktions-E-Mails können weiterhin gesendet werden"
+      ]
+    }
+  },
+  "cta": {
+    "emailThisRequest": "Diese Anfrage per E-Mail senden",
+    "openBlankEmail": "Leere E-Mail öffnen"
+  },
+  "footer": {
+    "title": "Tipps zur schnelleren Bearbeitung",
+    "bullets": [
+      "Geben Sie die beim Checkout verwendete E-Mail-Adresse an (und ggf. die Bestellnummer).",
+      "Seien Sie konkret in Ihrem Anliegen (welche Daten, welche Korrektur usw.).",
+      "Bei Löschanfragen beachten Sie, dass einige Transaktionsdaten aus rechtlichen/steuerlichen Gründen aufbewahrt werden müssen."
+    ]
+  },
+  "mail": {
+    "body": {
+      "greeting": "Hallo Nippon-Postcards-Team,",
+      "intro": "Ich möchte hiermit eine Datenschutzanfrage gemäß den geltenden Datenschutzgesetzen stellen.",
+      "requestTypeLabel": "Art der Anfrage:",
+      "emailUsed": "Auf der Website verwendete E-Mail-Adresse (falls abweichend):",
+      "orderNumber": "Bestellnummer (falls vorhanden):",
+      "countryRegion": "Land/Region:",
+      "requestDetails": "Details der Anfrage:",
+      "bulletPlaceholder": "- ",
+      "notes": "Hinweise:",
+      "verifyNote": "- Mir ist bewusst, dass Sie meine Identität vor der Bearbeitung dieser Anfrage überprüfen müssen.",
+      "thanks": "Vielen Dank,",
+      "yourName": "[Ihr Name]"
+    }
+  }
+}

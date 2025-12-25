@@ -1,0 +1,110 @@
+{
+  "header": {
+    "title": "Datenschutzerklärung",
+    "lastUpdatedLabel": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "01. April 2025"
+  },
+  "sections": {
+    "introduction": {
+      "title": "1. Einleitung",
+      "p1": "Willkommen bei Nippon Postcards („wir“, „uns“, „unser“). Wir setzen uns für den Schutz Ihrer personenbezogenen Daten und Ihres Rechts auf Privatsphäre ein. Diese Datenschutzerklärung erläutert, wie wir Ihre Daten erheben, verwenden, offenlegen und schützen, wenn Sie unsere Website www.nipponpostcards.com besuchen und unsere Dienstleistungen zum Verkauf und Versand von Postkarten nutzen (zusammen der „Dienst“).",
+      "p2": "Diese Richtlinie gilt für Informationen, die wir über unsere Website sowie in E-Mails oder anderen elektronischen Nachrichten zwischen Ihnen und dieser Website erfassen.",
+      "p3": "Bitte lesen Sie diese Datenschutzerklärung sorgfältig. Durch die Nutzung des Dienstes stimmen Sie den Bedingungen dieser Datenschutzerklärung zu. Wenn Sie nicht zustimmen, greifen Sie bitte nicht auf die Website zu und nutzen Sie den Dienst nicht.",
+      "p4": "Wir sind der Verantwortliche für die über diesen Dienst erhobenen Informationen. Unsere Kontaktdaten finden Sie am Ende dieser Richtlinie. Unsere Geschäftstätigkeit befindet sich in Toyohashi, Aichi, Japan."
+    },
+    "informationCollected": {
+      "title": "2. Informationen, die wir erheben",
+      "intro": "Wir erheben personenbezogene Daten, die Sie uns freiwillig zur Verfügung stellen, sowie Informationen, die automatisch erfasst werden, wenn Sie unseren Dienst nutzen.",
+      "direct": {
+        "title": "Informationen, die Sie direkt bereitstellen",
+        "contact": "Kontaktinformationen: Ihr Name, Ihre E-Mail-Adresse, Ihre Rechnungsadresse.",
+        "recipient": "Empfängerinformationen: Der Name und die Postanschrift der Person, an die Sie die Postkarte senden möchten (der Empfänger).",
+        "message": "Nachrichteninhalt: Jede persönliche Nachricht, die Sie zur Aufnahme auf der Postkarte bereitstellen.",
+        "payment": "Zahlungsinformationen: Zahlungsdaten (z. B. Kreditkarteninformationen) werden sicher von unseren Zahlungsdienstleistern (z. B. Stripe, PayPal) verarbeitet. Wir speichern Ihre vollständige Kreditkartennummer nicht auf unseren Servern.",
+        "account": "Kontoinformationen (falls zutreffend): Benutzername, Passwort und weitere Angaben, wenn Sie ein Konto erstellen.",
+        "communication": "Kommunikation: Informationen, die Sie uns bereitstellen, wenn Sie uns mit Fragen oder für den Kundensupport kontaktieren."
+      },
+      "automatic": {
+        "title": "Automatisch erfasste Informationen",
+        "logs": "Protokoll- und Nutzungsdaten: IP-Adresse, Browsertyp, Betriebssystem, verweisende URLs, aufgerufene Seiten, Verweildauer, angeklickte Links und weitere Nutzungsstatistiken.",
+        "cookies": "Cookies und ähnliche Technologien: Wir verwenden Cookies und ähnliche Tracking-Technologien, um Aktivitäten auf unserem Dienst zu verfolgen und bestimmte Informationen zu speichern. Weitere Details und Hinweise zur Verwaltung Ihrer Einstellungen finden Sie in unserer Cookie-Richtlinie."
+      }
+    },
+    "useOfInformation": {
+      "title": "3. Wie wir Ihre Informationen verwenden",
+      "intro": "Wir verwenden die erhobenen Informationen für verschiedene Zwecke:",
+      "items": {
+        "service": "Zur Bereitstellung und Verwaltung des Dienstes: Erfüllung Ihrer Postkartenbestellungen, einschließlich Druck der Empfängeradresse und Nachricht, Anbringen von Porto und Versand der Postkarten aus Japan.",
+        "payments": "Zur Zahlungsabwicklung: Durchführung von Zahlungsvorgängen für Ihre Bestellungen über unsere externen Zahlungsdienstleister.",
+        "communication": "Zur Kommunikation mit Ihnen: Versand von Bestellbestätigungen, Versand-Updates, Beantwortung von Anfragen und Bereitstellung von Kundensupport.",
+        "marketing": "Für Marketingzwecke (mit Ihrer Einwilligung): Versand von Newslettern oder Werbematerialien nur, wenn Sie dem ausdrücklich zugestimmt haben. Sie können sich jederzeit abmelden.",
+        "improvement": "Zur Verbesserung unseres Dienstes: Analyse von Nutzungsdaten, um zu verstehen, wie unsere Website verwendet wird, Trends zu erkennen und Benutzererlebnis sowie Angebote zu verbessern.",
+        "security": "Für Sicherheit und Betrugsprävention: Überwachung und Verhinderung betrügerischer Transaktionen und anderer illegaler Aktivitäten; Schutz der Sicherheit unserer Website und unseres Dienstes.",
+        "legal": "Zur Erfüllung rechtlicher Verpflichtungen: Einhaltung gesetzlicher Anforderungen, z. B. Steuergesetze oder Reaktion auf rechtmäßige Anfragen von Behörden."
+      }
+    },
+    "legalBasis": {
+      "title": "4. Rechtsgrundlage für die Verarbeitung personenbezogener Daten (DSGVO und relevante Gesetze)",
+      "intro": "Wenn Sie aus dem Europäischen Wirtschaftsraum (EWR) oder aus anderen Regionen mit ähnlichen Datenschutzgesetzen stammen, hängt unsere Rechtsgrundlage für die Erhebung und Nutzung der oben beschriebenen personenbezogenen Daten von den jeweiligen Daten und dem spezifischen Kontext ab:",
+      "contract": "Erfüllung eines Vertrags: Die Verarbeitung ist erforderlich, um unseren Vertrag mit Ihnen zu erfüllen (d. h. Ihre Postkartenbestellung zu bearbeiten und zu versenden).",
+      "consent": "Einwilligung: Wenn Sie uns ausdrücklich Ihre Einwilligung erteilt haben (z. B. für Marketing-E-Mails, nicht notwendige Cookies). Sie können Ihre Einwilligung jederzeit widerrufen.",
+      "legitimateInterest": "Berechtigte Interessen: Wenn die Verarbeitung für unsere berechtigten Interessen erforderlich ist (z. B. Verbesserung des Dienstes, Betrugsprävention, Analytik), sofern diese Interessen nicht durch Ihre Datenschutzinteressen oder Grundrechte und -freiheiten überwiegen.",
+      "legalObligation": "Rechtliche Verpflichtung: Wenn die Verarbeitung erforderlich ist, um einer rechtlichen Verpflichtung nachzukommen, der wir unterliegen."
+    },
+    "sharing": {
+      "title": "5. Wie wir Ihre Informationen weitergeben",
+      "intro": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Ihre Informationen nur in den nachfolgend beschriebenen Fällen an Dritte weitergeben:",
+      "postal": "Post-/Versanddienstleister: Wir geben den Namen und die Adresse des Empfängers an Postdienste (z. B. Japan Post) weiter, um Ihre Postkarte zuzustellen.",
+      "payment": "Zahlungsdienstleister: Wir geben Zahlungsinformationen an sichere externe Zahlungsdienstleister (z. B. Stripe, PayPal) weiter, um Transaktionen abzuschließen. Diese haben eigene Datenschutzrichtlinien.",
+      "providers": "Dienstleister: Wir können Informationen an externe Anbieter weitergeben, die Dienstleistungen in unserem Auftrag erbringen (z. B. Website-Hosting, Analytik-Anbieter wie Google Analytics, E-Mail-Dienstleister). Diese Anbieter erhalten nur Zugriff auf die zur Erfüllung ihrer Aufgaben erforderlichen Informationen und sind verpflichtet, diese zu schützen.",
+      "legal": "Gesetzliche Anforderungen: Wir können Informationen offenlegen, wenn dies gesetzlich vorgeschrieben ist oder wir in gutem Glauben davon ausgehen, dass die Offenlegung notwendig ist, um unsere Rechte zu schützen, Ihre Sicherheit oder die Sicherheit anderer zu gewährleisten, Betrug zu untersuchen oder auf eine behördliche Anfrage zu reagieren.",
+      "business": "Unternehmensübertragungen: Im Falle einer Fusion, Übernahme oder eines Verkaufs von Vermögenswerten können personenbezogene Daten im Rahmen dieser Transaktion übertragen werden."
+    },
+    "internationalTransfers": {
+      "title": "6. Internationale Datenübermittlungen",
+      "p1": "Ihre Informationen, einschließlich personenbezogener Daten, können in Länder übertragen und dort gespeichert werden, die außerhalb Ihres Bundeslandes/Provinz/Landes oder anderer staatlicher Zuständigkeiten liegen, in denen andere Datenschutzgesetze gelten können.",
+      "p2": "Da wir in Japan tätig sind, werden Informationen von Nutzern außerhalb Japans in Japan verarbeitet. Wenn Sie sich außerhalb Japans befinden und uns Informationen bereitstellen, beachten Sie bitte, dass wir diese Daten, einschließlich personenbezogener Daten, nach Japan übertragen und dort verarbeiten.",
+      "p3": "Wir ergreifen angemessene Maßnahmen, um sicherzustellen, dass Ihre Daten sicher und in Übereinstimmung mit dieser Datenschutzerklärung sowie geltendem Recht verarbeitet werden (z. B. unter Verwendung von Standardvertragsklauseln, sofern erforderlich)."
+    },
+    "security": {
+      "title": "7. Datensicherheit",
+      "p1": "Wir verwenden administrative, technische und physische Sicherheitsmaßnahmen, um Ihre personenbezogenen Daten zu schützen. Für die Übertragung von Daten zu/von unserer Website verwenden wir HTTPS-Verschlüsselung.",
+      "p2": "Obwohl wir angemessene Maßnahmen ergriffen haben, sind Sicherheitsmaßnahmen nicht perfekt oder undurchdringlich, und keine Methode der Datenübertragung kann gegen Abfangen oder Missbrauch garantiert werden."
+    },
+    "retention": {
+      "title": "8. Datenaufbewahrung",
+      "p1": "Wir speichern Ihre personenbezogenen Daten nur so lange, wie es für die in dieser Datenschutzerklärung genannten Zwecke erforderlich ist. Wir speichern und verwenden Ihre Daten, soweit nötig, um gesetzlichen Verpflichtungen nachzukommen (z. B. Aufbewahrungspflichten nach Steuer-/Buchhaltungsvorschriften), Streitigkeiten beizulegen und unsere Vereinbarungen und Richtlinien durchzusetzen.",
+      "p2": "Nutzungsdaten werden in der Regel für einen kürzeren Zeitraum aufbewahrt, außer wenn sie zur Stärkung der Sicherheit, zur Verbesserung der Funktionalität unseres Dienstes oder aufgrund gesetzlicher Verpflichtungen länger gespeichert werden müssen."
+    },
+    "rights": {
+      "title": "9. Ihre Datenschutzrechte",
+      "intro": "Abhängig von Ihrem Standort (z. B. EWR, Kalifornien, Japan) haben Sie möglicherweise folgende Rechte bezüglich Ihrer personenbezogenen Daten:",
+      "access": "Recht auf Auskunft: Sie können Kopien Ihrer personenbezogenen Daten anfordern.",
+      "rectification": "Recht auf Berichtigung: Sie können verlangen, dass wir unrichtige Daten berichtigen oder unvollständige Daten vervollständigen.",
+      "erasure": "Recht auf Löschung: Sie können verlangen, dass wir Ihre personenbezogenen Daten unter bestimmten Bedingungen löschen.",
+      "restriction": "Recht auf Einschränkung der Verarbeitung: Sie können verlangen, dass wir die Verarbeitung Ihrer personenbezogenen Daten unter bestimmten Bedingungen einschränken.",
+      "objection": "Recht auf Widerspruch: Sie können der Verarbeitung Ihrer personenbezogenen Daten (z. B. für Direktmarketing) unter bestimmten Bedingungen widersprechen.",
+      "portability": "Recht auf Datenübertragbarkeit: Sie können verlangen, dass wir Ihre Daten an eine andere Organisation oder direkt an Sie übertragen.",
+      "withdraw": "Recht auf Widerruf der Einwilligung: Wenn wir uns auf Ihre Einwilligung stützen, können Sie diese jederzeit widerrufen.",
+      "complaint": "Recht auf Beschwerde: Sie können sich bei einer zuständigen Datenschutzbehörde über unsere Erhebung und Nutzung Ihrer personenbezogenen Daten beschweren.",
+      "note": "Um eines dieser Rechte auszuüben, kontaktieren Sie uns bitte über die untenstehenden Angaben. Möglicherweise müssen wir Ihre Identität verifizieren, bevor wir auf Ihre Anfrage reagieren."
+    },
+    "cookies": {
+      "title": "10. Cookies und Tracking-Technologien",
+      "p1": "Wir verwenden Cookies und ähnliche Technologien. Weitere Informationen zur Verwendung von Cookies und Ihren Wahlmöglichkeiten finden Sie in unserer Cookie-Richtlinie sowie im Cookie-Einwilligungs-Tool auf unserer Website."
+    },
+    "children": {
+      "title": "11. Datenschutz von Kindern",
+      "p1": "Unser Dienst ist nicht für Kinder unter 18 Jahren bestimmt. Wir erheben nicht wissentlich personenbezogene Daten von Kindern unter 18 Jahren. Wenn wir erfahren, dass wir personenbezogene Daten eines Kindes ohne Überprüfung der elterlichen Einwilligung erhoben haben, ergreifen wir Maßnahmen, um diese Informationen von unseren Servern zu entfernen."
+    },
+    "changes": {
+      "title": "12. Änderungen dieser Datenschutzerklärung",
+      "p1": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir informieren Sie über Änderungen, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen und das Datum „Zuletzt aktualisiert“ anpassen. Wir empfehlen, diese Erklärung regelmäßig zu überprüfen. Änderungen treten in Kraft, sobald sie auf dieser Seite veröffentlicht werden."
+    },
+    "contact": {
+      "title": "13. Kontakt",
+      "p1": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte:",
+      "byEmail": "Per E-Mail:"
+    }
+  }
+}

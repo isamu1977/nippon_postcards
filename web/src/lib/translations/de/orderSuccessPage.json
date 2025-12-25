@@ -1,0 +1,10 @@
+{
+  "title": "Danke — Ihre Bestellung ist bestätigt",
+  "description": "Wir haben Ihre Bestellung bearbeitet. Eine Bestätigung wird Ihnen per E-Mail zugesendet (sofern verfügbar).",
+  "session": {
+    "label": "Sitzung"
+  },
+  "actions": {
+    "backToHomepage": "Zur Startseite"
+  }
+}
